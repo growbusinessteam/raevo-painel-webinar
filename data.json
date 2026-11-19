@@ -1,0 +1,695 @@
+{
+ "gerado_em": "2026-11-19T22:02+00:00",
+ "aula": {
+  "proxima": "2026-11-26T13:00:00+00:00",
+  "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
+ },
+ "links": [
+  {
+   "grupo": "Aula",
+   "nome": "Sala da aula (Google Meet)",
+   "url": "https://meet.google.com/ehy-eymf-bpj"
+  },
+  {
+   "grupo": "Aula",
+   "nome": "Vídeo de recuperação (YouTube)",
+   "url": "https://youtu.be/yyNTtEvTo_E"
+  },
+  {
+   "grupo": "Captação",
+   "nome": "Página de inscrição",
+   "url": "https://raevo.io/webinar-atendimento-organizado/"
+  },
+  {
+   "grupo": "Captação",
+   "nome": "Página de obrigado",
+   "url": "https://raevo.io/webinar-atendimento-organizado/obrigado/"
+  },
+  {
+   "grupo": "Captação",
+   "nome": "Grupo do WhatsApp (convite)",
+   "url": "https://chat.whatsapp.com/DXya5we7sNfA6TxFfbokzF"
+  },
+  {
+   "grupo": "Gestão",
+   "nome": "CRM Raevo · quadro WEBINAR",
+   "url": "https://crm.raevo.io/app/accounts/1/kanban/2"
+  },
+  {
+   "grupo": "Gestão",
+   "nome": "Miro · webinar Raevo",
+   "url": "https://miro.com/app/board/uXjVEcjrCG8=/"
+  },
+  {
+   "grupo": "Gestão",
+   "nome": "Miro · mensagens prontas",
+   "url": "https://miro.com/app/board/uXjVEcjrCG8=/?moveToWidget=3458764689021855083"
+  },
+  {
+   "grupo": "Gestão",
+   "nome": "Agenda para diagnóstico",
+   "url": "https://calendar.app.google/YFMYeedXmhQ6qmNFA"
+  }
+ ],
+ "documentos": [
+  {
+   "nome": "Roteiro da aula ao vivo · v5",
+   "caminho": "docs/roteiro-aula-v5.md"
+  },
+  {
+   "nome": "Guia do apresentador · v5 (PDF)",
+   "caminho": "docs/guia-apresentador-v5.pdf"
+  },
+  {
+   "nome": "Mensagens de grupo e privado (base)",
+   "caminho": "docs/mensagens-grupo-privado.md"
+  }
+ ],
+ "erros": [],
+ "funil": [
+  {
+   "etapa": "Respondeu Formulário",
+   "total": 3
+  },
+  {
+   "etapa": "Entrou no Grupo",
+   "total": 6
+  },
+  {
+   "etapa": "Compareceu Webinar",
+   "total": 0
+  },
+  {
+   "etapa": "Diagnóstico agendado",
+   "total": 1
+  },
+  {
+   "etapa": "Diagnóstico realizado",
+   "total": 0
+  },
+  {
+   "etapa": "Recebeu Oferta",
+   "total": 0
+  },
+  {
+   "etapa": "Contrato e Pagamento",
+   "total": 0
+  },
+  {
+   "etapa": "Ganha",
+   "total": 0
+  },
+  {
+   "etapa": "Perdida",
+   "total": 1
+  }
+ ],
+ "tarefas": [
+  {
+   "id": "123jpnbcxnv",
+   "nome": "[Raevo] Execução do funil e webinar — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxnv",
+   "estado": "em curso",
+   "status": "ativo",
+   "cor": "#12a594",
+   "responsaveis": [
+    "Thiago Viana"
+   ],
+   "prazo": "2027-01-19",
+   "lista": "Projetos Internos",
+   "pai": null,
+   "atualizado": "2026-11-03T15:37:09.977000+00:00"
+  },
+  {
+   "id": "123jpnbcxmz",
+   "nome": "[Raevo] Campanha de captação de clientes para o CRM — 3 meses — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxmz",
+   "estado": "em curso",
+   "status": "planejamento",
+   "cor": "#6647f0",
+   "responsaveis": [
+    "Thiago Viana"
+   ],
+   "prazo": "2027-01-19",
+   "lista": "Planejamento & Cronograma",
+   "pai": null,
+   "atualizado": "2026-10-19T22:32:25.889000+01:00"
+  },
+  {
+   "id": "123jpnbcxng",
+   "nome": "[Raevo] Estratégia de conteúdos - orgânicos e pagos — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxng",
+   "estado": "em curso",
+   "status": "ativo",
+   "cor": "#30a46c",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": "2026-11-22",
+   "lista": "Planejamento & Cronograma",
+   "pai": null,
+   "atualizado": "2026-11-05T20:46:32.733000+00:00"
+  },
+  {
+   "id": "123jpnbeett",
+   "nome": "[Raevo] Webinar",
+   "url": "https://app.clickup.com/t/123jpnbeett",
+   "estado": "em curso",
+   "status": "em andamento",
+   "cor": "#1090e0",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": null,
+   "lista": "Atividades & Rotinas Comerciais",
+   "pai": null,
+   "atualizado": "2026-11-17T16:01:58.038000+00:00"
+  },
+  {
+   "id": "123jpnbf95m",
+   "nome": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbf95m",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": "2026-11-19",
+   "lista": "Planejamento & Cronograma",
+   "pai": null,
+   "atualizado": "2026-11-19T16:10:03.395000+00:00"
+  },
+  {
+   "id": "123jpnbf95p",
+   "nome": "[] 01 · Rever oferta de entrada e oferta paga",
+   "url": "https://app.clickup.com/t/123jpnbf95p",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": null,
+   "lista": "Planejamento & Cronograma",
+   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
+   "atualizado": "2026-11-19T14:10:19.850000+00:00"
+  },
+  {
+   "id": "123jpnbf95q",
+   "nome": "[] 05 · Medir o funil e priorizar a próxima melhoria",
+   "url": "https://app.clickup.com/t/123jpnbf95q",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": null,
+   "lista": "Planejamento & Cronograma",
+   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
+   "atualizado": "2026-11-19T14:11:09.168000+00:00"
+  },
+  {
+   "id": "123jpnbf95r",
+   "nome": "[] 02 · Rever página de inscrição",
+   "url": "https://app.clickup.com/t/123jpnbf95r",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": null,
+   "lista": "Planejamento & Cronograma",
+   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
+   "atualizado": "2026-11-19T18:47:55.983000+00:00"
+  },
+  {
+   "id": "123jpnbf95t",
+   "nome": "[] 03 · Alinhar aula, aquecimento e acesso",
+   "url": "https://app.clickup.com/t/123jpnbf95t",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": null,
+   "lista": "Planejamento & Cronograma",
+   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
+   "atualizado": "2026-11-19T17:32:10.233000+00:00"
+  },
+  {
+   "id": "123jpnbf95u",
+   "nome": "[] Opcional · Assistir à aula da Hunter e dar feedback",
+   "url": "https://app.clickup.com/t/123jpnbf95u",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Thiago Viana",
+    "Pedro Raphael"
+   ],
+   "prazo": null,
+   "lista": "Planejamento & Cronograma",
+   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
+   "atualizado": "2026-11-19T14:11:09.168000+00:00"
+  },
+  {
+   "id": "123jpnbf95v",
+   "nome": "[] 04 · Adaptar e testar os anúncios existentes",
+   "url": "https://app.clickup.com/t/123jpnbf95v",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": null,
+   "lista": "Planejamento & Cronograma",
+   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
+   "atualizado": "2026-11-19T18:54:04.956000+00:00"
+  },
+  {
+   "id": "123jpnbfcdt",
+   "nome": "[Raevo] Cases reais para o webinar — Dr. Fernando (Espaço Otorrino) + depoimentos",
+   "url": "https://app.clickup.com/t/123jpnbfcdt",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Thiago Viana"
+   ],
+   "prazo": "2026-11-19",
+   "lista": "Planejamento & Cronograma",
+   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
+   "atualizado": "2026-11-19T17:19:38.421000+00:00"
+  },
+  {
+   "id": "123jpnbfcdz",
+   "nome": "[Raevo] Case Clínica Guilhermina Vieira — dossiê para webinar e vendas",
+   "url": "https://app.clickup.com/t/123jpnbfcdz",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": "2026-11-19",
+   "lista": "Planejamento & Cronograma",
+   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
+   "atualizado": "2026-11-19T12:09:18.498000+00:00"
+  },
+  {
+   "id": "123jpnbfch0",
+   "nome": "[Raevo] Vídeo-depoimento da Guilhermina — anexar ao case",
+   "url": "https://app.clickup.com/t/123jpnbfch0",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Thiago Viana"
+   ],
+   "prazo": "2026-11-19",
+   "lista": "Planejamento & Cronograma",
+   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
+   "atualizado": "2026-11-19T12:14:42.412000+00:00"
+  },
+  {
+   "id": "123jpnbcxnd",
+   "nome": "[Raevo] LP — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxnd",
+   "estado": "feito",
+   "status": "ativo",
+   "cor": "#30a46c",
+   "responsaveis": [
+    "Thiago Viana"
+   ],
+   "prazo": "2026-10-16",
+   "lista": "Landing Page, Website, Apps e Forms",
+   "pai": null,
+   "atualizado": "2026-10-20T19:11:37.851000+01:00"
+  },
+  {
+   "id": "123jpnbeb5u",
+   "nome": "[Raevo] Corrigir preenchimento dos campos personalizados pelos formulários do webinar",
+   "url": "https://app.clickup.com/t/123jpnbeb5u",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#8a817c",
+   "responsaveis": [
+    "Pedro Raphael"
+   ],
+   "prazo": "2026-11-10",
+   "lista": "Desenvolvimento & Melhorias Produtos/Serviços",
+   "pai": null,
+   "atualizado": "2026-11-16T17:04:57.065000+00:00"
+  },
+  {
+   "id": "123jpnbcxn6",
+   "nome": "[Raevo] Configurar o CRM comercial da campanha — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxn6",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Thiago Viana",
+    "Alysson Oliveira"
+   ],
+   "prazo": "2026-10-16",
+   "lista": "CRM",
+   "pai": null,
+   "atualizado": "2026-10-19T22:32:44.943000+01:00"
+  },
+  {
+   "id": "123jpnbcxn7",
+   "nome": "[Raevo] Configurar rastreamento e identificação das origens — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxn7",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#8a817c",
+   "responsaveis": [
+    "Thiago Viana",
+    "Henrique Mocellin Barbosa"
+   ],
+   "prazo": "2026-10-16",
+   "lista": "Trackeamento & Dashboards",
+   "pai": null,
+   "atualizado": "2026-10-19T22:32:52.765000+01:00"
+  },
+  {
+   "id": "123jpnbcxna",
+   "nome": "[Raevo] Preparar grupo, descrição, convite e mensagem de entrada — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxna",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#8a817c",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": "2026-10-16",
+   "lista": "WhatsApp: Números & Infraestrutura",
+   "pai": null,
+   "atualizado": "2026-10-19T22:32:46.112000+01:00"
+  },
+  {
+   "id": "123jpnbcxnb",
+   "nome": "[Raevo] Planejar a sequência de aquecimento do WhatsApp — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxnb",
+   "estado": "pendente",
+   "status": "to do",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": "2026-10-16",
+   "lista": "Scripts & Playbooks",
+   "pai": null,
+   "atualizado": "2026-11-03T15:37:08.477000+00:00"
+  },
+  {
+   "id": "123jpnbe833",
+   "nome": "[Raevo] SDR Webinar",
+   "url": "https://app.clickup.com/t/123jpnbe833",
+   "estado": "em curso",
+   "status": "em andamento",
+   "cor": "#1090e0",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": "2026-11-02",
+   "lista": "Atividades & Rotinas Comerciais",
+   "pai": null,
+   "atualizado": "2026-11-04T16:16:29.617000+00:00"
+  },
+  {
+   "id": "123jpnbcxnj",
+   "nome": "[Raevo] Criar roteiro e apresentação do webinar — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxnj",
+   "estado": "em curso",
+   "status": "planejameto",
+   "cor": "#1090e0",
+   "responsaveis": [
+    "Thiago Viana",
+    "Alysson Oliveira"
+   ],
+   "prazo": null,
+   "lista": "Produção de Conteúdo",
+   "pai": null,
+   "atualizado": "2026-10-19T22:32:27.554000+01:00"
+  },
+  {
+   "id": "123jpnbcxn3",
+   "nome": "[Raevo] Selecionar e organizar estudos de caso — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxn3",
+   "estado": "em curso",
+   "status": "planejameto",
+   "cor": "#1090e0",
+   "responsaveis": [
+    "Thiago Viana",
+    "Alysson Oliveira"
+   ],
+   "prazo": "2026-10-16",
+   "lista": "Produção de Conteúdo",
+   "pai": null,
+   "atualizado": "2026-10-19T22:32:31.029000+01:00"
+  },
+  {
+   "id": "123jpnbd91n",
+   "nome": "RAEVO | [Raevo] [Leads] [20.10.26] Webinar  ",
+   "url": "https://app.clickup.com/t/123jpnbd91n",
+   "estado": "em curso",
+   "status": "em veiculação",
+   "cor": "#38b000",
+   "responsaveis": [
+    "Henrique Mocellin Barbosa"
+   ],
+   "prazo": "2026-11-24",
+   "lista": "Gestão de Campanhas",
+   "pai": null,
+   "atualizado": "2026-11-17T15:46:32.470000+00:00"
+  },
+  {
+   "id": "123jpnbf105",
+   "nome": "[Raevo] Anuncios Webinar",
+   "url": "https://app.clickup.com/t/123jpnbf105",
+   "estado": "em curso",
+   "status": "designer & edição",
+   "cor": "#d33d44",
+   "responsaveis": [
+    "Thiago Viana"
+   ],
+   "prazo": "2026-11-12",
+   "lista": "Produção de Conteúdo",
+   "pai": null,
+   "atualizado": "2026-11-19T21:07:30.851000+00:00"
+  },
+  {
+   "id": "123jpnbcxnh",
+   "nome": "[Raevo] Produzir anúncios e conteúdos orgânicos — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxnh",
+   "estado": "em curso",
+   "status": "planejameto",
+   "cor": "#1090e0",
+   "responsaveis": [
+    "Thiago Viana",
+    "Alysson Oliveira",
+    "Pedro Raphael"
+   ],
+   "prazo": "2026-11-23",
+   "lista": "Produção de Conteúdo",
+   "pai": null,
+   "atualizado": "2026-10-23T20:52:55.342000+01:00"
+  },
+  {
+   "id": "123jpnbevq5",
+   "nome": "[Raevo] Anúncio webinar — problema específico e gargalo (2 versões) | Reels",
+   "url": "https://app.clickup.com/t/123jpnbevq5",
+   "estado": "feito",
+   "status": "em teste",
+   "cor": "#6647f0",
+   "responsaveis": [
+    "Thiago Viana"
+   ],
+   "prazo": null,
+   "lista": "Produção de Conteúdo",
+   "pai": null,
+   "atualizado": "2026-11-11T14:12:29.054000+00:00"
+  },
+  {
+   "id": "123jpnbf2kw",
+   "nome": "[Raevo] Anúncio webinar — antes e depois (tela + fala) | Vídeo",
+   "url": "https://app.clickup.com/t/123jpnbf2kw",
+   "estado": "pendente",
+   "status": "ideias",
+   "cor": "#8d8d8d",
+   "responsaveis": [
+    "Thiago Viana"
+   ],
+   "prazo": "2026-11-13",
+   "lista": "Produção de Conteúdo",
+   "pai": null,
+   "atualizado": "2026-11-18T02:16:48.690000+00:00"
+  },
+  {
+   "id": "123jpnbf5n4",
+   "nome": "[Raevo] Editar vídeo do webinar sobre crescer sem perder o controlo do atendimento",
+   "url": "https://app.clickup.com/t/123jpnbf5n4",
+   "estado": "em curso",
+   "status": "designer & edição",
+   "cor": "#d33d44",
+   "responsaveis": [
+    "Thiago Viana"
+   ],
+   "prazo": "2026-11-16",
+   "lista": "Produção de Conteúdo",
+   "pai": null,
+   "atualizado": "2026-11-18T17:22:47.412000+00:00"
+  },
+  {
+   "id": "123jpnbcxne",
+   "nome": "[Raevo] Criar dashboard de acompanhamento dos resultados — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxne",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#8a817c",
+   "responsaveis": [
+    "Thiago Viana"
+   ],
+   "prazo": "2026-10-19",
+   "lista": "Trackeamento & Dashboards",
+   "pai": null,
+   "atualizado": "2026-10-19T22:32:49.369000+01:00"
+  },
+  {
+   "id": "123jpnbcxnp",
+   "nome": "[Raevo] Consolidar os resultados semanais da campanha — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxnp",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Alysson Oliveira"
+   ],
+   "prazo": "2026-10-26",
+   "lista": "Relatórios",
+   "pai": null,
+   "atualizado": "2026-10-19T22:33:08.203000+01:00"
+  },
+  {
+   "id": "123jpnbcxnq",
+   "nome": "[Raevo] Registrar aprendizados e definir as próximas ações — Atendimento Organizado",
+   "url": "https://app.clickup.com/t/123jpnbcxnq",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Thiago Viana",
+    "Henrique Mocellin Barbosa",
+    "Alysson Oliveira"
+   ],
+   "prazo": "2027-01-19",
+   "lista": "Relatórios",
+   "pai": null,
+   "atualizado": "2026-10-19T22:33:06.426000+01:00"
+  }
+ ],
+ "aquecimento": {
+  "pausado": false,
+  "mensagens": [
+   {
+    "id": "G1",
+    "quando": "2026-11-16T10:00:00+00:00",
+    "estado": "não saiu",
+    "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\n\nPessoal, na quinta-feira, às 13h (10h no Brasil), vou mostrar como uma clínica passou de não medir nada a saber exatamente quantos contactos se tornam consulta e qual é a próxima decisão.\n\nAntes, quando alguém pedia o valor e dizia que ia pensar, isso não ficava registado em lado nenhum. Para retomar, era preciso procurar a conversa no WhatsApp. E ninguém sabia dizer quantos contactos chegavam à marcação.\n\nDepois de cada contacto ganhar uma etapa, um responsável e um próximo passo, a secretária passou a:\n\n• responder primeiro a quem tinha mandado mensagem\n• retomar, etapa a etapa, quem recebeu o valor e ainda não marcou\n• saber, sem depender da memória, quem estava à espera de retorno\n\nE a clínica passou a ver os números: 77% dos contactos encerrados tornaram-se consulta. Com isso, sabe que o atendimento converte bem e que o próximo passo é trazer mais contactos.\n\nNa quinta-feira, às 13h (10h no Brasil), vou abrir uma aula ao vivo a mostrar esta estrutura.\n\nO link será enviado aqui no grupo.",
+    "imagens": 1
+   },
+   {
+    "id": "G2",
+    "quando": "2026-11-18T09:00:00+00:00",
+    "estado": "não saiu",
+    "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\n\nPessoal, amanhã, às 13h (10h no Brasil), vou mostrar como uma clínica passou de não medir nada a saber exatamente quantos contactos se tornam consulta e qual é a próxima decisão.\n\nAntes, quando alguém pedia o valor e dizia que ia pensar, isso não ficava registado em lado nenhum. Para retomar, era preciso procurar a conversa no WhatsApp. E ninguém sabia dizer quantos contactos chegavam à marcação.\n\nDepois de cada contacto ganhar uma etapa, um responsável e um próximo passo, a secretária passou a:\n\n• responder primeiro a quem tinha mandado mensagem\n• retomar, etapa a etapa, quem recebeu o valor e ainda não marcou\n• saber, sem depender da memória, quem estava à espera de retorno\n\nE a clínica passou a ver os números: 77% dos contactos encerrados tornaram-se consulta. Com isso, sabe que o atendimento converte bem e que o próximo passo é trazer mais contactos.\n\nAmanhã, às 13h (10h no Brasil), vou abrir uma aula ao vivo a mostrar esta estrutura.\n\nO link será enviado aqui no grupo.",
+    "imagens": 1
+   },
+   {
+    "id": "G3",
+    "quando": "2026-11-18T16:00:00+00:00",
+    "estado": "não saiu",
+    "texto": "Amanhã, às 13h (10h no Brasil), aula ao vivo sobre o caminho do primeiro contacto até à marcação na clínica.\n\nA aula é para clínicas que:\n\n → já recebem pedidos de informação pelo WhatsApp\n → têm alguém responsável pelo atendimento\n → mas nem sempre conseguem ver o que aconteceu a cada contacto depois da primeira mensagem\n\n⏰ Amanhã, às 13h (10h no Brasil), ao vivo no Google Meet",
+    "imagens": 0
+   },
+   {
+    "id": "G4",
+    "quando": "2026-11-18T21:00:00+00:00",
+    "estado": "não saiu",
+    "texto": "Amanhã, às 13h (10h no Brasil), vou mostrar na prática como organizar o atendimento da clínica desde o primeiro contacto até à marcação.\n\nVou mostrar:\n\n• Como tornar visível o que acontece depois de o contacto chegar.\n• Como a equipa participa na mudança sem precisar de perceber de tecnologia.\n• Como encaixar isto na rotina real da clínica.\n• Que métricas acompanhar em cada etapa.\n\nNão é preciso mais procura para começar. É preciso ver o que acontece à que já chega.\n\n⏰ Até amanhã, às 13h (10h no Brasil).",
+    "imagens": 0
+   },
+   {
+    "id": "G5",
+    "quando": "2026-11-19T09:30:00+00:00",
+    "estado": "não saiu",
+    "texto": "Antes:\nA clínica não sabia quantos contactos se tornavam consulta. Quando alguém pedia o valor e dizia que ia pensar, a secretária tinha de se lembrar ou procurar a conversa no WhatsApp.\n\nDepois:\nCada contacto numa etapa, com um responsável e um próximo passo. E a clínica passou a ver os números 👆\n\nDe 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\nSó este mês, 129 contactos ganhos e 37 perdidos.\n\nA melhor parte é que agora ela sabe o que fazer a seguir.\n\nResultado?\n\n- Sabe em que etapa os contactos param.\n- Sabe o que é prioritário no dia.\n- Sabe qual é a próxima decisão: com o atendimento a converter bem, o passo seguinte é investir para trazer mais contactos.\n\n⏰ Hoje, às 13h (10h no Brasil), vou mostrar a lógica por trás disto e como aplicar na clínica de vocês.\n\nAté às 13h!",
+    "imagens": 2
+   },
+   {
+    "id": "G6",
+    "quando": "2026-11-19T10:30:00+00:00",
+    "estado": "enviada",
+    "texto": "Pior do que não ter procura é a clínica receber o contacto, responder… e esse contacto perder-se pelo caminho.\n\nE o pior de tudo: muitas vezes a pessoa ainda queria marcar.\n\nPediu o valor, disse que ia pensar, e ninguém voltou a falar com ela. Não por falta de vontade da equipa, mas porque ninguém sabia em que etapa estava nem qual era o próximo passo.\n\nNão se trata só de receber mais mensagens. Trata-se de cada contacto que já chega ter um caminho até à marcação.\n\nE é exatamente isso que vou mostrar hoje, às 13h (10h no Brasil)!",
+    "imagens": 0
+   },
+   {
+    "id": "G7",
+    "quando": "2026-11-19T12:00:00+00:00",
+    "estado": "enviada",
+    "texto": "⏰ FALTA 1 HORA\n\nSe ainda acham que o problema é:\n- receber mais mensagens\n- investir mais em anúncios\n- ou contratar mais alguém para o atendimento\n\nTalvez estejam a olhar para o sítio errado!\n\nNão adianta chegarem mais contactos se ninguém sabe em que etapa está cada um e qual é o próximo passo.\n\nO que falta não é só volume, é um caminho claro desde o primeiro contacto até à marcação.\n\nÀs 13h (10h no Brasil) vou abrir esse caminho e mostrar como organizar isto na prática.\n\nSem teoria e sem rodeios.\n\nATÉ ÀS 13H",
+    "imagens": 0
+   },
+   {
+    "id": "G8",
+    "quando": "2026-11-19T12:40:00+00:00",
+    "estado": "enviada",
+    "texto": "SALA ABERTA!\nhttps://meet.google.com/ehy-eymf-bpj\n\nÀs 13h (10h no Brasil) vou mostrar como organizar o caminho do primeiro contacto até à marcação na clínica de vocês.\n\nLEMBRETE: é uma aula gratuita e prática!\n\nhttps://meet.google.com/ehy-eymf-bpj\n\nCOMEÇAMOS ÀS 13H!",
+    "imagens": 0
+   },
+   {
+    "id": "G9",
+    "quando": "2026-11-19T12:55:00+00:00",
+    "estado": "enviada",
+    "texto": "🔴 AO VIVO AGORA!\n\nSe querem perceber como há clínicas a:\n\n• responder com mais rapidez\n• saber quem precisa de retorno\n• levar mais contactos até à marcação\n\n👉 Entrem agora: https://meet.google.com/ehy-eymf-bpj\n\nA aula é direta ao assunto, sem rodeios!",
+    "imagens": 0
+   },
+   {
+    "id": "G10",
+    "quando": "2026-11-19T13:05:00+00:00",
+    "estado": "enviada",
+    "texto": "JÁ ESTOU A PARTILHAR O ECRÃ!\n\nA aula é direta ao assunto, sem rodeios!\n\nJá estou a mostrar o caminho do primeiro contacto até à marcação e onde os contactos costumam ficar parados.\n\nCarreguem no link e entrem na aula:\nhttps://meet.google.com/ehy-eymf-bpj",
+    "imagens": 0
+   },
+   {
+    "id": "G11",
+    "quando": "2026-11-19T13:15:00+00:00",
+    "estado": "enviada",
+    "texto": "🤷‍♂️ Ainda vão a tempo!\n\nA MELHOR PARTE DA AULA VAI COMEÇAR AGORA!\n\nEstou a mostrar na prática como organizar as etapas do atendimento!\n\n👇 Carreguem no link abaixo e entrem na aula:\nhttps://meet.google.com/ehy-eymf-bpj\n\nAinda vão a tempo!",
+    "imagens": 0
+   },
+   {
+    "id": "GP1",
+    "quando": "2026-11-19T16:00:00+00:00",
+    "estado": "enviada",
+    "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta. É isto que acontece quando cada contacto tem uma etapa, um responsável e um próximo passo.\n\nHoje fiz a aula ao vivo sobre o caminho do primeiro contacto até à marcação na clínica.\n\nE se não conseguiu assistir, separei um vídeo curto que resume toda a estrutura.\n\nNo vídeo mostro:\n• Como mapear o caminho do primeiro contacto até à marcação\n• Em que etapas os contactos costumam ficar parados\n• Que métricas acompanhar em cada passagem\n• Como começar a medir na clínica de vocês\n\n📺 Vejam aqui:\nhttps://youtu.be/yyNTtEvTo_E",
+    "imagens": 1
+   }
+  ],
+  "ultimos_registos": [
+   "2026-11-19 12:00 ENVIADA G7: id 120279",
+   "2026-11-19 12:40 ENVIADA G8: id 120357",
+   "2026-11-19 12:55 ENVIADA G9: id 120378",
+   "2026-11-19 13:05 ENVIADA G10: id 120390",
+   "2026-11-19 13:15 ENVIADA G11: id 120400",
+   "2026-11-19 16:01 ENVIADA GP1: id 120746"
+  ]
+ }
+}
