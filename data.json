@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-20T16:07+00:00",
+ "gerado_em": "2026-11-20T17:34+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -599,13 +599,6 @@
   "pausado": false,
   "mensagens": [
    {
-    "id": "G1",
-    "quando": "2026-11-16T10:00:00+00:00",
-    "estado": "não saiu",
-    "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\n\nPessoal, na quinta-feira, às 13h (10h no Brasil), vou mostrar como uma clínica passou de não medir nada a saber exatamente quantos contactos se tornam consulta e qual é a próxima decisão.\n\nAntes, quando alguém pedia o valor e dizia que ia pensar, isso não ficava registado em lado nenhum. Para retomar, era preciso procurar a conversa no WhatsApp. E ninguém sabia dizer quantos contactos chegavam à marcação.\n\nDepois de cada contacto ganhar uma etapa, um responsável e um próximo passo, a secretária passou a:\n\n• responder primeiro a quem tinha mandado mensagem\n• retomar, etapa a etapa, quem recebeu o valor e ainda não marcou\n• saber, sem depender da memória, quem estava à espera de retorno\n\nE a clínica passou a ver os números: 77% dos contactos encerrados tornaram-se consulta. Com isso, sabe que o atendimento converte bem e que o próximo passo é trazer mais contactos.\n\nNa quinta-feira, às 13h (10h no Brasil), vou abrir uma aula ao vivo a mostrar esta estrutura.\n\nO link será enviado aqui no grupo.",
-    "imagens": 1
-   },
-   {
     "id": "G2",
     "quando": "2026-11-18T09:00:00+00:00",
     "estado": "não saiu",
@@ -681,6 +674,90 @@
     "estado": "enviada",
     "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta. É isto que acontece quando cada contacto tem uma etapa, um responsável e um próximo passo.\n\nHoje fiz a aula ao vivo sobre o caminho do primeiro contacto até à marcação na clínica.\n\nE se não conseguiu assistir, separei um vídeo curto que resume toda a estrutura.\n\nNo vídeo mostro:\n• Como mapear o caminho do primeiro contacto até à marcação\n• Em que etapas os contactos costumam ficar parados\n• Que métricas acompanhar em cada passagem\n• Como começar a medir na clínica de vocês\n\n📺 Vejam aqui:\nhttps://youtu.be/yyNTtEvTo_E",
     "imagens": 1
+   },
+   {
+    "id": "G1",
+    "quando": "2026-11-23T10:00:00+00:00",
+    "estado": "agendada",
+    "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\n\nPessoal, na quinta-feira, às 13h (10h no Brasil), vou mostrar como uma clínica passou de não medir nada a saber exatamente quantos contactos se tornam consulta e qual é a próxima decisão.\n\nAntes, quando alguém pedia o valor e dizia que ia pensar, isso não ficava registado em lado nenhum. Para retomar, era preciso procurar a conversa no WhatsApp. E ninguém sabia dizer quantos contactos chegavam à marcação.\n\nDepois de cada contacto ganhar uma etapa, um responsável e um próximo passo, a secretária passou a:\n\n• responder primeiro a quem tinha mandado mensagem\n• retomar, etapa a etapa, quem recebeu o valor e ainda não marcou\n• saber, sem depender da memória, quem estava à espera de retorno\n\nE a clínica passou a ver os números: 77% dos contactos encerrados tornaram-se consulta. Com isso, sabe que o atendimento converte bem e que o próximo passo é trazer mais contactos.\n\nNa quinta-feira, às 13h (10h no Brasil), vou abrir uma aula ao vivo a mostrar esta estrutura.\n\nO link será enviado aqui no grupo.",
+    "imagens": 1
+   },
+   {
+    "id": "G2",
+    "quando": "2026-11-25T09:00:00+00:00",
+    "estado": "agendada",
+    "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\n\nPessoal, amanhã, às 13h (10h no Brasil), vou mostrar como uma clínica passou de não medir nada a saber exatamente quantos contactos se tornam consulta e qual é a próxima decisão.\n\nAntes, quando alguém pedia o valor e dizia que ia pensar, isso não ficava registado em lado nenhum. Para retomar, era preciso procurar a conversa no WhatsApp. E ninguém sabia dizer quantos contactos chegavam à marcação.\n\nDepois de cada contacto ganhar uma etapa, um responsável e um próximo passo, a secretária passou a:\n\n• responder primeiro a quem tinha mandado mensagem\n• retomar, etapa a etapa, quem recebeu o valor e ainda não marcou\n• saber, sem depender da memória, quem estava à espera de retorno\n\nE a clínica passou a ver os números: 77% dos contactos encerrados tornaram-se consulta. Com isso, sabe que o atendimento converte bem e que o próximo passo é trazer mais contactos.\n\nAmanhã, às 13h (10h no Brasil), vou abrir uma aula ao vivo a mostrar esta estrutura.\n\nO link será enviado aqui no grupo.",
+    "imagens": 1
+   },
+   {
+    "id": "G3",
+    "quando": "2026-11-25T16:00:00+00:00",
+    "estado": "agendada",
+    "texto": "Amanhã, às 13h (10h no Brasil), aula ao vivo sobre o caminho do primeiro contacto até à marcação na clínica.\n\nA aula é para clínicas que:\n\n → já recebem pedidos de informação pelo WhatsApp\n → têm alguém responsável pelo atendimento\n → mas nem sempre conseguem ver o que aconteceu a cada contacto depois da primeira mensagem\n\n⏰ Amanhã, às 13h (10h no Brasil), ao vivo no Google Meet",
+    "imagens": 0
+   },
+   {
+    "id": "G4",
+    "quando": "2026-11-25T21:00:00+00:00",
+    "estado": "agendada",
+    "texto": "Amanhã, às 13h (10h no Brasil), vou mostrar na prática como organizar o atendimento da clínica desde o primeiro contacto até à marcação.\n\nVou mostrar:\n\n• Como tornar visível o que acontece depois de o contacto chegar.\n• Como a equipa participa na mudança sem precisar de perceber de tecnologia.\n• Como encaixar isto na rotina real da clínica.\n• Que métricas acompanhar em cada etapa.\n\nNão é preciso mais procura para começar. É preciso ver o que acontece à que já chega.\n\n⏰ Até amanhã, às 13h (10h no Brasil).",
+    "imagens": 0
+   },
+   {
+    "id": "G5",
+    "quando": "2026-11-26T09:30:00+00:00",
+    "estado": "agendada",
+    "texto": "Antes:\nA clínica não sabia quantos contactos se tornavam consulta. Quando alguém pedia o valor e dizia que ia pensar, a secretária tinha de se lembrar ou procurar a conversa no WhatsApp.\n\nDepois:\nCada contacto numa etapa, com um responsável e um próximo passo. E a clínica passou a ver os números 👆\n\nDe 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\nSó este mês, 129 contactos ganhos e 37 perdidos.\n\nA melhor parte é que agora ela sabe o que fazer a seguir.\n\nResultado?\n\n- Sabe em que etapa os contactos param.\n- Sabe o que é prioritário no dia.\n- Sabe qual é a próxima decisão: com o atendimento a converter bem, o passo seguinte é investir para trazer mais contactos.\n\n⏰ Hoje, às 13h (10h no Brasil), vou mostrar a lógica por trás disto e como aplicar na clínica de vocês.\n\nAté às 13h!",
+    "imagens": 2
+   },
+   {
+    "id": "G6",
+    "quando": "2026-11-26T10:30:00+00:00",
+    "estado": "agendada",
+    "texto": "Pior do que não ter procura é a clínica receber o contacto, responder… e esse contacto perder-se pelo caminho.\n\nE o pior de tudo: muitas vezes a pessoa ainda queria marcar.\n\nPediu o valor, disse que ia pensar, e ninguém voltou a falar com ela. Não por falta de vontade da equipa, mas porque ninguém sabia em que etapa estava nem qual era o próximo passo.\n\nNão se trata só de receber mais mensagens. Trata-se de cada contacto que já chega ter um caminho até à marcação.\n\nE é exatamente isso que vou mostrar hoje, às 13h (10h no Brasil)!",
+    "imagens": 0
+   },
+   {
+    "id": "G7",
+    "quando": "2026-11-26T12:00:00+00:00",
+    "estado": "agendada",
+    "texto": "⏰ FALTA 1 HORA\n\nSe ainda acham que o problema é:\n- receber mais mensagens\n- investir mais em anúncios\n- ou contratar mais alguém para o atendimento\n\nTalvez estejam a olhar para o sítio errado!\n\nNão adianta chegarem mais contactos se ninguém sabe em que etapa está cada um e qual é o próximo passo.\n\nO que falta não é só volume, é um caminho claro desde o primeiro contacto até à marcação.\n\nÀs 13h (10h no Brasil) vou abrir esse caminho e mostrar como organizar isto na prática.\n\nSem teoria e sem rodeios.\n\nATÉ ÀS 13H",
+    "imagens": 0
+   },
+   {
+    "id": "G8",
+    "quando": "2026-11-26T12:40:00+00:00",
+    "estado": "agendada",
+    "texto": "SALA ABERTA!\nhttps://meet.google.com/ehy-eymf-bpj\n\nÀs 13h (10h no Brasil) vou mostrar como organizar o caminho do primeiro contacto até à marcação na clínica de vocês.\n\nLEMBRETE: é uma aula gratuita e prática!\n\nhttps://meet.google.com/ehy-eymf-bpj\n\nCOMEÇAMOS ÀS 13H!",
+    "imagens": 0
+   },
+   {
+    "id": "G9",
+    "quando": "2026-11-26T12:55:00+00:00",
+    "estado": "agendada",
+    "texto": "🔴 AO VIVO AGORA!\n\nSe querem perceber como há clínicas a:\n\n• responder com mais rapidez\n• saber quem precisa de retorno\n• levar mais contactos até à marcação\n\n👉 Entrem agora: https://meet.google.com/ehy-eymf-bpj\n\nA aula é direta ao assunto, sem rodeios!",
+    "imagens": 0
+   },
+   {
+    "id": "G10",
+    "quando": "2026-11-26T13:05:00+00:00",
+    "estado": "agendada",
+    "texto": "JÁ ESTOU A PARTILHAR O ECRÃ!\n\nA aula é direta ao assunto, sem rodeios!\n\nJá estou a mostrar o caminho do primeiro contacto até à marcação e onde os contactos costumam ficar parados.\n\nCarreguem no link e entrem na aula:\nhttps://meet.google.com/ehy-eymf-bpj",
+    "imagens": 0
+   },
+   {
+    "id": "G11",
+    "quando": "2026-11-26T13:15:00+00:00",
+    "estado": "agendada",
+    "texto": "🤷‍♂️ Ainda vão a tempo!\n\nA MELHOR PARTE DA AULA VAI COMEÇAR AGORA!\n\nEstou a mostrar na prática como organizar as etapas do atendimento!\n\n👇 Carreguem no link abaixo e entrem na aula:\nhttps://meet.google.com/ehy-eymf-bpj\n\nAinda vão a tempo!",
+    "imagens": 0
+   },
+   {
+    "id": "GP1",
+    "quando": "2026-11-26T16:00:00+00:00",
+    "estado": "agendada",
+    "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta. É isto que acontece quando cada contacto tem uma etapa, um responsável e um próximo passo.\n\nHoje fiz a aula ao vivo sobre o caminho do primeiro contacto até à marcação na clínica.\n\nE se não conseguiu assistir, separei um vídeo curto que resume toda a estrutura.\n\nNo vídeo mostro:\n• Como mapear o caminho do primeiro contacto até à marcação\n• Em que etapas os contactos costumam ficar parados\n• Que métricas acompanhar em cada passagem\n• Como começar a medir na clínica de vocês\n\n📺 Vejam aqui:\nhttps://youtu.be/yyNTtEvTo_E",
+    "imagens": 1
    }
   ],
   "ultimos_registos": [
@@ -691,5 +768,10 @@
    "2026-11-19 13:15 ENVIADA G11: id 120400",
    "2026-11-19 16:01 ENVIADA GP1: id 120746"
   ]
+ },
+ "timer": {
+  "id": "123jpnbffbj",
+  "nome": "[Raevo] Subir e otimizar os anúncios R1 e R2 do webinar (teste de ganchos) + medir o funil",
+  "desde": "2026-11-20T17:33+00:00"
  }
 }

@@ -69,30 +69,48 @@ def tarefas():
 
 
 def aquecimento():
+    """Mensagens dos últimos 3 dias e dos próximos 7, com o estado de cada envio."""
     pasta = CFG["aquecimento_pasta"]
     seq = json.load(open(os.path.join(pasta, "sequencia.json")))
     estado = json.load(open(os.path.join(pasta, "estado.json"))) if os.path.exists(os.path.join(pasta, "estado.json")) else {}
     log = open(os.path.join(pasta, "envios.log")).read().splitlines() if os.path.exists(os.path.join(pasta, "envios.log")) else []
     agora = dt.datetime.now(TZ)
-    segunda = (agora - dt.timedelta(days=agora.weekday())).date()
-    feitos = estado.get(segunda.isoformat(), [])
-    semana = [l for l in log if l[:10] >= segunda.isoformat()]
+    seg_atual = (agora - dt.timedelta(days=agora.weekday())).date()
     msgs = []
-    for m in seq["mensagens"]:
-        h, mi = map(int, m["hora"].split(":"))
-        quando = dt.datetime.combine(segunda + dt.timedelta(days=m["dia"]), dt.time(h, mi), tzinfo=TZ)
-        if any(f"SALTADA {m['id']}" in l for l in semana):
-            st = "saltada"
-        elif any(f" {m['id']}:" in l and ("ENVIADA" in l or "TESTE" in l) or f"TESTE {m['id']} " in l for l in semana):
-            st = "enviada"
-        elif m["id"] in feitos:
-            st = "não saiu"
-        else:
-            st = "agendada"
-        msgs.append({"id": m["id"], "quando": quando.isoformat(), "estado": st, "texto": m["texto"],
-                     "imagens": len(m.get("imagens", []))})
+    for semanas in (-1, 0, 1):
+        segunda = seg_atual + dt.timedelta(weeks=semanas)
+        fim = (segunda + dt.timedelta(days=7)).isoformat()
+        semana = [l for l in log if segunda.isoformat() <= l[:10] < fim]
+        feitos = estado.get(segunda.isoformat(), [])
+        for m in seq["mensagens"]:
+            h, mi = map(int, m["hora"].split(":"))
+            quando = dt.datetime.combine(segunda + dt.timedelta(days=m["dia"]), dt.time(h, mi), tzinfo=TZ)
+            if not (agora - dt.timedelta(days=3) <= quando <= agora + dt.timedelta(days=7)):
+                continue
+            if any(f"SALTADA {m['id']}" in l for l in semana):
+                st = "saltada"
+            elif any(f" {m['id']}:" in l and ("ENVIADA" in l or "TESTE" in l) or f"TESTE {m['id']} " in l for l in semana):
+                st = "enviada"
+            elif m["id"] in feitos or quando < agora - dt.timedelta(minutes=30):
+                st = "não saiu"
+            else:
+                st = "agendada"
+            msgs.append({"id": m["id"], "quando": quando.isoformat(), "estado": st, "texto": m["texto"],
+                         "imagens": len(m.get("imagens", []))})
+    msgs.sort(key=lambda x: x["quando"])
     return {"pausado": os.path.exists(os.path.join(pasta, "PAUSADO")), "mensagens": msgs,
             "ultimos_registos": log[-6:]}
+
+
+def timer():
+    """Tarefa com o timer do ClickUp a correr agora (do dono da chave), se houver."""
+    cab = {"Authorization": chave("clickup-api")}
+    equipa = get("https://api.clickup.com/api/v2/team", cab)["teams"][0]["id"]
+    d = (get(f"https://api.clickup.com/api/v2/team/{equipa}/time_entries/current", cab) or {}).get("data")
+    if not d or not d.get("task"):
+        return None
+    return {"id": d["task"]["id"], "nome": d["task"]["name"],
+            "desde": dt.datetime.fromtimestamp(int(d["start"]) / 1000, TZ).isoformat(timespec="minutes")}
 
 
 def proxima_aula():
@@ -120,7 +138,7 @@ def main():
              "links": CFG["links"],
              "documentos": [{"nome": d["nome"], "caminho": d["destino"]} for d in CFG["documentos"]],
              "erros": []}
-    for nome, fn in (("funil", funil), ("tarefas", tarefas), ("aquecimento", aquecimento)):
+    for nome, fn in (("funil", funil), ("tarefas", tarefas), ("aquecimento", aquecimento), ("timer", timer)):
         try:
             dados[nome] = fn()
         except Exception as e:

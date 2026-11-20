@@ -18,4 +18,5 @@ Painel aberto (sem login) do webinar "Atendimento Organizado": próxima aula, o 
 - **Nova tarefa do ClickUp no painel:** acrescentar o ID em `config.json` → `clickup_tarefas` (subtarefas entram sozinhas).
 - **Novo link:** `config.json` → `links`.
 - **Novo documento final:** `config.json` → `documentos` (origem no Mac + destino em `docs/`), depois correr `python3 tools/atualizar.py --docs` a partir de um terminal (o agendador não copia documentos).
+- **Prioridades e próximos passos:** `foco.json` (ordem, quem, próximo passo, prazo proposto, o que o Claude faz sozinho, tarefas a propor fechar). Rever depois de cada conversa de trabalho.
 - **Layout:** `index.html` (lê `data.json`); documentos `.md` abrem em `ver.html`.

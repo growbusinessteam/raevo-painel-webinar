@@ -50,6 +50,27 @@ details.m pre{white-space:pre-wrap;font:13px/1.45 inherit;margin:8px 0 2px;color
 .lg{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);margin:10px 0 2px}
 .err{background:var(--bad-soft);color:var(--bad);padding:10px 12px;border-radius:8px;margin-bottom:16px;font-size:13px}
 .empty{color:var(--mute);font-size:13px}
+.foco{display:grid;gap:10px}
+.fc{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;grid-template-columns:34px 1fr;gap:4px 12px}
+.fc .n{grid-row:span 3;width:30px;height:30px;border-radius:50%;background:var(--acc-soft);color:var(--acc);display:flex;align-items:center;justify-content:center;font-weight:700}
+.fc .tt{font-weight:600}.fc .tt a{color:var(--ink);text-decoration:none}.fc .tt a:hover{text-decoration:underline}
+.fc .nx{font-size:14px}.fc .nx b{color:var(--mute);font-weight:500}
+.acts{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:4px}
+.mini{border:1px solid var(--line);background:transparent;color:var(--ink);padding:4px 10px;border-radius:7px;font-size:13px;cursor:pointer;text-decoration:none}
+.mini.pr{background:var(--acc);border-color:var(--acc);color:#fff}
+@media (prefers-color-scheme:dark){.mini.pr{color:#0d1a15}}
+.cl{background:var(--acc-soft);border-radius:8px;padding:8px 10px;font-size:13px;margin-top:4px}
+.now{display:flex;gap:8px;align-items:center;font-size:14px;margin-top:6px}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--bad);animation:p 1.6s infinite;flex:none}
+@keyframes p{50%{opacity:.3}}
+@media (prefers-reduced-motion:reduce){.dot{animation:none}}
+.eq h3{font-size:14px;margin:12px 0 4px}.eq h3:first-child{margin-top:0}
+.eq div{font-size:13px;padding:3px 0}
+.bar{cursor:pointer;border-radius:6px}.bar:hover{background:var(--todo-soft)}
+.dia{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);margin:10px 0 2px}
+.dia.hoje{color:var(--acc);font-weight:700}
+.passado{opacity:.6}
+.ok{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px;display:none}
 </style>
 </head>
 <body>
@@ -57,90 +78,138 @@ details.m pre{white-space:pre-wrap;font:13px/1.45 inherit;margin:8px 0 2px;color
   <header>
     <div><h1>Webinar Raevo · Atendimento Organizado</h1>
       <div class="sub" id="upd">A carregar…</div></div>
-    <div class="sub">Fontes: CRM Raevo (quadro WEBINAR) · ClickUp · aquecimento automático</div>
+    <div class="sub">Fontes: CRM Raevo · ClickUp · aquecimento automático · prioridades revistas pelo Claude</div>
   </header>
   <div id="erros"></div>
   <div class="grid">
     <section class="card c12 hero">
-      <div><div class="sub">Próxima aula</div><div class="big" id="aula">—</div><div class="sub" id="aulanota"></div></div>
+      <div><div class="sub">Próxima aula</div><div class="big" id="aula">—</div><div class="sub" id="aulanota"></div>
+        <div class="now" id="agora"></div></div>
       <div><a class="btn" id="meet" target="_blank" rel="noopener">Entrar na sala</a></div>
     </section>
 
-    <section class="card c7">
-      <h2>O que falta fazer <small id="faltaN"></small></h2>
+    <section class="card c12">
+      <h2>O que fazer a seguir <small id="focoN"></small></h2>
       <div class="chips" id="pessoas"></div>
-      <ul class="t" id="falta"></ul>
+      <div class="foco" id="foco"></div>
+      <details style="margin-top:10px"><summary class="meta" id="maisN" style="cursor:pointer"></summary><div class="foco" id="mais" style="margin-top:10px"></div></details>
+    </section>
+
+    <section class="card c6">
+      <h2>O Claude pode fazer sem ti <small>carrega para copiar o pedido</small></h2>
+      <div class="foco" id="claude"></div>
+    </section>
+
+    <section class="card c6 eq">
+      <h2>Com a equipa <small>para cobrar</small></h2>
+      <div id="equipa"></div>
     </section>
 
     <section class="card c5">
-      <h2>Funil <small>quadro WEBINAR do CRM</small></h2>
+      <h2>Funil <small>carrega numa etapa para abrir no CRM</small></h2>
       <div id="funil"></div>
       <p class="meta">"Compareceu" conta quando alguém da equipa move o cartão depois da aula.</p>
     </section>
 
-    <section class="card c6">
-      <h2>Aquecimento desta semana <small id="aqN"></small></h2>
+    <section class="card c7">
+      <h2>Aquecimento <small id="aqN"></small></h2>
       <div class="msgs" id="aq"></div>
     </section>
 
     <section class="card c6">
       <h2>Links</h2>
       <div class="links" id="links"></div>
-      <h2 style="margin-top:20px">Documentos <small>versões finais</small></h2>
+    </section>
+    <section class="card c6">
+      <h2>Documentos <small>versões finais</small></h2>
       <div class="links" id="docs"></div>
     </section>
 
     <section class="card c12">
-      <details><summary><h2 style="display:inline-flex">Já feito <small id="feitoN"></small></h2></summary>
-      <ul class="t" id="feito"></ul></details>
+      <details><summary style="cursor:pointer"><h2 style="display:inline-flex">Todas as tarefas <small id="todasN"></small></h2></summary>
+      <p class="meta">"Em curso" é o estado no ClickUp (ativo, em andamento, edição…), não quer dizer que haja uma conversa aberta. "Propor fechar" são tarefas que parecem feitas e esperam o teu sim.</p>
+      <ul class="t" id="todas"></ul></details>
     </section>
   </div>
 </div>
+<div class="ok" id="ok">Pedido copiado. Cola numa conversa com o Claude.</div>
 <script>
 const fmtD=(iso,o)=>new Date(iso).toLocaleString('pt-PT',Object.assign({timeZone:'Europe/Lisbon'},o));
+const dd=d=>new Date(d+'T12:00').toLocaleDateString('pt-PT',{weekday:'short',day:'2-digit',month:'2-digit'});
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const pill=e=>`<span class="pill ${e==='feito'?'p-feito':e==='em curso'?'p-curso':'p-pend'}">${esc(e)}</span>`;
-let D, pessoa='Todos';
-function linhaT(t){
-  const hoje=new Date().toISOString().slice(0,10);
-  const prazo=t.prazo?`<span class="${t.prazo<hoje&&t.estado!=='feito'?'late':''}">${t.prazo<hoje&&t.estado!=='feito'?'atrasada · ':''}${new Date(t.prazo+'T12:00').toLocaleDateString('pt-PT',{day:'2-digit',month:'2-digit'})}</span>`:'';
-  return `<li>${pill(t.estado)}<div><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.nome)}</a>
-    <div class="meta">${esc(t.status)}${t.responsaveis.length?' · '+esc(t.responsaveis.join(', ')):' · sem responsável'}${t.pai?' · em '+esc(t.pai):''}</div></div><div class="meta">${prazo}</div></li>`;
+const hoje=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Lisbon'});
+let D,F={tarefas:[]},pessoa='Alysson';
+const PED=[];
+function copiar(i){const t=PED[i];
+  const ok=()=>{const e=document.getElementById('ok');e.style.display='block';setTimeout(()=>e.style.display='none',2200)};
+  if(navigator.clipboard)navigator.clipboard.writeText(t).then(ok,()=>prompt('Copia o pedido:',t));else prompt('Copia o pedido:',t);}
+function pedido(t,f,tipo){PED.push(tipo==='claude'
+  ?`Na tarefa do ClickUp "${t.nome}" (${t.url}): ${f.claude} Faz isso sozinho e guarda o resultado na tarefa.`
+  :`Ajuda-me com a tarefa do ClickUp "${t.nome}" (${t.url}). Próximo passo: ${f.proximo}`);return PED.length-1}
+function prazoHtml(t,f){const p=t.prazo, pp=f&&f.prazo;
+  let h=p?`<span class="${p<hoje&&t.estado!=='feito'?'late':''}">${p<hoje&&t.estado!=='feito'?'atrasada · ':''}prazo ${dd(p)}</span>`:'sem prazo';
+  if(pp&&pp!==p)h+=` · <span title="Proposta do Claude, ainda não está no ClickUp">proposto ${dd(pp)}</span>`;return h}
+function cartao(t,f){return `<div class="fc"><div class="n">${f.ordem}</div>
+  <div class="tt"><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.nome.replace(/^\[[^\]]*\]\s*/,'').replace(/ — Atendimento Organizado$/,''))}</a></div>
+  <div class="nx"><b>Próximo passo:</b> ${esc(f.proximo)}</div>
+  <div class="acts"><span class="meta">${prazoHtml(t,f)} · ${esc(f.quem)}</span>
+   <button class="mini pr" onclick="copiar(${pedido(t,f,'ajuda')})">Pedir ajuda ao Claude</button>
+   ${f.claude?`<button class="mini" onclick="copiar(${pedido(t,f,'claude')})">O Claude faz sozinho</button>`:''}</div></div>`}
+function foco(){
+  const byId=Object.fromEntries((D.tarefas||[]).map(t=>[t.id,t]));
+  const L=F.tarefas.filter(f=>f.ordem&&byId[f.id]&&byId[f.id].estado!=='feito').sort((a,b)=>a.ordem-b.ordem);
+  const nomes=[...new Set(L.map(f=>f.quem))];
+  if(pessoa!=='Todos'&&!nomes.includes(pessoa))pessoa='Todos';
+  document.getElementById('pessoas').innerHTML=['Todos',...nomes].map(n=>`<button class="chip ${n===pessoa?'on':''}" data-p="${esc(n)}">${esc(n)}</button>`).join('');
+  document.querySelectorAll('#pessoas .chip').forEach(b=>b.onclick=()=>{pessoa=b.dataset.p;try{localStorage.setItem('pessoa2',pessoa)}catch(e){};foco()});
+  const M=L.filter(f=>pessoa==='Todos'||f.quem===pessoa);
+  document.getElementById('foco').innerHTML=M.slice(0,3).map(f=>cartao(byId[f.id],f)).join('')||'<p class="empty">Nada prioritário agora.</p>';
+  document.getElementById('mais').innerHTML=M.slice(3).map(f=>cartao(byId[f.id],f)).join('');
+  document.getElementById('maisN').textContent=M.length>3?`Ver mais ${M.length-3} por ordem de prioridade`:'';
+  document.getElementById('maisN').parentElement.style.display=M.length>3?'':'none';
+  document.getElementById('focoN').textContent=`revisto pelo Claude em ${dd(F.revisto_em)}`;
+  document.getElementById('claude').innerHTML=L.filter(f=>f.claude).map(f=>{const t=byId[f.id];
+    return `<div class="fc"><div class="n">${f.ordem}</div><div class="tt"><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.nome.replace(/^\[[^\]]*\]\s*/,'').replace(/ — Atendimento Organizado$/,''))}</a></div>
+      <div class="cl">${esc(f.claude)}</div><div class="acts"><button class="mini pr" onclick="copiar(${pedido(t,f,'claude')})">Copiar pedido</button></div></div>`}).join('')||'<p class="empty">Nada por agora.</p>';
+  const eq={};L.filter(f=>f.quem!=='Alysson').forEach(f=>(eq[f.quem]=eq[f.quem]||[]).push(f));
+  document.getElementById('equipa').innerHTML=Object.entries(eq).map(([q,fs])=>`<h3>${esc(q)}</h3>`+fs.map(f=>{const t=byId[f.id];
+    return `<div><a href="${esc(t.url)}" target="_blank" rel="noopener" style="color:var(--ink)">${esc(f.proximo)}</a> <span class="meta">· ${prazoHtml(t,f)}</span></div>`}).join('')).join('')||'<p class="empty">Nada com a equipa.</p>';
 }
-function tarefas(){
-  const T=D.tarefas||[];
-  const nomes=[...new Set(T.filter(t=>t.estado!=='feito').flatMap(t=>t.responsaveis))].sort();
-  document.getElementById('pessoas').innerHTML=['Todos',...nomes].map(n=>`<button class="chip ${n===pessoa?'on':''}" data-p="${esc(n)}">${esc(n.split(' ')[0])}</button>`).join('');
-  document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{pessoa=b.dataset.p;try{localStorage.setItem('pessoa',pessoa)}catch(e){};tarefas()});
-  const ord={'em curso':0,'pendente':1};
-  const falta=T.filter(t=>t.estado!=='feito'&&(pessoa==='Todos'||t.responsaveis.includes(pessoa)))
-    .sort((a,b)=>(ord[a.estado]-ord[b.estado])||((a.prazo||'9')<(b.prazo||'9')?-1:1));
-  document.getElementById('falta').innerHTML=falta.map(linhaT).join('')||'<li class="empty">Nada pendente.</li>';
-  document.getElementById('faltaN').textContent=`${falta.filter(t=>t.estado==='em curso').length} em curso · ${falta.filter(t=>t.estado==='pendente').length} pendentes`;
-  const feito=T.filter(t=>t.estado==='feito');
-  document.getElementById('feito').innerHTML=feito.map(linhaT).join('')||'<li class="empty">Nenhuma tarefa concluída ainda.</li>';
-  document.getElementById('feitoN').textContent=`${feito.length} tarefas`;
+function todas(){
+  const fx=Object.fromEntries(F.tarefas.map(f=>[f.id,f]));
+  const T=(D.tarefas||[]).slice().sort((a,b)=>({'em curso':0,'pendente':1,'feito':2}[a.estado]-{'em curso':0,'pendente':1,'feito':2}[b.estado])||((a.prazo||'9')<(b.prazo||'9')?-1:1));
+  document.getElementById('todasN').textContent=`${T.length} · ${T.filter(t=>t.estado==='em curso').length} em curso · ${T.filter(t=>t.estado==='pendente').length} pendentes · ${T.filter(t=>t.estado==='feito').length} feitas`;
+  document.getElementById('todas').innerHTML=T.map(t=>{const f=fx[t.id];
+    const pill=`<span class="pill ${t.estado==='feito'?'p-feito':t.estado==='em curso'?'p-curso':'p-pend'}">${esc(t.estado)}</span>`;
+    return `<li>${pill}<div><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.nome)}</a>
+    <div class="meta">${esc(t.status)}${t.responsaveis.length?' · '+esc(t.responsaveis.join(', ')):' · sem responsável'}${t.pai?' · em '+esc(t.pai):''}${f&&f.fechar?` · <b>propor fechar:</b> ${esc(f.fechar)}`:''}</div></div><div class="meta">${t.estado==='feito'?'':prazoHtml(t,f)}</div></li>`}).join('');
 }
 function render(){
-  document.getElementById('upd').textContent='Atualizado '+fmtD(D.gerado_em,{weekday:'short',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})+' (hora de Lisboa)';
+  document.getElementById('upd').textContent='Atualizado '+fmtD(D.gerado_em,{weekday:'short',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})+' (hora de Lisboa) · atualiza a cada hora com o Mac ligado';
   if(D.erros&&D.erros.length)document.getElementById('erros').innerHTML=`<div class="err">Algumas fontes não atualizaram: ${esc(D.erros.join(' · '))}</div>`;
   const a=new Date(D.aula.proxima), dias=Math.ceil((a-new Date())/864e5);
   document.getElementById('aula').textContent=fmtD(D.aula.proxima,{weekday:'long',day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'})+(dias>0?` · daqui a ${dias} dia${dias>1?'s':''}`:' · hoje');
   document.getElementById('aulanota').textContent=D.aula.nota;
+  if(D.timer)document.getElementById('agora').innerHTML=`<span class="dot"></span><span>Timer a correr desde ${fmtD(D.timer.desde,{hour:'2-digit',minute:'2-digit'})}: <a href="https://app.clickup.com/t/${esc(D.timer.id)}" target="_blank" rel="noopener" style="color:var(--ink)">${esc(D.timer.nome)}</a></span>`;
   const meet=(D.links.find(l=>/meet\.google/.test(l.url))||{}).url; const m=document.getElementById('meet'); if(meet)m.href=meet; else m.remove();
+  const crm=(D.links.find(l=>/crm\.raevo/.test(l.url))||{}).url;
   if(D.funil){const mx=Math.max(1,...D.funil.map(s=>s.total));
-    document.getElementById('funil').innerHTML=D.funil.map(s=>`<div class="bar ${/perdid/i.test(s.etapa)?'lost':''}"><span>${esc(s.etapa)}</span><div class="tr"><div class="fl" style="width:${s.total/mx*100}%"></div></div><b>${s.total}</b></div>`).join('');}
+    document.getElementById('funil').innerHTML=D.funil.map(s=>`<div class="bar ${/perdid/i.test(s.etapa)?'lost':''}" onclick="window.open('${esc(crm)}','_blank','noopener')" title="Abrir o quadro WEBINAR no CRM"><span>${esc(s.etapa)}</span><div class="tr"><div class="fl" style="width:${s.total/mx*100}%"></div></div><b>${s.total}</b></div>`).join('');}
   else document.getElementById('funil').innerHTML='<p class="empty">Sem dados do CRM nesta atualização.</p>';
-  if(D.tarefas)tarefas(); else document.getElementById('falta').innerHTML='<li class="empty">Sem dados do ClickUp nesta atualização.</li>';
+  if(D.tarefas){foco();todas();} else document.getElementById('foco').innerHTML='<p class="empty">Sem dados do ClickUp nesta atualização.</p>';
   const A=D.aquecimento;
   if(A){const cls={'enviada':'p-feito','agendada':'p-pend','saltada':'p-bad','não saiu':'p-bad'};
-    document.getElementById('aqN').textContent=(A.pausado?'PAUSADO · ':'')+`${A.mensagens.filter(m=>m.estado==='enviada').length} de ${A.mensagens.length} enviadas`;
-    document.getElementById('aq').innerHTML=A.mensagens.map(m=>`<details class="m"><summary><span class="pill ${cls[m.estado]}">${esc(m.estado)}</span><b>${esc(m.id)}</b><span class="meta">${fmtD(m.quando,{weekday:'short',hour:'2-digit',minute:'2-digit'})}${m.imagens?' · '+m.imagens+' imagem'+(m.imagens>1?'s':''):''}</span></summary><pre>${esc(m.texto)}</pre></details>`).join('');}
+    const prox=A.mensagens.filter(m=>m.estado==='agendada');
+    document.getElementById('aqN').textContent=(A.pausado?'PAUSADO · ':'')+`últimos 3 dias e próximos 7 · ${prox.length} agendadas`;
+    let dia='';document.getElementById('aq').innerHTML=A.mensagens.map(m=>{const d=new Date(m.quando).toLocaleDateString('sv-SE',{timeZone:'Europe/Lisbon'});
+      const cab=d!==dia?`<div class="dia ${d===hoje?'hoje':''}">${d===hoje?'Hoje · ':''}${esc(fmtD(m.quando,{weekday:'long',day:'numeric',month:'short'}))}</div>`:'';dia=d;
+      return cab+`<details class="m ${m.estado!=='agendada'?'passado':''}"><summary><span class="pill ${cls[m.estado]}">${esc(m.estado)}</span><b>${esc(m.id)}</b><span class="meta">${fmtD(m.quando,{hour:'2-digit',minute:'2-digit'})}${m.imagens?' · '+m.imagens+(m.imagens>1?' imagens':' imagem'):''}</span></summary><pre>${esc(m.texto)}</pre></details>`}).join('')||'<p class="empty">Nada nesta janela.</p>';}
   let g='';document.getElementById('links').innerHTML=D.links.map(l=>(l.grupo!==g?`<div class="lg">${esc(g=l.grupo)}</div>`:'')+`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.nome)} ↗</a>`).join('');
   document.getElementById('docs').innerHTML=D.documentos.map(d=>`<a href="${/\.md$/.test(d.caminho)?'ver.html?f='+encodeURIComponent(d.caminho):esc(d.caminho)}" target="_blank" rel="noopener">${esc(d.nome)} ↗</a>`).join('');
 }
-try{pessoa=localStorage.getItem('pessoa')||'Todos'}catch(e){}
-fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;render()}).catch(e=>{document.getElementById('upd').textContent='Não foi possível carregar os dados.'});
+try{pessoa=localStorage.getItem('pessoa2')||'Alysson'}catch(e){}
+Promise.all([fetch('data.json?'+Date.now()).then(r=>r.json()),fetch('foco.json?'+Date.now()).then(r=>r.ok?r.json():{tarefas:[]}).catch(()=>({tarefas:[]}))])
+ .then(([d,f])=>{D=d;F=f;render()}).catch(e=>{document.getElementById('upd').textContent='Não foi possível carregar os dados.'});
 </script>
 </body>
 </html>
