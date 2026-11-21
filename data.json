@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-21T20:19+00:00",
+ "gerado_em": "2026-11-21T21:19+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -66,7 +66,7 @@
   }
  ],
  "erros": [
-  "funil: HTTP Error 500: Internal Server Error"
+  "funil: <urlopen error _ssl.c:1112: The handshake operation timed out>"
  ],
  "funil": null,
  "tarefas": [
@@ -548,13 +548,6 @@
  "aquecimento": {
   "pausado": false,
   "mensagens": [
-   {
-    "id": "G4",
-    "quando": "2026-11-18T21:00:00+00:00",
-    "estado": "não saiu",
-    "texto": "Amanhã, às 13h (10h no Brasil), vou mostrar na prática como organizar o atendimento da clínica desde o primeiro contacto até à marcação.\n\nVou mostrar:\n\n• Como tornar visível o que acontece depois de o contacto chegar.\n• Como a equipa participa na mudança sem precisar de perceber de tecnologia.\n• Como encaixar isto na rotina real da clínica.\n• Que métricas acompanhar em cada etapa.\n\nNão é preciso mais procura para começar. É preciso ver o que acontece à que já chega.\n\n⏰ Até amanhã, às 13h (10h no Brasil).",
-    "imagens": 0
-   },
    {
     "id": "G5",
     "quando": "2026-11-19T09:30:00+00:00",
