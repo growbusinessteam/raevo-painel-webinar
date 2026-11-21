@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-21T15:14+00:00",
+ "gerado_em": "2026-11-21T16:14+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -74,13 +74,6 @@
  "aquecimento": {
   "pausado": false,
   "mensagens": [
-   {
-    "id": "G3",
-    "quando": "2026-11-18T16:00:00+00:00",
-    "estado": "não saiu",
-    "texto": "Amanhã, às 13h (10h no Brasil), aula ao vivo sobre o caminho do primeiro contacto até à marcação na clínica.\n\nA aula é para clínicas que:\n\n → já recebem pedidos de informação pelo WhatsApp\n → têm alguém responsável pelo atendimento\n → mas nem sempre conseguem ver o que aconteceu a cada contacto depois da primeira mensagem\n\n⏰ Amanhã, às 13h (10h no Brasil), ao vivo no Google Meet",
-    "imagens": 0
-   },
    {
     "id": "G4",
     "quando": "2026-11-18T21:00:00+00:00",
