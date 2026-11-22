@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-22T08:29+00:00",
+ "gerado_em": "2026-11-22T09:30+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -74,13 +74,6 @@
  "aquecimento": {
   "pausado": false,
   "mensagens": [
-   {
-    "id": "G5",
-    "quando": "2026-11-19T09:30:00+00:00",
-    "estado": "não saiu",
-    "texto": "Antes:\nA clínica não sabia quantos contactos se tornavam consulta. Quando alguém pedia o valor e dizia que ia pensar, a secretária tinha de se lembrar ou procurar a conversa no WhatsApp.\n\nDepois:\nCada contacto numa etapa, com um responsável e um próximo passo. E a clínica passou a ver os números 👆\n\nDe 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\nSó este mês, 129 contactos ganhos e 37 perdidos.\n\nA melhor parte é que agora ela sabe o que fazer a seguir.\n\nResultado?\n\n- Sabe em que etapa os contactos param.\n- Sabe o que é prioritário no dia.\n- Sabe qual é a próxima decisão: com o atendimento a converter bem, o passo seguinte é investir para trazer mais contactos.\n\n⏰ Hoje, às 13h (10h no Brasil), vou mostrar a lógica por trás disto e como aplicar na clínica de vocês.\n\nAté às 13h!",
-    "imagens": 2
-   },
    {
     "id": "G6",
     "quando": "2026-11-19T10:30:00+00:00",
