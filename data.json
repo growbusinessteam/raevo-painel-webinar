@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-22T20:30+00:00",
+ "gerado_em": "2026-11-22T21:30+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -425,22 +425,6 @@
    "atualizado": "2026-10-19T22:32:27.554000+01:00"
   },
   {
-   "id": "123jpnbcxn3",
-   "nome": "[Raevo] Selecionar e organizar estudos de caso — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxn3",
-   "estado": "em curso",
-   "status": "planejameto",
-   "cor": "#1090e0",
-   "responsaveis": [
-    "Thiago Viana",
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-10-16",
-   "lista": "Produção de Conteúdo",
-   "pai": null,
-   "atualizado": "2026-10-19T22:32:31.029000+01:00"
-  },
-  {
    "id": "123jpnbd91n",
    "nome": "RAEVO | [Raevo] [Leads] [20.10.26] Webinar  ",
    "url": "https://app.clickup.com/t/123jpnbd91n",
@@ -677,9 +661,5 @@
    "2026-11-19 16:01 ENVIADA GP1: id 120746"
   ]
  },
- "timer": {
-  "id": "123jpnbfaxu",
-  "nome": "[] [Dental School] Orçamento e captação do curso de sábado (21/11)",
-  "desde": "2026-11-21T20:02+00:00"
- }
+ "timer": null
 }
