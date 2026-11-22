@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-22T10:30+00:00",
+ "gerado_em": "2026-11-22T12:30+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -74,13 +74,6 @@
  "aquecimento": {
   "pausado": false,
   "mensagens": [
-   {
-    "id": "G7",
-    "quando": "2026-11-19T12:00:00+00:00",
-    "estado": "enviada",
-    "texto": "⏰ FALTA 1 HORA\n\nSe ainda acham que o problema é:\n- receber mais mensagens\n- investir mais em anúncios\n- ou contratar mais alguém para o atendimento\n\nTalvez estejam a olhar para o sítio errado!\n\nNão adianta chegarem mais contactos se ninguém sabe em que etapa está cada um e qual é o próximo passo.\n\nO que falta não é só volume, é um caminho claro desde o primeiro contacto até à marcação.\n\nÀs 13h (10h no Brasil) vou abrir esse caminho e mostrar como organizar isto na prática.\n\nSem teoria e sem rodeios.\n\nATÉ ÀS 13H",
-    "imagens": 0
-   },
    {
     "id": "G8",
     "quando": "2026-11-19T12:40:00+00:00",
