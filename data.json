@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-22T09:30+00:00",
+ "gerado_em": "2026-11-22T10:30+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -74,13 +74,6 @@
  "aquecimento": {
   "pausado": false,
   "mensagens": [
-   {
-    "id": "G6",
-    "quando": "2026-11-19T10:30:00+00:00",
-    "estado": "enviada",
-    "texto": "Pior do que não ter procura é a clínica receber o contacto, responder… e esse contacto perder-se pelo caminho.\n\nE o pior de tudo: muitas vezes a pessoa ainda queria marcar.\n\nPediu o valor, disse que ia pensar, e ninguém voltou a falar com ela. Não por falta de vontade da equipa, mas porque ninguém sabia em que etapa estava nem qual era o próximo passo.\n\nNão se trata só de receber mais mensagens. Trata-se de cada contacto que já chega ter um caminho até à marcação.\n\nE é exatamente isso que vou mostrar hoje, às 13h (10h no Brasil)!",
-    "imagens": 0
-   },
    {
     "id": "G7",
     "quando": "2026-11-19T12:00:00+00:00",
