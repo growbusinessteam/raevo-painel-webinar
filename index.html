@@ -106,7 +106,7 @@ details.m pre{white-space:pre-wrap;font:13px/1.45 inherit;margin:8px 0 2px;color
     </section>
 
     <section class="card c5">
-      <h2>Funil <small>carrega numa etapa para abrir no CRM</small></h2>
+      <h2>Funil de conversão <small>carrega numa etapa para abrir no CRM</small></h2>
       <div id="funil"></div>
       <p class="meta">"Compareceu" conta quando alguém da equipa move o cartão depois da aula.</p>
     </section>
@@ -193,8 +193,14 @@ function render(){
   if(D.timer)document.getElementById('agora').innerHTML=`<span class="dot"></span><span>Timer a correr desde ${fmtD(D.timer.desde,{hour:'2-digit',minute:'2-digit'})}: <a href="https://app.clickup.com/t/${esc(D.timer.id)}" target="_blank" rel="noopener" style="color:var(--ink)">${esc(D.timer.nome)}</a></span>`;
   const meet=(D.links.find(l=>/meet\.google/.test(l.url))||{}).url; const m=document.getElementById('meet'); if(meet)m.href=meet; else m.remove();
   const crm=(D.links.find(l=>/crm\.raevo/.test(l.url))||{}).url;
-  if(D.funil){const mx=Math.max(1,...D.funil.map(s=>s.total));
-    document.getElementById('funil').innerHTML=D.funil.map(s=>`<div class="bar ${/perdid/i.test(s.etapa)?'lost':''}" onclick="window.open('${esc(crm)}','_blank','noopener')" title="Abrir o quadro WEBINAR no CRM"><span>${esc(s.etapa)}</span><div class="tr"><div class="fl" style="width:${s.total/mx*100}%"></div></div><b>${s.total}</b></div>`).join('');}
+  if(D.funil){const F2=D.funil.filter(x=>!/perdid/i.test(x.etapa)), lost=D.funil.filter(x=>/perdid/i.test(x.etapa)).reduce((a,x)=>a+x.total,0);
+    const cum=F2.map((x,i)=>F2.slice(i).reduce((a,y)=>a+y.total,0)); const tot=(cum[0]||0)+lost, mx=Math.max(1,tot);
+    const pc=(a,b)=>b?Math.round(a/b*100)+'%':'—';
+    let pior=-1,pv=101;cum.forEach((c,i)=>{if(i&&cum[i-1]>=3){const v=c/cum[i-1]*100;if(v<pv){pv=v;pior=i}}});
+    document.getElementById('funil').innerHTML=`<div class="meta" style="margin-bottom:6px">Quantas pessoas chegaram pelo menos a cada etapa (de ${tot} no total) e quantos % passaram da etapa anterior.</div>`+
+     F2.map((x,i)=>`<div class="bar" onclick="window.open('${esc(crm)}','_blank','noopener')" title="Abrir o quadro WEBINAR no CRM"><span>${esc(x.etapa)}</span><div class="tr"><div class="fl" style="width:${cum[i]/mx*100}%;${i===pior?'background:var(--bad)':''}"></div></div><b>${cum[i]}</b></div>`+
+       (i<F2.length-1?`<div class="meta" style="margin:-2px 0 2px 160px;${i+1===pior?'color:var(--bad);font-weight:600':''}">↓ ${pc(cum[i+1],cum[i])} passam${i+1===pior?' · maior perda':''}</div>`:'')).join('')+
+     `<div class="bar lost" onclick="window.open('${esc(crm)}','_blank','noopener')"><span>Perdidas</span><div class="tr"><div class="fl" style="width:${lost/mx*100}%"></div></div><b>${lost}</b></div>`;}
   else document.getElementById('funil').innerHTML='<p class="empty">Sem dados do CRM nesta atualização.</p>';
   if(D.tarefas){foco();todas();} else document.getElementById('foco').innerHTML='<p class="empty">Sem dados do ClickUp nesta atualização.</p>';
   const A=D.aquecimento;
