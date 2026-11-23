@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-23T09:08+00:00",
+ "gerado_em": "2026-11-23T10:09+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -148,7 +148,7 @@
    "prazo": "2026-11-24",
    "lista": "Planejamento & Cronograma",
    "pai": null,
-   "atualizado": "2026-11-23T09:04:11.575000+00:00"
+   "atualizado": "2026-11-23T09:34:23.805000+00:00"
   },
   {
    "id": "123jpnbeett",
@@ -181,21 +181,6 @@
    "atualizado": "2026-11-20T14:29:29.874000+00:00"
   },
   {
-   "id": "123jpnbf95p",
-   "nome": "[] 01 · Rever oferta de entrada e oferta paga",
-   "url": "https://app.clickup.com/t/123jpnbf95p",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": null,
-   "lista": "Planejamento & Cronograma",
-   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-19T14:10:19.850000+00:00"
-  },
-  {
    "id": "123jpnbf95q",
    "nome": "[] 05 · Medir o funil e priorizar a próxima melhoria",
    "url": "https://app.clickup.com/t/123jpnbf95q",
@@ -223,7 +208,7 @@
    "prazo": null,
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T08:28:28.676000+00:00"
+   "atualizado": "2026-11-23T10:01:46.072000+00:00"
   },
   {
    "id": "123jpnbf95t",
@@ -254,7 +239,7 @@
    "prazo": null,
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-19T14:11:09.168000+00:00"
+   "atualizado": "2026-11-23T09:34:23.207000+00:00"
   },
   {
    "id": "123jpnbf95v",
@@ -335,9 +320,9 @@
    "id": "123jpnbcxn6",
    "nome": "[Raevo] Configurar o CRM comercial da campanha — Atendimento Organizado",
    "url": "https://app.clickup.com/t/123jpnbcxn6",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
+   "estado": "feito",
+   "status": "concluído",
+   "cor": "#008844",
    "responsaveis": [
     "Thiago Viana",
     "Alysson Oliveira"
@@ -345,7 +330,7 @@
    "prazo": "2026-10-16",
    "lista": "CRM",
    "pai": null,
-   "atualizado": "2026-10-19T22:32:44.943000+01:00"
+   "atualizado": "2026-11-23T09:31:23.304000+00:00"
   },
   {
    "id": "123jpnbcxn7",
@@ -367,31 +352,31 @@
    "id": "123jpnbcxna",
    "nome": "[Raevo] Preparar grupo, descrição, convite e mensagem de entrada — Atendimento Organizado",
    "url": "https://app.clickup.com/t/123jpnbcxna",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#8a817c",
+   "estado": "feito",
+   "status": "finalizada",
+   "cor": "#008844",
    "responsaveis": [
     "Alysson Oliveira"
    ],
    "prazo": "2026-10-16",
    "lista": "WhatsApp: Números & Infraestrutura",
    "pai": null,
-   "atualizado": "2026-10-19T22:32:46.112000+01:00"
+   "atualizado": "2026-11-23T09:26:33.858000+00:00"
   },
   {
    "id": "123jpnbcxnb",
    "nome": "[Raevo] Planejar a sequência de aquecimento do WhatsApp — Atendimento Organizado",
    "url": "https://app.clickup.com/t/123jpnbcxnb",
-   "estado": "pendente",
-   "status": "to do",
-   "cor": "#87909e",
+   "estado": "feito",
+   "status": "complete",
+   "cor": "#008844",
    "responsaveis": [
     "Alysson Oliveira"
    ],
    "prazo": "2026-10-16",
    "lista": "Scripts & Playbooks",
    "pai": null,
-   "atualizado": "2026-11-23T09:06:20.511000+00:00"
+   "atualizado": "2026-11-23T09:34:46.684000+00:00"
   },
   {
    "id": "123jpnbe833",
@@ -428,9 +413,9 @@
    "id": "123jpnbcxn3",
    "nome": "[Raevo] Selecionar e organizar estudos de caso — Atendimento Organizado",
    "url": "https://app.clickup.com/t/123jpnbcxn3",
-   "estado": "em curso",
-   "status": "planejameto",
-   "cor": "#1090e0",
+   "estado": "feito",
+   "status": "concluído",
+   "cor": "#008844",
    "responsaveis": [
     "Thiago Viana",
     "Alysson Oliveira"
@@ -438,7 +423,7 @@
    "prazo": "2026-10-16",
    "lista": "Produção de Conteúdo",
    "pai": null,
-   "atualizado": "2026-10-19T22:32:31.029000+01:00"
+   "atualizado": "2026-11-23T09:34:45.769000+00:00"
   },
   {
    "id": "123jpnbd91n",
@@ -560,7 +545,7 @@
    "prazo": "2026-11-24",
    "lista": "Relatórios",
    "pai": null,
-   "atualizado": "2026-11-23T09:04:09.183000+00:00"
+   "atualizado": "2026-11-23T09:36:32.862000+00:00"
   },
   {
    "id": "123jpnbcxnq",
@@ -622,7 +607,7 @@
    {
     "id": "G1",
     "quando": "2026-11-23T10:00:00+00:00",
-    "estado": "agendada",
+    "estado": "enviada",
     "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\n\nPessoal, na quinta-feira, às 13h (10h no Brasil), vou mostrar como uma clínica passou de não medir nada a saber exatamente quantos contactos se tornam consulta e qual é a próxima decisão.\n\nAntes, quando alguém pedia o valor e dizia que ia pensar, isso não ficava registado em lado nenhum. Para retomar, era preciso procurar a conversa no WhatsApp. E ninguém sabia dizer quantos contactos chegavam à marcação.\n\nDepois de cada contacto ganhar uma etapa, um responsável e um próximo passo, a secretária passou a:\n\n• responder primeiro a quem tinha mandado mensagem\n• retomar, etapa a etapa, quem recebeu o valor e ainda não marcou\n• saber, sem depender da memória, quem estava à espera de retorno\n\nE a clínica passou a ver os números: 77% dos contactos encerrados tornaram-se consulta. Com isso, sabe que o atendimento converte bem e que o próximo passo é trazer mais contactos.\n\nNa quinta-feira, às 13h (10h no Brasil), vou abrir uma aula ao vivo a mostrar esta estrutura.\n\nO link será enviado aqui no grupo.",
     "imagens": 1
    },
@@ -630,7 +615,7 @@
     "id": "GT1",
     "quando": "2026-11-24T12:00:00+00:00",
     "estado": "agendada",
-    "texto": "*Quinta-feira, às 13h (10h no Brasil), aula ao vivo* 🟢\n\nUma clínica que acompanhamos passou a ver isto: 77% dos contactos encerrados tornaram-se consulta.\n\nNão foi com mais anúncios. Foi a dar a cada contacto uma etapa, um responsável e um próximo passo.\n\nNa quinta mostro como montar isso na vossa clínica, com a procura que já têm.\n\n⏰ Quinta, 13h (10h no Brasil), no Google Meet\n❌ Não fica gravada\n\nFixem este grupo no topo do WhatsApp para não perderem o link.",
+    "texto": "*Quinta-feira, às 13h (10h no Brasil), aula ao vivo* 🟢\n\nUma clínica que acompanhamos passou a ver isto: 77% dos contactos encerrados tornaram-se consulta.\n\nNão foi com mais anúncios. Foi a dar a cada contacto uma etapa, um responsável e um próximo passo.\n\nNa quinta mostro como montar isso na vossa clínica, com a procura que já têm.\n\n⏰ Quinta, 13h (10h no Brasil), no Google Meet\n❌ Não fica gravada\n\nSe fizer sentido, tragam também quem atende o WhatsApp da clínica: vai ser útil para os dois. Não é obrigatório, e quem vier sozinho também aproveita tudo.\n\nFixem este grupo no topo do WhatsApp para não perderem o link.",
     "imagens": 0
    },
    {
@@ -651,7 +636,7 @@
     "id": "G4",
     "quando": "2026-11-25T21:00:00+00:00",
     "estado": "agendada",
-    "texto": "Amanhã, às 13h (10h no Brasil), vou mostrar na prática como organizar o atendimento da clínica desde o primeiro contacto até à marcação.\n\nVou mostrar:\n\n• Como tornar visível o que acontece depois de o contacto chegar.\n• Como a equipa participa na mudança sem precisar de perceber de tecnologia.\n• Como encaixar isto na rotina real da clínica.\n• Que métricas acompanhar em cada etapa.\n\nNão é preciso mais procura para começar. É preciso ver o que acontece à que já chega.\n\n⏰ Até amanhã, às 13h (10h no Brasil).",
+    "texto": "Amanhã, às 13h (10h no Brasil), vou mostrar na prática como organizar o atendimento da clínica desde o primeiro contacto até à marcação.\n\nVou mostrar:\n\n• Como tornar visível o que acontece depois de o contacto chegar.\n• Como a equipa participa na mudança sem precisar de perceber de tecnologia.\n• Como encaixar isto na rotina real da clínica.\n• Que métricas acompanhar em cada etapa.\n\nNão é preciso mais procura para começar. É preciso ver o que acontece à que já chega.\n\nSe fizer sentido, tragam também quem atende o WhatsApp da clínica: vai ser útil para os dois. Não é obrigatório, e quem vier sozinho também aproveita tudo.\n\n⏰ Até amanhã, às 13h (10h no Brasil).",
     "imagens": 0
    },
    {
@@ -730,20 +715,27 @@
     "estado": "agendada",
     "texto": "*Pergunta rápida para a semana* 👇\n\nOnde é que a vossa clínica perde mais contactos?\n\n1️⃣ A mensagem chega e demora a ter resposta\n2️⃣ A conversa fica a meio, sem ninguém responsável por ela\n3️⃣ A pessoa diz \"vou pensar\" e ninguém volta a falar com ela\n\nRespondam só com o número. Na quinta, às 13h (10h no Brasil), mostro o que fazer em cada um dos casos.",
     "imagens": 0
+   },
+   {
+    "id": "G1",
+    "quando": "2026-11-30T10:00:00+00:00",
+    "estado": "agendada",
+    "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\n\nPessoal, na quinta-feira, às 13h (10h no Brasil), vou mostrar como uma clínica passou de não medir nada a saber exatamente quantos contactos se tornam consulta e qual é a próxima decisão.\n\nAntes, quando alguém pedia o valor e dizia que ia pensar, isso não ficava registado em lado nenhum. Para retomar, era preciso procurar a conversa no WhatsApp. E ninguém sabia dizer quantos contactos chegavam à marcação.\n\nDepois de cada contacto ganhar uma etapa, um responsável e um próximo passo, a secretária passou a:\n\n• responder primeiro a quem tinha mandado mensagem\n• retomar, etapa a etapa, quem recebeu o valor e ainda não marcou\n• saber, sem depender da memória, quem estava à espera de retorno\n\nE a clínica passou a ver os números: 77% dos contactos encerrados tornaram-se consulta. Com isso, sabe que o atendimento converte bem e que o próximo passo é trazer mais contactos.\n\nNa quinta-feira, às 13h (10h no Brasil), vou abrir uma aula ao vivo a mostrar esta estrutura.\n\nO link será enviado aqui no grupo.",
+    "imagens": 1
    }
   ],
   "ultimos_registos": [
-   "2026-11-19 12:00 ENVIADA G7: id 120279",
    "2026-11-19 12:40 ENVIADA G8: id 120357",
    "2026-11-19 12:55 ENVIADA G9: id 120378",
    "2026-11-19 13:05 ENVIADA G10: id 120390",
    "2026-11-19 13:15 ENVIADA G11: id 120400",
-   "2026-11-19 16:01 ENVIADA GP1: id 120746"
+   "2026-11-19 16:01 ENVIADA GP1: id 120746",
+   "2026-11-23 10:01 ENVIADA G1: id 123740"
   ]
  },
  "timer": {
-  "id": "123jpnbcxnb",
-  "nome": "[Raevo] Planejar a sequência de aquecimento do WhatsApp — Atendimento Organizado",
-  "desde": "2026-11-23T09:03+00:00"
+  "id": "123jpnbfhr3",
+  "nome": "[Raevo] Claude a agir em nome do Alysson (conectores, responsáveis por omissão)",
+  "desde": "2026-11-23T10:00+00:00"
  }
 }
