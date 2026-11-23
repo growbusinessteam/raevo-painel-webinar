@@ -1,50 +1,134 @@
 {
  "_leia": "Prioridades e próximos passos do webinar. Curado pelo Claude ou pelo Codex depois de cada conversa. 'ordem' 1 = mais urgente. 'claude' = o que o Claude consegue fazer sozinho (o painel mostra um botão para pedir). 'fechar' = proposta de dar a tarefa como feita.",
- "revisto_em": "2026-11-20",
+ "revisto_em": "2026-11-23",
  "tarefas": [
-  {"id": "123jpnbf95t", "ordem": 1, "quem": "Alysson", "prazo": "2026-11-25",
+  {
+   "id": "123jpnbf95t",
+   "ordem": 1,
+   "quem": "Alysson",
+   "prazo": "2026-11-25",
    "proximo": "Ensaiar a demonstração, testar a agenda e as 2 perguntas de encaixe, conferir a duração anunciada.",
-   "claude": "Preparar um guião de ensaio de 10 minutos a partir do roteiro v5 e testar o link da agenda."},
-  {"id": "123jpnbf95v", "ordem": 2, "quem": "Alysson", "prazo": "2026-11-23",
+   "claude": "Preparar um guião de ensaio de 10 minutos a partir do roteiro v5 e testar o link da agenda."
+  },
+  {
+   "id": "123jpnbf95v",
+   "ordem": 2,
+   "quem": "Alysson",
+   "prazo": "2026-11-23",
    "proximo": "Gravar o anúncio R1 (ecrã do grupo) seguindo o guia de gravação.",
-   "claude": "Editar o R1 depois de gravado: cortar pausas, legendar e exportar as 2 aberturas."},
-  {"id": "123jpnbcxnp", "ordem": 3, "quem": "Alysson", "prazo": "2026-11-24",
+   "claude": "Editar o R1 depois de gravado: cortar pausas, legendar e exportar as 2 aberturas."
+  },
+  {
+   "id": "123jpnbcxnp",
+   "ordem": 3,
+   "quem": "Alysson",
+   "prazo": "2026-11-24",
    "proximo": "Ler e aprovar o resumo da semana antes da reunião de terça, 10h30.",
-   "claude": "Juntar CRM, ClickUp e números dos anúncios e escrever o resumo da semana na tarefa."},
-  {"id": "123jpnbcxng", "ordem": 4, "quem": "Alysson", "prazo": "2026-11-22",
+   "claude": "Juntar CRM, ClickUp e números dos anúncios e escrever o resumo da semana na tarefa."
+  },
+  {
+   "id": "123jpnbcxng",
+   "ordem": 4,
+   "quem": "Alysson",
+   "prazo": "2026-11-24",
    "proximo": "Decidir o que continua depois do piloto de 28 dias.",
-   "claude": "Rascunhar a avaliação do piloto de 28 dias (o que publicou, o que trouxe) para decidir."},
-  {"id": "123jpnbf95q", "ordem": 5, "quem": "Alysson", "prazo": "2026-11-27",
+   "claude": "Rascunhar a avaliação do piloto de 28 dias (o que publicou, o que trouxe) para decidir."
+  },
+  {
+   "id": "123jpnbf95q",
+   "ordem": 5,
+   "quem": "Alysson",
+   "prazo": "2026-11-27",
    "proximo": "Depois da aula de 26/11: escolher a próxima melhoria do funil.",
-   "claude": "Medir inscrições, presença, reuniões e propostas por edição e sugerir uma melhoria."},
-  {"id": "123jpnbeb5u", "ordem": 6, "quem": "Pedro", "prazo": "2026-11-23",
+   "claude": "Medir inscrições, presença, reuniões e propostas por edição e sugerir uma melhoria."
+  },
+  {
+   "id": "123jpnbeb5u",
+   "ordem": 6,
+   "quem": "Pedro",
+   "prazo": "2026-11-23",
    "proximo": "Publicar na Hostinger o PHP do formulário, reenviar o lead de teste e mapear a pergunta para o campo do funil.",
-   "claude": null},
-  {"id": "123jpnbfch0", "ordem": 7, "quem": "Thiago", "prazo": "2026-11-24",
+   "claude": null
+  },
+  {
+   "id": "123jpnbfch0",
+   "ordem": 7,
+   "quem": "Thiago",
+   "prazo": "2026-11-24",
    "proximo": "Encontrar o vídeo-depoimento da Guilhermina e anexar ao case.",
-   "claude": null},
-  {"id": "123jpnbfcdt", "ordem": 8, "quem": "Thiago", "prazo": "2026-11-24",
+   "claude": null
+  },
+  {
+   "id": "123jpnbfcdt",
+   "ordem": 8,
+   "quem": "Thiago",
+   "prazo": "2026-11-24",
    "proximo": "Confirmar se o case do Espaço Otorrino (slide 02b) basta ou se falta depoimento.",
-   "claude": null},
-  {"id": "123jpnbd91n", "ordem": 9, "quem": "Henrique", "prazo": "2026-11-24",
+   "claude": null
+  },
+  {
+   "id": "123jpnbd91n",
+   "ordem": 9,
+   "quem": "Henrique",
+   "prazo": "2026-11-24",
    "proximo": "Números da semana (visitas, leads, custo) até segunda, para o resumo de terça.",
-   "claude": null},
-  {"id": "123jpnbcxn7", "ordem": 10, "quem": "Thiago", "prazo": "2026-11-27",
+   "claude": null
+  },
+  {
+   "id": "123jpnbcxn7",
+   "ordem": 10,
+   "quem": "Thiago",
+   "prazo": "2026-11-27",
    "proximo": "Dizer se a identificação de origem já está testada ou o que falta.",
-   "claude": null},
-  {"id": "123jpnbf2kw", "ordem": 11, "quem": "Thiago", "prazo": "2026-12-03",
+   "claude": null
+  },
+  {
+   "id": "123jpnbf2kw",
+   "ordem": 11,
+   "quem": "Thiago",
+   "prazo": "2026-12-03",
    "proximo": "Montar as 2 telas (antes e depois) depois das peças prioritárias.",
-   "claude": null},
-  {"id": "123jpnbcxne", "ordem": 12, "quem": "Thiago", "prazo": "2026-12-04",
+   "claude": null
+  },
+  {
+   "id": "123jpnbcxne",
+   "ordem": 12,
+   "quem": "Thiago",
+   "prazo": "2026-12-04",
    "proximo": "Acrescentar investimento e custo por lead a este painel.",
-   "claude": "Ligar os números de anúncios ao painel, se o Henrique partilhar a fonte."},
-  {"id": "123jpnbf5n4", "fechar": "Peça 1 publicada em 20/11 (agendada no Raevo OS)."},
-  {"id": "123jpnbf95p", "fechar": "Item concluído em 18/11 (comentário na tarefa)."},
-  {"id": "123jpnbf95r", "fechar": "LP publicada e corrigida em 19/11."},
-  {"id": "123jpnbf95u", "fechar": "Revisão opcional; o Pedro já deu feedback."},
-  {"id": "123jpnbcxna", "fechar": "Grupo pronto e a receber pessoas."},
-  {"id": "123jpnbcxnb", "fechar": "Sequência escrita e a ser enviada sozinha toda semana."},
-  {"id": "123jpnbcxn3", "fechar": "Substituída pelos cases da Guilhermina e do Espaço Otorrino."},
-  {"id": "123jpnbcxn6", "fechar": "Quadro WEBINAR do CRM em uso (confirmar com o Thiago)."}
+   "claude": "Ligar os números de anúncios ao painel, se o Henrique partilhar a fonte."
+  },
+  {
+   "id": "123jpnbf5n4",
+   "fechar": "Peça 1 publicada em 20/11 (agendada no Raevo OS)."
+  },
+  {
+   "id": "123jpnbf95p",
+   "fechar": "Item concluído em 18/11 (comentário na tarefa)."
+  },
+  {
+   "id": "123jpnbf95r",
+   "fechar": "LP publicada e corrigida em 19/11."
+  },
+  {
+   "id": "123jpnbf95u",
+   "fechar": "Revisão opcional; o Pedro já deu feedback."
+  },
+  {
+   "id": "123jpnbcxna",
+   "fechar": "Grupo pronto e a receber pessoas."
+  },
+  {
+   "id": "123jpnbcxnb",
+   "fechar": "Sequência escrita e a ser enviada sozinha toda semana."
+  },
+  {
+   "id": "123jpnbcxn3",
+   "fechar": "Substituída pelos cases da Guilhermina e do Espaço Otorrino."
+  },
+  {
+   "id": "123jpnbcxn6",
+   "fechar": "Quadro WEBINAR do CRM em uso (confirmar com o Thiago)."
+  }
  ]
 }
