@@ -3,8 +3,16 @@
  "revisto_em": "2026-11-23",
  "tarefas": [
   {
-   "id": "123jpnbf95t",
+   "id": "123jpnbfj8w",
    "ordem": 1,
+   "quem": "Alysson",
+   "prazo": "2026-11-27",
+   "proximo": "Na sexta, ver no painel quantos convidados disseram sim, entraram no grupo e marcaram diagnóstico, e decidir se o canal continua.",
+   "claude": "Contar os resultados por grupo e trazer a recomendação."
+  },
+  {
+   "id": "123jpnbf95t",
+   "ordem": 2,
    "quem": "Alysson",
    "prazo": "2026-11-25",
    "proximo": "Ensaiar a demonstração, testar a agenda e as 2 perguntas de encaixe, conferir a duração anunciada.",
@@ -12,7 +20,7 @@
   },
   {
    "id": "123jpnbfea2",
-   "ordem": 2,
+   "ordem": 3,
    "quem": "Thiago",
    "prazo": "2026-11-24",
    "proximo": "Terminar a edição do R1 (anúncio do grupo) e anexar o MP4 final na tarefa.",
@@ -20,7 +28,7 @@
   },
   {
    "id": "123jpnbfeb9",
-   "ordem": 3,
+   "ordem": 4,
    "quem": "Thiago",
    "prazo": "2026-11-24",
    "proximo": "Exportar as 8 versões do R2 (aula de quinta) e anexar os MP4 na tarefa.",
@@ -28,7 +36,7 @@
   },
   {
    "id": "123jpnbffbj",
-   "ordem": 4,
+   "ordem": 5,
    "quem": "Henrique",
    "prazo": "2026-11-27",
    "proximo": "Subir R1 e R2 assim que os MP4 estiverem anexados e comentar o 1.º relatório de 3–4 dias.",
@@ -36,7 +44,7 @@
   },
   {
    "id": "123jpnbcxnp",
-   "ordem": 5,
+   "ordem": 6,
    "quem": "Alysson",
    "prazo": "2026-11-24",
    "proximo": "Ler e aprovar o resumo da semana antes da reunião de terça, 10h30.",
@@ -44,7 +52,7 @@
   },
   {
    "id": "123jpnbcxng",
-   "ordem": 6,
+   "ordem": 7,
    "quem": "Alysson",
    "prazo": "2026-11-24",
    "proximo": "Decidir o que continua depois do piloto de 28 dias.",
@@ -52,7 +60,7 @@
   },
   {
    "id": "123jpnbf95q",
-   "ordem": 7,
+   "ordem": 8,
    "quem": "Alysson",
    "prazo": "2026-11-27",
    "proximo": "Na sexta depois da aula: ver em que etapa se perde mais gente (inscritos → grupo → presentes → diagnóstico → proposta) e escolher 1 coisa para melhorar.",
@@ -60,7 +68,7 @@
   },
   {
    "id": "123jpnbeb5u",
-   "ordem": 8,
+   "ordem": 9,
    "quem": "Pedro",
    "prazo": "2026-11-23",
    "proximo": "Publicar na Hostinger o PHP do formulário, reenviar o lead de teste e mapear a pergunta para o campo do funil.",
@@ -68,7 +76,7 @@
   },
   {
    "id": "123jpnbfch0",
-   "ordem": 9,
+   "ordem": 10,
    "quem": "Thiago",
    "prazo": "2026-11-24",
    "proximo": "Encontrar o vídeo-depoimento da Guilhermina e anexar ao case.",
@@ -76,7 +84,7 @@
   },
   {
    "id": "123jpnbfcdt",
-   "ordem": 10,
+   "ordem": 11,
    "quem": "Thiago",
    "prazo": "2026-11-24",
    "proximo": "Confirmar se o case do Espaço Otorrino (slide 02b) basta ou se falta depoimento.",
@@ -84,7 +92,7 @@
   },
   {
    "id": "123jpnbd91n",
-   "ordem": 11,
+   "ordem": 12,
    "quem": "Henrique",
    "prazo": "2026-11-24",
    "proximo": "Comentar os números da semana 16–22/11: gasto, visitas à página, inscrições e custo por inscrição (Portugal e Brasil), e o gasto total desde 19/10.",
@@ -92,7 +100,7 @@
   },
   {
    "id": "123jpnbcxn7",
-   "ordem": 12,
+   "ordem": 13,
    "quem": "Thiago",
    "prazo": "2026-11-27",
    "proximo": "Dizer se a identificação de origem já está testada ou o que falta.",
@@ -100,7 +108,7 @@
   },
   {
    "id": "123jpnbf2kw",
-   "ordem": 13,
+   "ordem": 14,
    "quem": "Thiago",
    "prazo": "2026-12-03",
    "proximo": "Montar as 2 telas (antes e depois) depois das peças prioritárias.",
@@ -108,7 +116,7 @@
   },
   {
    "id": "123jpnbcxne",
-   "ordem": 14,
+   "ordem": 15,
    "quem": "Thiago",
    "prazo": "2026-12-04",
    "proximo": "Acrescentar investimento e custo por lead a este painel.",
