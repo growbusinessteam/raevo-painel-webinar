@@ -1,29 +1,100 @@
 {
-  "aula": {"dia_semana": 3, "hora": "13:00", "fuso": "Europe/Lisbon", "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"},
+  "aula": {
+    "dia_semana": 3,
+    "hora": "13:00",
+    "fuso": "Europe/Lisbon",
+    "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
+  },
   "crm_quadro_webinar": 2,
   "clickup_tarefas": [
-    "123jpnbcxnv", "123jpnbcxmz", "123jpnbcxng", "123jpnbeett", "123jpnbf95m",
-    "123jpnbcxnd", "123jpnbeb5u", "123jpnbcxn6", "123jpnbcxn7",
-    "123jpnbcxna", "123jpnbcxnb", "123jpnbe833",
-    "123jpnbcxnj", "123jpnbcxn3",
-    "123jpnbd91n", "123jpnbf105", "123jpnbcxnh", "123jpnbevq5", "123jpnbf2kw", "123jpnbf5n4",
-    "123jpnbcxne", "123jpnbcxnp", "123jpnbcxnq"
+    "123jpnbcxnv",
+    "123jpnbcxmz",
+    "123jpnbcxng",
+    "123jpnbeett",
+    "123jpnbf95m",
+    "123jpnbcxnd",
+    "123jpnbeb5u",
+    "123jpnbcxn6",
+    "123jpnbcxn7",
+    "123jpnbcxna",
+    "123jpnbcxnb",
+    "123jpnbe833",
+    "123jpnbcxnj",
+    "123jpnbcxn3",
+    "123jpnbd91n",
+    "123jpnbf105",
+    "123jpnbcxnh",
+    "123jpnbevq5",
+    "123jpnbf2kw",
+    "123jpnbf5n4",
+    "123jpnbcxne",
+    "123jpnbcxnp",
+    "123jpnbcxnq",
+    "123jpnbffbj"
   ],
   "links": [
-    {"grupo": "Aula", "nome": "Sala da aula (Google Meet)", "url": "https://meet.google.com/ehy-eymf-bpj"},
-    {"grupo": "Aula", "nome": "Vídeo de recuperação (YouTube)", "url": "https://youtu.be/yyNTtEvTo_E"},
-    {"grupo": "Captação", "nome": "Página de inscrição", "url": "https://raevo.io/webinar-atendimento-organizado/"},
-    {"grupo": "Captação", "nome": "Página de obrigado", "url": "https://raevo.io/webinar-atendimento-organizado/obrigado/"},
-    {"grupo": "Captação", "nome": "Grupo do WhatsApp (convite)", "url": "https://chat.whatsapp.com/DXya5we7sNfA6TxFfbokzF"},
-    {"grupo": "Gestão", "nome": "CRM Raevo · quadro WEBINAR", "url": "https://crm.raevo.io/app/accounts/1/kanban/2"},
-    {"grupo": "Gestão", "nome": "Miro · webinar Raevo", "url": "https://miro.com/app/board/uXjVEcjrCG8=/"},
-    {"grupo": "Gestão", "nome": "Miro · mensagens prontas", "url": "https://miro.com/app/board/uXjVEcjrCG8=/?moveToWidget=3458764689021855083"},
-    {"grupo": "Gestão", "nome": "Agenda para diagnóstico", "url": "https://calendar.app.google/YFMYeedXmhQ6qmNFA"}
+    {
+      "grupo": "Aula",
+      "nome": "Sala da aula (Google Meet)",
+      "url": "https://meet.google.com/ehy-eymf-bpj"
+    },
+    {
+      "grupo": "Aula",
+      "nome": "Vídeo de recuperação (YouTube)",
+      "url": "https://youtu.be/yyNTtEvTo_E"
+    },
+    {
+      "grupo": "Captação",
+      "nome": "Página de inscrição",
+      "url": "https://raevo.io/webinar-atendimento-organizado/"
+    },
+    {
+      "grupo": "Captação",
+      "nome": "Página de obrigado",
+      "url": "https://raevo.io/webinar-atendimento-organizado/obrigado/"
+    },
+    {
+      "grupo": "Captação",
+      "nome": "Grupo do WhatsApp (convite)",
+      "url": "https://chat.whatsapp.com/DXya5we7sNfA6TxFfbokzF"
+    },
+    {
+      "grupo": "Gestão",
+      "nome": "CRM Raevo · quadro WEBINAR",
+      "url": "https://crm.raevo.io/app/accounts/1/kanban/2"
+    },
+    {
+      "grupo": "Gestão",
+      "nome": "Miro · webinar Raevo",
+      "url": "https://miro.com/app/board/uXjVEcjrCG8=/"
+    },
+    {
+      "grupo": "Gestão",
+      "nome": "Miro · mensagens prontas",
+      "url": "https://miro.com/app/board/uXjVEcjrCG8=/?moveToWidget=3458764689021855083"
+    },
+    {
+      "grupo": "Gestão",
+      "nome": "Agenda para diagnóstico",
+      "url": "https://calendar.app.google/YFMYeedXmhQ6qmNFA"
+    }
   ],
   "documentos": [
-    {"nome": "Roteiro da aula ao vivo · v5", "origem": "/Users/adm/Documents/Comercial/outputs/curso-perfect-webinar/roteiro-apresentacao-ao-vivo-raevo-v5.md", "destino": "docs/roteiro-aula-v5.md"},
-    {"nome": "Guia do apresentador · v5 (PDF)", "origem": "/Users/adm/Documents/Comercial/outputs/curso-perfect-webinar/guia-apresentador-webinar-raevo-v5.pdf", "destino": "docs/guia-apresentador-v5.pdf"},
-    {"nome": "Mensagens de grupo e privado (base)", "origem": "/Users/adm/Documents/Comercial/outputs/curso-perfect-webinar/mensagens-pre-webinar-grupo-privado-v1.md", "destino": "docs/mensagens-grupo-privado.md"}
+    {
+      "nome": "Roteiro da aula ao vivo · v5",
+      "origem": "/Users/adm/Documents/Comercial/outputs/curso-perfect-webinar/roteiro-apresentacao-ao-vivo-raevo-v5.md",
+      "destino": "docs/roteiro-aula-v5.md"
+    },
+    {
+      "nome": "Guia do apresentador · v5 (PDF)",
+      "origem": "/Users/adm/Documents/Comercial/outputs/curso-perfect-webinar/guia-apresentador-webinar-raevo-v5.pdf",
+      "destino": "docs/guia-apresentador-v5.pdf"
+    },
+    {
+      "nome": "Mensagens de grupo e privado (base)",
+      "origem": "/Users/adm/Documents/Comercial/outputs/curso-perfect-webinar/mensagens-pre-webinar-grupo-privado-v1.md",
+      "destino": "docs/mensagens-grupo-privado.md"
+    }
   ],
   "aquecimento_pasta": "/Users/adm/Library/Application Support/raevo-webinar-aquecimento"
 }

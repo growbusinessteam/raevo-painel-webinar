@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-23T08:37+00:00",
+ "gerado_em": "2026-11-23T09:04+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -148,7 +148,7 @@
    "prazo": "2026-11-24",
    "lista": "Planejamento & Cronograma",
    "pai": null,
-   "atualizado": "2026-11-23T08:36:39.382000+00:00"
+   "atualizado": "2026-11-23T09:04:11.575000+00:00"
   },
   {
    "id": "123jpnbeett",
@@ -208,7 +208,7 @@
    "prazo": "2026-11-27",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T08:36:41.023000+00:00"
+   "atualizado": "2026-11-23T09:04:13.707000+00:00"
   },
   {
    "id": "123jpnbf95r",
@@ -238,7 +238,7 @@
    "prazo": "2026-11-25",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T08:36:24.932000+00:00"
+   "atualizado": "2026-11-23T09:04:03.188000+00:00"
   },
   {
    "id": "123jpnbf95u",
@@ -284,7 +284,7 @@
    "prazo": "2026-11-24",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T08:36:46.029000+00:00"
+   "atualizado": "2026-11-23T09:04:19.690000+00:00"
   },
   {
    "id": "123jpnbfch0",
@@ -299,7 +299,7 @@
    "prazo": "2026-11-24",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T08:36:43.834000+00:00"
+   "atualizado": "2026-11-23T09:04:17.569000+00:00"
   },
   {
    "id": "123jpnbcxnd",
@@ -329,7 +329,7 @@
    "prazo": "2026-11-23",
    "lista": "Desenvolvimento & Melhorias Produtos/Serviços",
    "pai": null,
-   "atualizado": "2026-11-23T08:36:42.304000+00:00"
+   "atualizado": "2026-11-23T09:04:14.950000+00:00"
   },
   {
    "id": "123jpnbcxn6",
@@ -361,7 +361,7 @@
    "prazo": "2026-11-27",
    "lista": "Trackeamento & Dashboards",
    "pai": null,
-   "atualizado": "2026-11-23T08:37:00.002000+00:00"
+   "atualizado": "2026-11-23T09:04:23.083000+00:00"
   },
   {
    "id": "123jpnbcxna",
@@ -391,7 +391,7 @@
    "prazo": "2026-10-16",
    "lista": "Scripts & Playbooks",
    "pai": null,
-   "atualizado": "2026-11-23T08:34:54.105000+00:00"
+   "atualizado": "2026-11-23T09:03:13.077000+00:00"
   },
   {
    "id": "123jpnbe833",
@@ -453,7 +453,7 @@
    "prazo": "2026-11-24",
    "lista": "Gestão de Campanhas",
    "pai": null,
-   "atualizado": "2026-11-23T08:36:58.581000+00:00"
+   "atualizado": "2026-11-23T09:04:20.967000+00:00"
   },
   {
    "id": "123jpnbf105",
@@ -515,7 +515,7 @@
    "prazo": "2026-12-03",
    "lista": "Produção de Conteúdo",
    "pai": null,
-   "atualizado": "2026-11-23T08:37:02.908000+00:00"
+   "atualizado": "2026-11-23T09:04:24.683000+00:00"
   },
   {
    "id": "123jpnbf5n4",
@@ -545,7 +545,7 @@
    "prazo": "2026-12-04",
    "lista": "Trackeamento & Dashboards",
    "pai": null,
-   "atualizado": "2026-11-23T08:37:03.911000+00:00"
+   "atualizado": "2026-11-23T09:04:27.094000+00:00"
   },
   {
    "id": "123jpnbcxnp",
@@ -557,10 +557,10 @@
    "responsaveis": [
     "Alysson Oliveira"
    ],
-   "prazo": "2027-01-08",
+   "prazo": "2026-11-24",
    "lista": "Relatórios",
    "pai": null,
-   "atualizado": "2026-11-23T08:37:04.168000+00:00"
+   "atualizado": "2026-11-23T09:04:09.183000+00:00"
   },
   {
    "id": "123jpnbcxnq",
@@ -578,17 +578,60 @@
    "lista": "Relatórios",
    "pai": null,
    "atualizado": "2026-10-19T22:33:06.426000+01:00"
+  },
+  {
+   "id": "123jpnbffbj",
+   "nome": "[Raevo] Subir e otimizar os anúncios R1 e R2 do webinar (teste de ganchos) + medir o funil",
+   "url": "https://app.clickup.com/t/123jpnbffbj",
+   "estado": "pendente",
+   "status": "backlog",
+   "cor": "#87909e",
+   "responsaveis": [
+    "Henrique Mocellin Barbosa"
+   ],
+   "prazo": "2026-11-27",
+   "lista": "Planejamento & Cronograma",
+   "pai": null,
+   "atualizado": "2026-11-23T09:04:07.326000+00:00"
   }
  ],
  "aquecimento": {
   "pausado": false,
   "mensagens": [
    {
+    "id": "GS1",
+    "quando": "2026-11-20T12:00:00+00:00",
+    "estado": "não saiu",
+    "texto": "*Para quem não conseguiu estar ontem* 👇\n\nNa aula mostrei as 3 passagens onde a clínica perde pacientes sem dar por isso:\n\n1. Primeira resposta: a mensagem chega e ninguém sabe se ainda está à espera\n2. Continuidade: a conversa fica sem dono e sem próximo passo\n3. Retomada: a pessoa diz \"vou pensar\" e ninguém volta a falar com ela\n\nSe quiserem ver em qual delas a vossa clínica está a perder mais, marquem aqui uma análise individual, sem custo:\nhttps://calendar.app.google/YFMYeedXmhQ6qmNFA",
+    "imagens": 0
+   },
+   {
+    "id": "GSa1",
+    "quando": "2026-11-21T11:00:00+00:00",
+    "estado": "não saiu",
+    "texto": "*Teste de 5 minutos para fazer hoje* ⏱️\n\nAbram o WhatsApp da clínica e contem:\n\n→ quantas pessoas pediram o valor esta semana\n→ quantas dessas marcaram\n→ quantas ficaram sem resposta depois do \"vou pensar\"\n\nSe o terceiro número não for zero, há pacientes à espera de alguém que volte a falar com eles.\n\nRespondam aqui com o número que encontraram 👇",
+    "imagens": 0
+   },
+   {
+    "id": "GD1",
+    "quando": "2026-11-22T19:00:00+00:00",
+    "estado": "não saiu",
+    "texto": "*Pergunta rápida para a semana* 👇\n\nOnde é que a vossa clínica perde mais contactos?\n\n1️⃣ A mensagem chega e demora a ter resposta\n2️⃣ A conversa fica a meio, sem ninguém responsável por ela\n3️⃣ A pessoa diz \"vou pensar\" e ninguém volta a falar com ela\n\nRespondam só com o número. Na quinta, às 13h (10h no Brasil), mostro o que fazer em cada um dos casos.",
+    "imagens": 0
+   },
+   {
     "id": "G1",
     "quando": "2026-11-23T10:00:00+00:00",
     "estado": "agendada",
     "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\n\nPessoal, na quinta-feira, às 13h (10h no Brasil), vou mostrar como uma clínica passou de não medir nada a saber exatamente quantos contactos se tornam consulta e qual é a próxima decisão.\n\nAntes, quando alguém pedia o valor e dizia que ia pensar, isso não ficava registado em lado nenhum. Para retomar, era preciso procurar a conversa no WhatsApp. E ninguém sabia dizer quantos contactos chegavam à marcação.\n\nDepois de cada contacto ganhar uma etapa, um responsável e um próximo passo, a secretária passou a:\n\n• responder primeiro a quem tinha mandado mensagem\n• retomar, etapa a etapa, quem recebeu o valor e ainda não marcou\n• saber, sem depender da memória, quem estava à espera de retorno\n\nE a clínica passou a ver os números: 77% dos contactos encerrados tornaram-se consulta. Com isso, sabe que o atendimento converte bem e que o próximo passo é trazer mais contactos.\n\nNa quinta-feira, às 13h (10h no Brasil), vou abrir uma aula ao vivo a mostrar esta estrutura.\n\nO link será enviado aqui no grupo.",
     "imagens": 1
+   },
+   {
+    "id": "GT1",
+    "quando": "2026-11-24T12:00:00+00:00",
+    "estado": "agendada",
+    "texto": "*Quinta-feira, às 13h (10h no Brasil), aula ao vivo* 🟢\n\nUma clínica que acompanhamos passou a ver isto: 77% dos contactos encerrados tornaram-se consulta.\n\nNão foi com mais anúncios. Foi a dar a cada contacto uma etapa, um responsável e um próximo passo.\n\nNa quinta mostro como montar isso na vossa clínica, com a procura que já têm.\n\n⏰ Quinta, 13h (10h no Brasil), no Google Meet\n❌ Não fica gravada\n\nFixem este grupo no topo do WhatsApp para não perderem o link.",
+    "imagens": 0
    },
    {
     "id": "G2",
@@ -666,6 +709,27 @@
     "estado": "agendada",
     "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta. É isto que acontece quando cada contacto tem uma etapa, um responsável e um próximo passo.\n\nHoje fiz a aula ao vivo sobre o caminho do primeiro contacto até à marcação na clínica.\n\nE se não conseguiu assistir, separei um vídeo curto que resume toda a estrutura.\n\nNo vídeo mostro:\n• Como mapear o caminho do primeiro contacto até à marcação\n• Em que etapas os contactos costumam ficar parados\n• Que métricas acompanhar em cada passagem\n• Como começar a medir na clínica de vocês\n\n📺 Vejam aqui:\nhttps://youtu.be/yyNTtEvTo_E",
     "imagens": 1
+   },
+   {
+    "id": "GS1",
+    "quando": "2026-11-27T12:00:00+00:00",
+    "estado": "agendada",
+    "texto": "*Para quem não conseguiu estar ontem* 👇\n\nNa aula mostrei as 3 passagens onde a clínica perde pacientes sem dar por isso:\n\n1. Primeira resposta: a mensagem chega e ninguém sabe se ainda está à espera\n2. Continuidade: a conversa fica sem dono e sem próximo passo\n3. Retomada: a pessoa diz \"vou pensar\" e ninguém volta a falar com ela\n\nSe quiserem ver em qual delas a vossa clínica está a perder mais, marquem aqui uma análise individual, sem custo:\nhttps://calendar.app.google/YFMYeedXmhQ6qmNFA",
+    "imagens": 0
+   },
+   {
+    "id": "GSa1",
+    "quando": "2026-11-28T11:00:00+00:00",
+    "estado": "agendada",
+    "texto": "*Teste de 5 minutos para fazer hoje* ⏱️\n\nAbram o WhatsApp da clínica e contem:\n\n→ quantas pessoas pediram o valor esta semana\n→ quantas dessas marcaram\n→ quantas ficaram sem resposta depois do \"vou pensar\"\n\nSe o terceiro número não for zero, há pacientes à espera de alguém que volte a falar com eles.\n\nRespondam aqui com o número que encontraram 👇",
+    "imagens": 0
+   },
+   {
+    "id": "GD1",
+    "quando": "2026-11-29T19:00:00+00:00",
+    "estado": "agendada",
+    "texto": "*Pergunta rápida para a semana* 👇\n\nOnde é que a vossa clínica perde mais contactos?\n\n1️⃣ A mensagem chega e demora a ter resposta\n2️⃣ A conversa fica a meio, sem ninguém responsável por ela\n3️⃣ A pessoa diz \"vou pensar\" e ninguém volta a falar com ela\n\nRespondam só com o número. Na quinta, às 13h (10h no Brasil), mostro o que fazer em cada um dos casos.",
+    "imagens": 0
    }
   ],
   "ultimos_registos": [
@@ -678,8 +742,8 @@
   ]
  },
  "timer": {
-  "id": "123jpnbf8jp",
-  "nome": "[Raevo] Comercial: prospecção, ligações, e-mails e follow-ups",
-  "desde": "2026-11-23T08:37+00:00"
+  "id": "123jpnbcxnb",
+  "nome": "[Raevo] Planejar a sequência de aquecimento do WhatsApp — Atendimento Organizado",
+  "desde": "2026-11-23T09:03+00:00"
  }
 }
