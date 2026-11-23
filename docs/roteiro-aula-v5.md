@@ -159,6 +159,8 @@ Versão 5.1 | 19/11/2026 | Formato da aula do Gustavo (Hunter Growth, gravaçõe
 
 > **É gratuito.** Não precisam de pagar nada para ter o diagnóstico.
 
+> Se quiserem, tragam também quem atende o WhatsApp da clínica para a conversa: ajuda os dois a verem a mesma coisa. Não é obrigatório; se vierem sozinhos, funciona na mesma.
+
 > Se fizer sentido para a vossa clínica, na mesma conversa explicamos como a Raevo implementa isto — com o CRM, a configuração e a formação da equipa — e apresentamos a proposta. Se não fizer sentido, saem na mesma com o mapa e a prioridade.
 
 > O link está no chat e fixado. É só escolher o horário e preencher os vossos dados. Abri **oito horários entre hoje e amanhã** — como sou eu que faço cada diagnóstico, não consigo abrir mais do que isso.
