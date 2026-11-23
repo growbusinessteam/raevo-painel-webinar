@@ -113,6 +113,26 @@ def timer():
             "desde": dt.datetime.fromtimestamp(int(d["start"]) / 1000, TZ).isoformat(timespec="minutes")}
 
 
+def convites():
+    """Totais (sem dados pessoais) dos convites da rede para a aula."""
+    pasta = os.path.expanduser("~/Library/Application Support/raevo-convites-rede")
+    lista = json.load(open(os.path.join(pasta, "lista.json")))
+    est = json.load(open(os.path.join(pasta, "estado.json"))) if os.path.exists(os.path.join(pasta, "estado.json")) else {"leads": {}}
+    L = est.get("leads", {})
+    env = [e for e in L.values() if e.get("enviado_ts")]
+    conta = lambda f: sum(1 for e in env if e.get("fim") == f)
+    grupos = {}
+    for x in lista:
+        g = grupos.setdefault(x["grupo"], {"total": 0, "enviados": 0, "sim": 0, "responderam": 0})
+        g["total"] += 1; e = L.get(x["telefone"], {})
+        if e.get("enviado_ts"): g["enviados"] += 1
+        if e.get("fim") in ("sim", "nao", "respondeu"): g["responderam"] += 1
+        if e.get("fim") == "sim": g["sim"] += 1
+    return {"lista": len(lista), "enviados": len(env), "sim": conta("sim"), "nao": conta("nao"),
+            "outras_respostas": conta("respondeu"), "sem_resposta": conta("sem-resposta"),
+            "a_aguardar": sum(1 for e in env if e.get("fim") in (None, "lembrado")), "grupos": grupos}
+
+
 def proxima_aula():
     agora = dt.datetime.now(TZ)
     h, mi = map(int, CFG["aula"]["hora"].split(":"))
@@ -138,7 +158,7 @@ def main():
              "links": CFG["links"],
              "documentos": [{"nome": d["nome"], "caminho": d["destino"]} for d in CFG["documentos"]],
              "erros": []}
-    for nome, fn in (("funil", funil), ("tarefas", tarefas), ("aquecimento", aquecimento), ("timer", timer)):
+    for nome, fn in (("funil", funil), ("tarefas", tarefas), ("aquecimento", aquecimento), ("timer", timer), ("convites", convites)):
         try:
             dados[nome] = fn()
         except Exception as e:

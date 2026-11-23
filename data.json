@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-23T10:09+00:00",
+ "gerado_em": "2026-11-23T12:05+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -133,7 +133,7 @@
    "prazo": "2027-01-19",
    "lista": "Planejamento & Cronograma",
    "pai": null,
-   "atualizado": "2026-10-19T22:32:25.889000+01:00"
+   "atualizado": "2026-11-23T11:50:23.890000+00:00"
   },
   {
    "id": "123jpnbcxng",
@@ -190,25 +190,10 @@
    "responsaveis": [
     "Alysson Oliveira"
    ],
-   "prazo": "2026-11-27",
+   "prazo": "2026-11-25",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T09:04:13.707000+00:00"
-  },
-  {
-   "id": "123jpnbf95r",
-   "nome": "[] 02 · Rever página de inscrição",
-   "url": "https://app.clickup.com/t/123jpnbf95r",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": null,
-   "lista": "Planejamento & Cronograma",
-   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T10:01:46.072000+00:00"
+   "atualizado": "2026-11-23T11:25:56.279000+00:00"
   },
   {
    "id": "123jpnbf95t",
@@ -220,26 +205,10 @@
    "responsaveis": [
     "Alysson Oliveira"
    ],
-   "prazo": "2026-11-25",
+   "prazo": "2026-11-23",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T09:04:03.188000+00:00"
-  },
-  {
-   "id": "123jpnbf95u",
-   "nome": "[] Opcional · Assistir à aula da Hunter e dar feedback",
-   "url": "https://app.clickup.com/t/123jpnbf95u",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
-   "responsaveis": [
-    "Thiago Viana",
-    "Pedro Raphael"
-   ],
-   "prazo": null,
-   "lista": "Planejamento & Cronograma",
-   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T09:34:23.207000+00:00"
+   "atualizado": "2026-11-23T11:25:56.279000+00:00"
   },
   {
    "id": "123jpnbf95v",
@@ -251,10 +220,10 @@
    "responsaveis": [
     "Alysson Oliveira"
    ],
-   "prazo": "2026-11-23",
+   "prazo": "2026-11-21",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T08:36:35.836000+00:00"
+   "atualizado": "2026-11-23T11:25:56.279000+00:00"
   },
   {
    "id": "123jpnbfcdt",
@@ -305,16 +274,16 @@
    "id": "123jpnbeb5u",
    "nome": "[Raevo] Corrigir preenchimento dos campos personalizados pelos formulários do webinar",
    "url": "https://app.clickup.com/t/123jpnbeb5u",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#8a817c",
+   "estado": "feito",
+   "status": "descartados",
+   "cor": "#000000",
    "responsaveis": [
     "Pedro Raphael"
    ],
    "prazo": "2026-11-23",
    "lista": "Desenvolvimento & Melhorias Produtos/Serviços",
    "pai": null,
-   "atualizado": "2026-11-23T09:04:14.950000+00:00"
+   "atualizado": "2026-11-23T11:43:25.313000+00:00"
   },
   {
    "id": "123jpnbcxn6",
@@ -376,7 +345,7 @@
    "prazo": "2026-10-16",
    "lista": "Scripts & Playbooks",
    "pai": null,
-   "atualizado": "2026-11-23T09:34:46.684000+00:00"
+   "atualizado": "2026-11-23T11:46:46.852000+00:00"
   },
   {
    "id": "123jpnbe833",
@@ -584,13 +553,6 @@
   "pausado": false,
   "mensagens": [
    {
-    "id": "GS1",
-    "quando": "2026-11-20T12:00:00+00:00",
-    "estado": "não saiu",
-    "texto": "*Para quem não conseguiu estar ontem* 👇\n\nNa aula mostrei as 3 passagens onde a clínica perde pacientes sem dar por isso:\n\n1. Primeira resposta: a mensagem chega e ninguém sabe se ainda está à espera\n2. Continuidade: a conversa fica sem dono e sem próximo passo\n3. Retomada: a pessoa diz \"vou pensar\" e ninguém volta a falar com ela\n\nSe quiserem ver em qual delas a vossa clínica está a perder mais, marquem aqui uma análise individual, sem custo:\nhttps://calendar.app.google/YFMYeedXmhQ6qmNFA",
-    "imagens": 0
-   },
-   {
     "id": "GSa1",
     "quando": "2026-11-21T11:00:00+00:00",
     "estado": "não saiu",
@@ -734,8 +696,49 @@
   ]
  },
  "timer": {
-  "id": "123jpnbfhr3",
-  "nome": "[Raevo] Claude a agir em nome do Alysson (conectores, responsáveis por omissão)",
-  "desde": "2026-11-23T10:00+00:00"
+  "id": "123jpnbf8jp",
+  "nome": "[Raevo] Comercial: prospecção, ligações, e-mails e follow-ups",
+  "desde": "2026-11-23T11:59+00:00"
+ },
+ "convites": {
+  "lista": 241,
+  "enviados": 0,
+  "sim": 0,
+  "nao": 0,
+  "outras_respostas": 0,
+  "sem_resposta": 0,
+  "a_aguardar": 0,
+  "grupos": {
+   "reativacao": {
+    "total": 4,
+    "enviados": 0,
+    "sim": 0,
+    "responderam": 0
+   },
+   "ebook-decisor": {
+    "total": 23,
+    "enviados": 0,
+    "sim": 0,
+    "responderam": 0
+   },
+   "meta": {
+    "total": 18,
+    "enviados": 0,
+    "sim": 0,
+    "responderam": 0
+   },
+   "ebook": {
+    "total": 66,
+    "enviados": 0,
+    "sim": 0,
+    "responderam": 0
+   },
+   "ebook-profissional": {
+    "total": 130,
+    "enviados": 0,
+    "sim": 0,
+    "responderam": 0
+   }
+  }
  }
 }

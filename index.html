@@ -116,6 +116,11 @@ details.m pre{white-space:pre-wrap;font:13px/1.45 inherit;margin:8px 0 2px;color
       <div class="msgs" id="aq"></div>
     </section>
 
+    <section class="card c12">
+      <h2>Convites da rede <small>e-book, anúncios antigos e conversas de outubro · 45 por dia</small></h2>
+      <div id="conv"></div>
+    </section>
+
     <section class="card c6">
       <h2>Links</h2>
       <div class="links" id="links"></div>
@@ -210,6 +215,10 @@ function render(){
     let dia='';document.getElementById('aq').innerHTML=A.mensagens.map(m=>{const d=new Date(m.quando).toLocaleDateString('sv-SE',{timeZone:'Europe/Lisbon'});
       const cab=d!==dia?`<div class="dia ${d===hoje?'hoje':''}">${d===hoje?'Hoje · ':''}${esc(fmtD(m.quando,{weekday:'long',day:'numeric',month:'short'}))}</div>`:'';dia=d;
       return cab+`<details class="m ${m.estado!=='agendada'?'passado':''}"><summary><span class="pill ${cls[m.estado]}">${esc(m.estado)}</span><b>${esc(m.id)}</b><span class="meta">${fmtD(m.quando,{hour:'2-digit',minute:'2-digit'})}${m.imagens?' · '+m.imagens+(m.imagens>1?' imagens':' imagem'):''}</span></summary><pre>${esc(m.texto)}</pre></details>`}).join('')||'<p class="empty">Nada nesta janela.</p>';}
+  const C=D.convites; if(C){const pc=(a,b)=>b?Math.round(a/b*100)+'%':'—';
+    const resp=C.sim+C.nao+C.outras_respostas;
+    document.getElementById('conv').innerHTML=`<div class="chips" style="gap:16px">${[['Na lista',C.lista],['Enviados',C.enviados],['Responderam',resp+' ('+pc(resp,C.enviados)+')'],['Disseram sim',C.sim+' ('+pc(C.sim,C.enviados)+')'],['Não',C.nao],['À espera',C.a_aguardar],['Sem resposta',C.sem_resposta]].map(([a,b])=>`<div><div class="meta">${a}</div><div style="font-size:20px;font-weight:650">${b}</div></div>`).join('')}</div>`+
+     `<ul class="t">${Object.entries(C.grupos).map(([g,v])=>`<li><span class="pill p-pend">${esc(g)}</span><div>${v.enviados} de ${v.total} enviados · ${v.responderam} responderam · ${v.sim} sim</div><div class="meta">${pc(v.sim,v.enviados)} sim</div></li>`).join('')}</ul>`;}
   let g='';document.getElementById('links').innerHTML=D.links.map(l=>(l.grupo!==g?`<div class="lg">${esc(g=l.grupo)}</div>`:'')+`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.nome)} ↗</a>`).join('');
   document.getElementById('docs').innerHTML=D.documentos.map(d=>`<a href="${/\.md$/.test(d.caminho)?'ver.html?f='+encodeURIComponent(d.caminho):esc(d.caminho)}" target="_blank" rel="noopener">${esc(d.nome)} ↗</a>`).join('');
 }
