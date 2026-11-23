@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-23T15:35+00:00",
+ "gerado_em": "2026-11-23T16:37+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -561,7 +561,7 @@
    "prazo": "2026-11-27",
    "lista": "Planejamento & Cronograma",
    "pai": null,
-   "atualizado": "2026-11-23T09:04:07.326000+00:00"
+   "atualizado": "2026-11-23T16:26:49.287000+00:00"
   }
  ],
  "aquecimento": {
@@ -711,9 +711,9 @@
   ]
  },
  "timer": {
-  "id": "123jpnbfexb",
-  "nome": "[Raevo] Proposta Eliene",
-  "desde": "2026-11-23T15:35+00:00"
+  "id": "123jpnbf6cw",
+  "nome": "[Raevo] Raevo OS · Módulo Financeiro — substituir o Meu Dinheiro",
+  "desde": "2026-11-23T16:36+00:00"
  },
  "convites": {
   "lista": 241,
