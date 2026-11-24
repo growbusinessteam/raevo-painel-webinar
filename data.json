@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T15:50+00:00",
+ "gerado_em": "2026-11-24T16:52+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -414,15 +414,15 @@
    "nome": "RAEVO | [Raevo] [Leads] [20.10.26] Webinar  ",
    "url": "https://app.clickup.com/t/123jpnbd91n",
    "estado": "em curso",
-   "status": "otimização",
-   "cor": "#0091ff",
+   "status": "em veiculação",
+   "cor": "#38b000",
    "responsaveis": [
     "Henrique Mocellin Barbosa"
    ],
-   "prazo": "2026-11-24",
+   "prazo": "2026-12-01",
    "lista": "Gestão de Campanhas",
    "pai": null,
-   "atualizado": "2026-11-24T04:00:41.543000+00:00"
+   "atualizado": "2026-11-24T16:23:09.118000+00:00"
   },
   {
    "id": "123jpnbf105",
