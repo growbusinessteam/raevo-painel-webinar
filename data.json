@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T08:46+00:00",
+ "gerado_em": "2026-11-24T09:46+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -133,7 +133,7 @@
    "prazo": "2027-01-19",
    "lista": "Planejamento & Cronograma",
    "pai": null,
-   "atualizado": "2026-11-24T08:27:57.235000+00:00"
+   "atualizado": "2026-11-24T09:12:01.526000+00:00"
   },
   {
    "id": "123jpnbfj8w",
@@ -223,7 +223,7 @@
    "prazo": "2026-11-23",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T11:25:56.279000+00:00"
+   "atualizado": "2026-11-24T09:41:16.097000+00:00"
   },
   {
    "id": "123jpnbf95v",
@@ -529,7 +529,7 @@
    "prazo": "2026-11-24",
    "lista": "Relatórios",
    "pai": null,
-   "atualizado": "2026-11-23T09:36:32.862000+00:00"
+   "atualizado": "2026-11-24T08:58:25.891000+00:00"
   },
   {
    "id": "123jpnbcxnq",
@@ -711,9 +711,9 @@
   ]
  },
  "timer": {
-  "id": "123jpnbdg46",
-  "nome": "[Raevo] Testes e melhorias Raevo OS - Thiago Viana",
-  "desde": "2026-11-24T08:42+00:00"
+  "id": "123jpnbfjym",
+  "nome": "[Raevo] Levar o trabalho do webinar/geração de leads para o Raevo OS (objetivos, metas, acompanhamento)",
+  "desde": "2026-11-24T09:46+00:00"
  },
  "convites": {
   "lista": 241,
