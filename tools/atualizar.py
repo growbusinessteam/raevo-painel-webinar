@@ -130,7 +130,14 @@ def convites():
         if e.get("fim") == "sim": g["sim"] += 1
     return {"lista": len(lista), "enviados": len(env), "sim": conta("sim"), "nao": conta("nao"),
             "outras_respostas": conta("respondeu"), "sem_resposta": conta("sem-resposta"),
-            "a_aguardar": sum(1 for e in env if e.get("fim") in (None, "lembrado")), "grupos": grupos}
+            "a_aguardar": sum(1 for e in env if e.get("fim") in (None, "lembrado")), "grupos": grupos,
+            "funil_por_versao": _metricas_convites(pasta).resumo(L)}
+
+
+def _metricas_convites(pasta):
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("metricas_convites", os.path.join(pasta, "metricas.py"))
+    m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m); return m
 
 
 def proxima_aula():
