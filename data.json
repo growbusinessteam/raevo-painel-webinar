@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T10:48+00:00",
+ "gerado_em": "2026-11-24T11:48+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -133,7 +133,7 @@
    "prazo": "2027-01-19",
    "lista": "Planejamento & Cronograma",
    "pai": null,
-   "atualizado": "2026-11-24T10:47:23.418000+00:00"
+   "atualizado": "2026-11-24T11:13:00.877000+00:00"
   },
   {
    "id": "123jpnbfj8w",
@@ -568,13 +568,6 @@
   "pausado": false,
   "mensagens": [
    {
-    "id": "GSa1",
-    "quando": "2026-11-21T11:00:00+00:00",
-    "estado": "não saiu",
-    "texto": "*Teste de 5 minutos para fazer hoje* ⏱️\n\nAbram o WhatsApp da clínica e contem:\n\n→ quantas pessoas pediram o valor esta semana\n→ quantas dessas marcaram\n→ quantas ficaram sem resposta depois do \"vou pensar\"\n\nSe o terceiro número não for zero, há pacientes à espera de alguém que volte a falar com eles.\n\nRespondam aqui com o número que encontraram 👇",
-    "imagens": 0
-   },
-   {
     "id": "GD1",
     "quando": "2026-11-22T19:00:00+00:00",
     "estado": "não saiu",
@@ -711,18 +704,18 @@
   ]
  },
  "timer": {
-  "id": "123jpnbcxmz",
-  "nome": "[Raevo] Campanha de captação de clientes para o CRM — 3 meses — Atendimento Organizado",
-  "desde": "2026-11-24T10:47+00:00"
+  "id": "123jpnbf8jp",
+  "nome": "[Raevo] Comercial: prospecção, ligações, e-mails e follow-ups",
+  "desde": "2026-11-24T11:40+00:00"
  },
  "convites": {
   "lista": 241,
-  "enviados": 9,
+  "enviados": 19,
   "sim": 0,
   "nao": 1,
   "outras_respostas": 0,
   "sem_resposta": 0,
-  "a_aguardar": 8,
+  "a_aguardar": 18,
   "grupos": {
    "reativacao": {
     "total": 4,
@@ -732,7 +725,7 @@
    },
    "ebook-decisor": {
     "total": 23,
-    "enviados": 6,
+    "enviados": 16,
     "sim": 0,
     "responderam": 1
    },
@@ -773,11 +766,11 @@
      "taxa_ponta_a_ponta": 0.0
     },
     "v2-abertura": {
-     "enviados": 3,
-     "aguardando": 3,
-     "resp_abertura": 1,
-     "convite_apos_resposta": 1,
-     "taxa_resposta": 0.333,
+     "enviados": 13,
+     "aguardando": 13,
+     "resp_abertura": 2,
+     "convite_apos_resposta": 2,
+     "taxa_resposta": 0.154,
      "taxa_sim_convidados": 0.0,
      "taxa_ponta_a_ponta": 0.0
     }
