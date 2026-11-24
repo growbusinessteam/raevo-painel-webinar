@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T14:50+00:00",
+ "gerado_em": "2026-11-24T15:50+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -69,7 +69,7 @@
  "funil": [
   {
    "etapa": "Respondeu Formulário",
-   "total": 4
+   "total": 6
   },
   {
    "etapa": "Entrou no Grupo",
@@ -148,7 +148,7 @@
    "prazo": "2026-11-27",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Campanha de captação de clientes para o CRM — 3 meses — Atendimento Organizado",
-   "atualizado": "2026-11-24T10:47:46.772000+00:00"
+   "atualizado": "2026-11-24T15:02:03.976000+00:00"
   },
   {
    "id": "123jpnbcxng",
@@ -711,18 +711,18 @@
   ]
  },
  "timer": {
-  "id": "123jpnbf8jp",
-  "nome": "[Raevo] Comercial: prospecção, ligações, e-mails e follow-ups",
-  "desde": "2026-11-24T11:40+00:00"
+  "id": "123jpnbdg46",
+  "nome": "[Raevo] Testes e melhorias Raevo OS - Thiago Viana",
+  "desde": "2026-11-24T15:23+00:00"
  },
  "convites": {
   "lista": 241,
   "enviados": 45,
-  "sim": 1,
-  "nao": 2,
+  "sim": 3,
+  "nao": 1,
   "outras_respostas": 1,
   "sem_resposta": 0,
-  "a_aguardar": 41,
+  "a_aguardar": 40,
   "grupos": {
    "reativacao": {
     "total": 4,
@@ -733,20 +733,20 @@
    "ebook-decisor": {
     "total": 23,
     "enviados": 23,
-    "sim": 0,
-    "responderam": 2
+    "sim": 1,
+    "responderam": 1
    },
    "meta": {
     "total": 18,
     "enviados": 17,
     "sim": 1,
-    "responderam": 2
+    "responderam": 3
    },
    "ebook": {
     "total": 66,
     "enviados": 2,
-    "sim": 0,
-    "responderam": 0
+    "sim": 1,
+    "responderam": 1
    },
    "ebook-profissional": {
     "total": 130,
@@ -766,23 +766,22 @@
    "versoes": {
     "v1-textao": {
      "enviados": 6,
-     "aguardando": 5,
-     "nao": 1,
-     "taxa_resposta": 0.167,
+     "aguardando": 6,
+     "taxa_resposta": 0.0,
      "taxa_sim_convidados": null,
      "taxa_ponta_a_ponta": 0.0
     },
     "v2-abertura": {
      "enviados": 39,
-     "aguardando": 36,
-     "resp_abertura": 12,
-     "convite_apos_resposta": 12,
-     "nao": 1,
+     "aguardando": 34,
+     "resp_abertura": 13,
+     "convite_apos_resposta": 13,
+     "sim": 3,
      "outra": 1,
-     "sim": 1,
-     "taxa_resposta": 0.308,
-     "taxa_sim_convidados": 0.083,
-     "taxa_ponta_a_ponta": 0.026
+     "nao": 1,
+     "taxa_resposta": 0.333,
+     "taxa_sim_convidados": 0.231,
+     "taxa_ponta_a_ponta": 0.077
     }
    }
   }
