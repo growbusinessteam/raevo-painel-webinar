@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T10:46+00:00",
+ "gerado_em": "2026-11-24T10:48+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -133,7 +133,7 @@
    "prazo": "2027-01-19",
    "lista": "Planejamento & Cronograma",
    "pai": null,
-   "atualizado": "2026-11-24T10:10:04.035000+00:00"
+   "atualizado": "2026-11-24T10:47:23.418000+00:00"
   },
   {
    "id": "123jpnbfj8w",
@@ -148,7 +148,7 @@
    "prazo": "2026-11-27",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Campanha de captação de clientes para o CRM — 3 meses — Atendimento Organizado",
-   "atualizado": "2026-11-24T10:45:49.694000+00:00"
+   "atualizado": "2026-11-24T10:47:46.772000+00:00"
   },
   {
    "id": "123jpnbcxng",
@@ -223,7 +223,7 @@
    "prazo": "2026-11-23",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-24T10:45:50.840000+00:00"
+   "atualizado": "2026-11-24T10:47:22.317000+00:00"
   },
   {
    "id": "123jpnbf95v",
@@ -711,15 +711,15 @@
   ]
  },
  "timer": {
-  "id": "123jpnbf95t",
-  "nome": "[] 03 · Alinhar aula, aquecimento e acesso",
-  "desde": "2026-11-24T10:45+00:00"
+  "id": "123jpnbcxmz",
+  "nome": "[Raevo] Campanha de captação de clientes para o CRM — 3 meses — Atendimento Organizado",
+  "desde": "2026-11-24T10:47+00:00"
  },
  "convites": {
   "lista": 241,
-  "enviados": 8,
+  "enviados": 9,
   "sim": 0,
-  "nao": 0,
+  "nao": 1,
   "outras_respostas": 0,
   "sem_resposta": 0,
   "a_aguardar": 8,
@@ -732,9 +732,9 @@
    },
    "ebook-decisor": {
     "total": 23,
-    "enviados": 5,
+    "enviados": 6,
     "sim": 0,
-    "responderam": 0
+    "responderam": 1
    },
    "meta": {
     "total": 18,
@@ -766,16 +766,19 @@
    "versoes": {
     "v1-textao": {
      "enviados": 6,
-     "aguardando": 6,
-     "taxa_resposta": 0.0,
+     "aguardando": 5,
+     "nao": 1,
+     "taxa_resposta": 0.167,
      "taxa_sim_convidados": null,
      "taxa_ponta_a_ponta": 0.0
     },
     "v2-abertura": {
-     "enviados": 2,
-     "aguardando": 2,
-     "taxa_resposta": 0.0,
-     "taxa_sim_convidados": null,
+     "enviados": 3,
+     "aguardando": 3,
+     "resp_abertura": 1,
+     "convite_apos_resposta": 1,
+     "taxa_resposta": 0.333,
+     "taxa_sim_convidados": 0.0,
      "taxa_ponta_a_ponta": 0.0
     }
    }
