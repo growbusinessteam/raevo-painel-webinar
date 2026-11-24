@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T11:48+00:00",
+ "gerado_em": "2026-11-24T12:49+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -584,7 +584,7 @@
    {
     "id": "GT1",
     "quando": "2026-11-24T12:00:00+00:00",
-    "estado": "agendada",
+    "estado": "enviada",
     "texto": "*Quinta-feira, às 13h (10h no Brasil), aula ao vivo* 🟢\n\nUma clínica que acompanhamos passou a ver isto: 77% dos contactos encerrados tornaram-se consulta.\n\nNão foi com mais anúncios. Foi a dar a cada contacto uma etapa, um responsável e um próximo passo.\n\nNa quinta mostro como montar isso na vossa clínica, com a procura que já têm.\n\n⏰ Quinta, 13h (10h no Brasil), no Google Meet\n❌ Não fica gravada\n\nSe fizer sentido, tragam também quem atende o WhatsApp da clínica: vai ser útil para os dois. Não é obrigatório, e quem vier sozinho também aproveita tudo.\n\nFixem este grupo no topo do WhatsApp para não perderem o link.",
     "imagens": 0
    },
@@ -692,15 +692,22 @@
     "estado": "agendada",
     "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\n\nPessoal, na quinta-feira, às 13h (10h no Brasil), vou mostrar como uma clínica passou de não medir nada a saber exatamente quantos contactos se tornam consulta e qual é a próxima decisão.\n\nAntes, quando alguém pedia o valor e dizia que ia pensar, isso não ficava registado em lado nenhum. Para retomar, era preciso procurar a conversa no WhatsApp. E ninguém sabia dizer quantos contactos chegavam à marcação.\n\nDepois de cada contacto ganhar uma etapa, um responsável e um próximo passo, a secretária passou a:\n\n• responder primeiro a quem tinha mandado mensagem\n• retomar, etapa a etapa, quem recebeu o valor e ainda não marcou\n• saber, sem depender da memória, quem estava à espera de retorno\n\nE a clínica passou a ver os números: 77% dos contactos encerrados tornaram-se consulta. Com isso, sabe que o atendimento converte bem e que o próximo passo é trazer mais contactos.\n\nNa quinta-feira, às 13h (10h no Brasil), vou abrir uma aula ao vivo a mostrar esta estrutura.\n\nO link será enviado aqui no grupo.",
     "imagens": 1
+   },
+   {
+    "id": "GT1",
+    "quando": "2026-12-01T12:00:00+00:00",
+    "estado": "agendada",
+    "texto": "*Quinta-feira, às 13h (10h no Brasil), aula ao vivo* 🟢\n\nUma clínica que acompanhamos passou a ver isto: 77% dos contactos encerrados tornaram-se consulta.\n\nNão foi com mais anúncios. Foi a dar a cada contacto uma etapa, um responsável e um próximo passo.\n\nNa quinta mostro como montar isso na vossa clínica, com a procura que já têm.\n\n⏰ Quinta, 13h (10h no Brasil), no Google Meet\n❌ Não fica gravada\n\nSe fizer sentido, tragam também quem atende o WhatsApp da clínica: vai ser útil para os dois. Não é obrigatório, e quem vier sozinho também aproveita tudo.\n\nFixem este grupo no topo do WhatsApp para não perderem o link.",
+    "imagens": 0
    }
   ],
   "ultimos_registos": [
-   "2026-11-19 12:40 ENVIADA G8: id 120357",
    "2026-11-19 12:55 ENVIADA G9: id 120378",
    "2026-11-19 13:05 ENVIADA G10: id 120390",
    "2026-11-19 13:15 ENVIADA G11: id 120400",
    "2026-11-19 16:01 ENVIADA GP1: id 120746",
-   "2026-11-23 10:01 ENVIADA G1: id 123740"
+   "2026-11-23 10:01 ENVIADA G1: id 123740",
+   "2026-11-24 12:01 ENVIADA GT1: id 125218"
   ]
  },
  "timer": {
@@ -710,12 +717,12 @@
  },
  "convites": {
   "lista": 241,
-  "enviados": 19,
+  "enviados": 31,
   "sim": 0,
-  "nao": 1,
+  "nao": 2,
   "outras_respostas": 0,
   "sem_resposta": 0,
-  "a_aguardar": 18,
+  "a_aguardar": 29,
   "grupos": {
    "reativacao": {
     "total": 4,
@@ -725,13 +732,13 @@
    },
    "ebook-decisor": {
     "total": 23,
-    "enviados": 16,
+    "enviados": 23,
     "sim": 0,
-    "responderam": 1
+    "responderam": 2
    },
    "meta": {
     "total": 18,
-    "enviados": 0,
+    "enviados": 5,
     "sim": 0,
     "responderam": 0
    },
@@ -766,11 +773,12 @@
      "taxa_ponta_a_ponta": 0.0
     },
     "v2-abertura": {
-     "enviados": 13,
-     "aguardando": 13,
-     "resp_abertura": 2,
-     "convite_apos_resposta": 2,
-     "taxa_resposta": 0.154,
+     "enviados": 25,
+     "aguardando": 24,
+     "resp_abertura": 6,
+     "convite_apos_resposta": 6,
+     "nao": 1,
+     "taxa_resposta": 0.24,
      "taxa_sim_convidados": 0.0,
      "taxa_ponta_a_ponta": 0.0
     }
