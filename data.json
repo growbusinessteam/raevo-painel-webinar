@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T10:46+00:00",
+ "gerado_em": "2026-11-25T11:47+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -69,7 +69,7 @@
  "funil": [
   {
    "etapa": "Respondeu Formulário",
-   "total": 6
+   "total": 7
   },
   {
    "etapa": "Entrou no Grupo",
@@ -223,7 +223,7 @@
    "prazo": "2026-11-23",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-25T10:38:59.738000+00:00"
+   "atualizado": "2026-11-25T11:40:45.495000+00:00"
   },
   {
    "id": "123jpnbf95v",
@@ -720,16 +720,16 @@
  "timer": {
   "id": "123jpnbfjym",
   "nome": "[Raevo] Levar o trabalho do webinar/geração de leads para o Raevo OS (objetivos, metas, acompanhamento)",
-  "desde": "2026-11-25T10:40+00:00"
+  "desde": "2026-11-25T11:46+00:00"
  },
  "convites": {
   "lista": 241,
-  "enviados": 52,
-  "sim": 3,
+  "enviados": 61,
+  "sim": 4,
   "nao": 1,
   "outras_respostas": 1,
   "sem_resposta": 0,
-  "a_aguardar": 47,
+  "a_aguardar": 55,
   "grupos": {
    "reativacao": {
     "total": 4,
@@ -751,9 +751,9 @@
    },
    "ebook": {
     "total": 66,
-    "enviados": 9,
-    "sim": 1,
-    "responderam": 1
+    "enviados": 18,
+    "sim": 2,
+    "responderam": 2
    },
    "ebook-profissional": {
     "total": 130,
@@ -779,16 +779,16 @@
      "taxa_ponta_a_ponta": 0.0
     },
     "v2-abertura": {
-     "enviados": 46,
-     "aguardando": 41,
-     "resp_abertura": 13,
-     "convite_apos_resposta": 13,
-     "sim": 3,
+     "enviados": 55,
+     "aguardando": 49,
+     "resp_abertura": 15,
+     "convite_apos_resposta": 15,
+     "sim": 4,
      "outra": 1,
      "nao": 1,
-     "taxa_resposta": 0.283,
-     "taxa_sim_convidados": 0.231,
-     "taxa_ponta_a_ponta": 0.065
+     "taxa_resposta": 0.273,
+     "taxa_sim_convidados": 0.267,
+     "taxa_ponta_a_ponta": 0.073
     }
    }
   }
