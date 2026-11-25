@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T16:50+00:00",
+ "gerado_em": "2026-11-25T17:50+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -734,9 +734,9 @@
   "enviados": 90,
   "sim": 8,
   "nao": 3,
-  "outras_respostas": 2,
+  "outras_respostas": 3,
   "sem_resposta": 0,
-  "a_aguardar": 77,
+  "a_aguardar": 76,
   "grupos": {
    "reativacao": {
     "total": 4,
@@ -766,7 +766,7 @@
     "total": 130,
     "enviados": 14,
     "sim": 1,
-    "responderam": 2
+    "responderam": 3
    }
   },
   "funil_por_versao": {
@@ -787,14 +787,14 @@
     },
     "v2-abertura": {
      "enviados": 84,
-     "aguardando": 71,
-     "resp_abertura": 28,
-     "convite_apos_resposta": 28,
+     "aguardando": 70,
+     "resp_abertura": 29,
+     "convite_apos_resposta": 29,
      "sim": 8,
-     "outra": 2,
+     "outra": 3,
      "nao": 3,
-     "taxa_resposta": 0.333,
-     "taxa_sim_convidados": 0.286,
+     "taxa_resposta": 0.345,
+     "taxa_sim_convidados": 0.276,
      "taxa_ponta_a_ponta": 0.095
     }
    }
