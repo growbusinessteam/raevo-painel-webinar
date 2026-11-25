@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T14:47+00:00",
+ "gerado_em": "2026-11-25T15:47+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -69,7 +69,7 @@
  "funil": [
   {
    "etapa": "Respondeu Formulário",
-   "total": 8
+   "total": 10
   },
   {
    "etapa": "Entrou no Grupo",
@@ -718,18 +718,18 @@
   ]
  },
  "timer": {
-  "id": "123jpnbf8jp",
-  "nome": "[Raevo] Comercial: prospecção, ligações, e-mails e follow-ups",
-  "desde": "2026-11-25T14:42+00:00"
+  "id": "123jpnbdbn8",
+  "nome": "Alysson — 21/10/2026 — Conciliação financeira semanal",
+  "desde": "2026-11-25T14:51+00:00"
  },
  "convites": {
   "lista": 241,
-  "enviados": 73,
-  "sim": 5,
-  "nao": 2,
+  "enviados": 83,
+  "sim": 7,
+  "nao": 3,
   "outras_respostas": 2,
   "sem_resposta": 0,
-  "a_aguardar": 64,
+  "a_aguardar": 71,
   "grupos": {
    "reativacao": {
     "total": 4,
@@ -751,15 +751,15 @@
    },
    "ebook": {
     "total": 66,
-    "enviados": 30,
-    "sim": 3,
-    "responderam": 5
+    "enviados": 33,
+    "sim": 5,
+    "responderam": 7
    },
    "ebook-profissional": {
     "total": 130,
-    "enviados": 0,
+    "enviados": 7,
     "sim": 0,
-    "responderam": 0
+    "responderam": 1
    }
   },
   "funil_por_versao": {
@@ -779,16 +779,16 @@
      "taxa_ponta_a_ponta": 0.0
     },
     "v2-abertura": {
-     "enviados": 67,
-     "aguardando": 58,
-     "resp_abertura": 21,
-     "convite_apos_resposta": 21,
-     "sim": 5,
+     "enviados": 77,
+     "aguardando": 65,
+     "resp_abertura": 26,
+     "convite_apos_resposta": 26,
+     "sim": 7,
      "outra": 2,
-     "nao": 2,
-     "taxa_resposta": 0.313,
-     "taxa_sim_convidados": 0.238,
-     "taxa_ponta_a_ponta": 0.075
+     "nao": 3,
+     "taxa_resposta": 0.338,
+     "taxa_sim_convidados": 0.269,
+     "taxa_ponta_a_ponta": 0.091
     }
    }
   }
