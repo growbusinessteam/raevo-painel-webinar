@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T15:47+00:00",
+ "gerado_em": "2026-11-25T16:50+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -69,7 +69,7 @@
  "funil": [
   {
    "etapa": "Respondeu Formulário",
-   "total": 10
+   "total": 11
   },
   {
    "etapa": "Entrou no Grupo",
@@ -598,7 +598,7 @@
    {
     "id": "G3",
     "quando": "2026-11-25T16:00:00+00:00",
-    "estado": "agendada",
+    "estado": "enviada",
     "texto": "Amanhã, às 13h (10h no Brasil), aula ao vivo sobre o caminho do primeiro contacto até à marcação na clínica.\n\nA aula é para clínicas que:\n\n → já recebem pedidos de informação pelo WhatsApp\n → têm alguém responsável pelo atendimento\n → mas nem sempre conseguem ver o que aconteceu a cada contacto depois da primeira mensagem\n\n⏰ Amanhã, às 13h (10h no Brasil), ao vivo no Google Meet",
     "imagens": 0
    },
@@ -706,30 +706,37 @@
     "estado": "agendada",
     "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\n\nPessoal, amanhã, às 13h (10h no Brasil), vou mostrar como uma clínica passou de não medir nada a saber exatamente quantos contactos se tornam consulta e qual é a próxima decisão.\n\nAntes, quando alguém pedia o valor e dizia que ia pensar, isso não ficava registado em lado nenhum. Para retomar, era preciso procurar a conversa no WhatsApp. E ninguém sabia dizer quantos contactos chegavam à marcação.\n\nDepois de cada contacto ganhar uma etapa, um responsável e um próximo passo, a secretária passou a:\n\n• responder primeiro a quem tinha mandado mensagem\n• retomar, etapa a etapa, quem recebeu o valor e ainda não marcou\n• saber, sem depender da memória, quem estava à espera de retorno\n\nE a clínica passou a ver os números: 77% dos contactos encerrados tornaram-se consulta. Com isso, sabe que o atendimento converte bem e que o próximo passo é trazer mais contactos.\n\nAmanhã, às 13h (10h no Brasil), vou abrir uma aula ao vivo a mostrar esta estrutura.\n\nO link será enviado aqui no grupo.",
     "imagens": 1
+   },
+   {
+    "id": "G3",
+    "quando": "2026-12-02T16:00:00+00:00",
+    "estado": "agendada",
+    "texto": "Amanhã, às 13h (10h no Brasil), aula ao vivo sobre o caminho do primeiro contacto até à marcação na clínica.\n\nA aula é para clínicas que:\n\n → já recebem pedidos de informação pelo WhatsApp\n → têm alguém responsável pelo atendimento\n → mas nem sempre conseguem ver o que aconteceu a cada contacto depois da primeira mensagem\n\n⏰ Amanhã, às 13h (10h no Brasil), ao vivo no Google Meet",
+    "imagens": 0
    }
   ],
   "ultimos_registos": [
-   "2026-11-19 13:15 ENVIADA G11: id 120400",
    "2026-11-19 16:01 ENVIADA GP1: id 120746",
    "2026-11-23 10:01 ENVIADA G1: id 123740",
    "2026-11-24 12:01 ENVIADA GT1: id 125218",
    "2026-11-25 09:05 ERRO G2: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "2026-11-25 09:10 ENVIADA G2: id 126227"
+   "2026-11-25 09:10 ENVIADA G2: id 126227",
+   "2026-11-25 16:01 ENVIADA G3: id 127056"
   ]
  },
  "timer": {
   "id": "123jpnbdbn8",
   "nome": "Alysson — 21/10/2026 — Conciliação financeira semanal",
-  "desde": "2026-11-25T14:51+00:00"
+  "desde": "2026-11-25T16:44+00:00"
  },
  "convites": {
   "lista": 241,
-  "enviados": 83,
-  "sim": 7,
+  "enviados": 90,
+  "sim": 8,
   "nao": 3,
   "outras_respostas": 2,
   "sem_resposta": 0,
-  "a_aguardar": 71,
+  "a_aguardar": 77,
   "grupos": {
    "reativacao": {
     "total": 4,
@@ -757,9 +764,9 @@
    },
    "ebook-profissional": {
     "total": 130,
-    "enviados": 7,
-    "sim": 0,
-    "responderam": 1
+    "enviados": 14,
+    "sim": 1,
+    "responderam": 2
    }
   },
   "funil_por_versao": {
@@ -779,16 +786,16 @@
      "taxa_ponta_a_ponta": 0.0
     },
     "v2-abertura": {
-     "enviados": 77,
-     "aguardando": 65,
-     "resp_abertura": 26,
-     "convite_apos_resposta": 26,
-     "sim": 7,
+     "enviados": 84,
+     "aguardando": 71,
+     "resp_abertura": 28,
+     "convite_apos_resposta": 28,
+     "sim": 8,
      "outra": 2,
      "nao": 3,
-     "taxa_resposta": 0.338,
-     "taxa_sim_convidados": 0.269,
-     "taxa_ponta_a_ponta": 0.091
+     "taxa_resposta": 0.333,
+     "taxa_sim_convidados": 0.286,
+     "taxa_ponta_a_ponta": 0.095
     }
    }
   }
