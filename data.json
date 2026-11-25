@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T18:51+00:00",
+ "gerado_em": "2026-11-25T19:51+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -74,13 +74,6 @@
  "aquecimento": {
   "pausado": false,
   "mensagens": [
-   {
-    "id": "GD1",
-    "quando": "2026-11-22T19:00:00+00:00",
-    "estado": "não saiu",
-    "texto": "*Pergunta rápida para a semana* 👇\n\nOnde é que a vossa clínica perde mais contactos?\n\n1️⃣ A mensagem chega e demora a ter resposta\n2️⃣ A conversa fica a meio, sem ninguém responsável por ela\n3️⃣ A pessoa diz \"vou pensar\" e ninguém volta a falar com ela\n\nRespondam só com o número. Na quinta, às 13h (10h no Brasil), mostro o que fazer em cada um dos casos.",
-    "imagens": 0
-   },
    {
     "id": "G1",
     "quando": "2026-11-23T10:00:00+00:00",
