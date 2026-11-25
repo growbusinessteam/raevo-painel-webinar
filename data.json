@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T21:51+00:00",
+ "gerado_em": "2026-11-25T22:52+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -73,7 +73,7 @@
   },
   {
    "etapa": "Entrou no Grupo",
-   "total": 6
+   "total": 7
   },
   {
    "etapa": "Compareceu Webinar",
@@ -81,7 +81,7 @@
   },
   {
    "etapa": "Diagnóstico agendado",
-   "total": 1
+   "total": 0
   },
   {
    "etapa": "Diagnóstico realizado",
@@ -727,7 +727,7 @@
  "timer": {
   "id": "123jpnbdbn8",
   "nome": "Alysson — 21/10/2026 — Conciliação financeira semanal",
-  "desde": "2026-11-25T21:51+00:00"
+  "desde": "2026-11-25T21:55+00:00"
  },
  "convites": {
   "lista": 241,
