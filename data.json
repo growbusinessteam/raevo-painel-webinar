@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T09:46+00:00",
+ "gerado_em": "2026-11-25T10:46+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -223,7 +223,7 @@
    "prazo": "2026-11-23",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-24T10:47:22.317000+00:00"
+   "atualizado": "2026-11-25T10:38:59.738000+00:00"
   },
   {
    "id": "123jpnbf95v",
@@ -718,18 +718,18 @@
   ]
  },
  "timer": {
-  "id": "123jpnbf8jp",
-  "nome": "[Raevo] Comercial: prospecção, ligações, e-mails e follow-ups",
-  "desde": "2026-11-25T09:46+00:00"
+  "id": "123jpnbfjym",
+  "nome": "[Raevo] Levar o trabalho do webinar/geração de leads para o Raevo OS (objetivos, metas, acompanhamento)",
+  "desde": "2026-11-25T10:40+00:00"
  },
  "convites": {
   "lista": 241,
-  "enviados": 45,
+  "enviados": 52,
   "sim": 3,
   "nao": 1,
   "outras_respostas": 1,
   "sem_resposta": 0,
-  "a_aguardar": 40,
+  "a_aguardar": 47,
   "grupos": {
    "reativacao": {
     "total": 4,
@@ -751,7 +751,7 @@
    },
    "ebook": {
     "total": 66,
-    "enviados": 2,
+    "enviados": 9,
     "sim": 1,
     "responderam": 1
    },
@@ -779,16 +779,16 @@
      "taxa_ponta_a_ponta": 0.0
     },
     "v2-abertura": {
-     "enviados": 39,
-     "aguardando": 34,
+     "enviados": 46,
+     "aguardando": 41,
      "resp_abertura": 13,
      "convite_apos_resposta": 13,
      "sim": 3,
      "outra": 1,
      "nao": 1,
-     "taxa_resposta": 0.333,
+     "taxa_resposta": 0.283,
      "taxa_sim_convidados": 0.231,
-     "taxa_ponta_a_ponta": 0.077
+     "taxa_ponta_a_ponta": 0.065
     }
    }
   }
