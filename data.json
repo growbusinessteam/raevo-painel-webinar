@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T22:52+00:00",
+ "gerado_em": "2026-11-25T23:52+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -254,21 +254,6 @@
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
    "atualizado": "2026-11-23T09:04:19.690000+00:00"
-  },
-  {
-   "id": "123jpnbfch0",
-   "nome": "[Raevo] Vídeo-depoimento da Guilhermina — anexar ao case",
-   "url": "https://app.clickup.com/t/123jpnbfch0",
-   "estado": "em curso",
-   "status": "aprovação",
-   "cor": "#ffc53d",
-   "responsaveis": [
-    "Thiago Viana"
-   ],
-   "prazo": "2026-11-24",
-   "lista": "Planejamento & Cronograma",
-   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-25T11:55:27.339000+00:00"
   },
   {
    "id": "123jpnbcxnd",
