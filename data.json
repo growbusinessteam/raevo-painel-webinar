@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-26T17:04+00:00",
+ "gerado_em": "2026-11-26T18:05+00:00",
  "aula": {
   "proxima": "2026-12-03T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -65,490 +65,12 @@
    "caminho": "docs/mensagens-grupo-privado.md"
   }
  ],
- "erros": [],
- "funil": [
-  {
-   "etapa": "Respondeu Formulário",
-   "total": 11
-  },
-  {
-   "etapa": "Entrou no Grupo",
-   "total": 7
-  },
-  {
-   "etapa": "Compareceu Webinar",
-   "total": 0
-  },
-  {
-   "etapa": "Diagnóstico agendado",
-   "total": 0
-  },
-  {
-   "etapa": "Diagnóstico realizado",
-   "total": 0
-  },
-  {
-   "etapa": "Recebeu Oferta",
-   "total": 0
-  },
-  {
-   "etapa": "Contrato e Pagamento",
-   "total": 0
-  },
-  {
-   "etapa": "Ganha",
-   "total": 0
-  },
-  {
-   "etapa": "Perdida",
-   "total": 1
-  }
+ "erros": [
+  "funil: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "timer: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
  ],
- "tarefas": [
-  {
-   "id": "123jpnbcxnv",
-   "nome": "[Raevo] Execução do funil e webinar — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxnv",
-   "estado": "em curso",
-   "status": "ativo",
-   "cor": "#12a594",
-   "responsaveis": [
-    "Thiago Viana"
-   ],
-   "prazo": "2027-01-19",
-   "lista": "Projetos Internos",
-   "pai": null,
-   "atualizado": "2026-11-03T15:37:09.977000+00:00"
-  },
-  {
-   "id": "123jpnbcxmz",
-   "nome": "[Raevo] Campanha de captação de clientes para o CRM — 3 meses — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxmz",
-   "estado": "em curso",
-   "status": "planejamento",
-   "cor": "#6647f0",
-   "responsaveis": [
-    "Thiago Viana"
-   ],
-   "prazo": "2027-01-19",
-   "lista": "Planejamento & Cronograma",
-   "pai": null,
-   "atualizado": "2026-11-24T11:13:00.877000+00:00"
-  },
-  {
-   "id": "123jpnbfj8w",
-   "nome": "[Raevo] Acompanhar convites da rede para a aula (e-book, anúncios, reativação)",
-   "url": "https://app.clickup.com/t/123jpnbfj8w",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-11-27",
-   "lista": "Planejamento & Cronograma",
-   "pai": "[Raevo] Campanha de captação de clientes para o CRM — 3 meses — Atendimento Organizado",
-   "atualizado": "2026-11-26T14:14:13.726000+00:00"
-  },
-  {
-   "id": "123jpnbcxng",
-   "nome": "[Raevo] Estratégia de conteúdos - orgânicos e pagos — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxng",
-   "estado": "em curso",
-   "status": "ativo",
-   "cor": "#30a46c",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-11-24",
-   "lista": "Planejamento & Cronograma",
-   "pai": null,
-   "atualizado": "2026-11-23T09:34:23.805000+00:00"
-  },
-  {
-   "id": "123jpnbeett",
-   "nome": "[Raevo] Webinar",
-   "url": "https://app.clickup.com/t/123jpnbeett",
-   "estado": "em curso",
-   "status": "em andamento",
-   "cor": "#1090e0",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": null,
-   "lista": "Atividades & Rotinas Comerciais",
-   "pai": null,
-   "atualizado": "2026-11-17T16:01:58.038000+00:00"
-  },
-  {
-   "id": "123jpnbf95m",
-   "nome": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbf95m",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-11-19",
-   "lista": "Planejamento & Cronograma",
-   "pai": null,
-   "atualizado": "2026-11-24T10:31:44.566000+00:00"
-  },
-  {
-   "id": "123jpnbf95q",
-   "nome": "[] 05 · Medir o funil e priorizar a próxima melhoria",
-   "url": "https://app.clickup.com/t/123jpnbf95q",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-11-25",
-   "lista": "Planejamento & Cronograma",
-   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T11:25:56.279000+00:00"
-  },
-  {
-   "id": "123jpnbf95t",
-   "nome": "[] 03 · Alinhar aula, aquecimento e acesso",
-   "url": "https://app.clickup.com/t/123jpnbf95t",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-11-23",
-   "lista": "Planejamento & Cronograma",
-   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-26T11:03:46.380000+00:00"
-  },
-  {
-   "id": "123jpnbf95v",
-   "nome": "[] 04 · Adaptar e testar os anúncios existentes",
-   "url": "https://app.clickup.com/t/123jpnbf95v",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-11-21",
-   "lista": "Planejamento & Cronograma",
-   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T11:25:56.279000+00:00"
-  },
-  {
-   "id": "123jpnbfcdt",
-   "nome": "[Raevo] Cases reais para o webinar — Dr. Fernando (Espaço Otorrino) + depoimentos",
-   "url": "https://app.clickup.com/t/123jpnbfcdt",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
-   "responsaveis": [
-    "Thiago Viana"
-   ],
-   "prazo": "2026-11-24",
-   "lista": "Planejamento & Cronograma",
-   "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-23T09:04:19.690000+00:00"
-  },
-  {
-   "id": "123jpnbcxnd",
-   "nome": "[Raevo] LP — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxnd",
-   "estado": "feito",
-   "status": "ativo",
-   "cor": "#30a46c",
-   "responsaveis": [
-    "Thiago Viana"
-   ],
-   "prazo": "2026-10-16",
-   "lista": "Landing Page, Website, Apps e Forms",
-   "pai": null,
-   "atualizado": "2026-10-20T19:11:37.851000+01:00"
-  },
-  {
-   "id": "123jpnbeb5u",
-   "nome": "[Raevo] Corrigir preenchimento dos campos personalizados pelos formulários do webinar",
-   "url": "https://app.clickup.com/t/123jpnbeb5u",
-   "estado": "feito",
-   "status": "descartados",
-   "cor": "#000000",
-   "responsaveis": [
-    "Pedro Raphael"
-   ],
-   "prazo": "2026-11-23",
-   "lista": "Desenvolvimento & Melhorias Produtos/Serviços",
-   "pai": null,
-   "atualizado": "2026-11-23T11:43:25.313000+00:00"
-  },
-  {
-   "id": "123jpnbcxn6",
-   "nome": "[Raevo] Configurar o CRM comercial da campanha — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxn6",
-   "estado": "feito",
-   "status": "concluído",
-   "cor": "#008844",
-   "responsaveis": [
-    "Thiago Viana",
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-10-16",
-   "lista": "CRM",
-   "pai": null,
-   "atualizado": "2026-11-23T09:31:23.304000+00:00"
-  },
-  {
-   "id": "123jpnbcxn7",
-   "nome": "[Raevo] Configurar rastreamento e identificação das origens — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxn7",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#8a817c",
-   "responsaveis": [
-    "Thiago Viana",
-    "Henrique Mocellin Barbosa"
-   ],
-   "prazo": "2026-11-27",
-   "lista": "Trackeamento & Dashboards",
-   "pai": null,
-   "atualizado": "2026-11-23T09:04:23.083000+00:00"
-  },
-  {
-   "id": "123jpnbcxna",
-   "nome": "[Raevo] Preparar grupo, descrição, convite e mensagem de entrada — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxna",
-   "estado": "feito",
-   "status": "finalizada",
-   "cor": "#008844",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-10-16",
-   "lista": "WhatsApp: Números & Infraestrutura",
-   "pai": null,
-   "atualizado": "2026-11-23T09:26:33.858000+00:00"
-  },
-  {
-   "id": "123jpnbcxnb",
-   "nome": "[Raevo] Planejar a sequência de aquecimento do WhatsApp — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxnb",
-   "estado": "feito",
-   "status": "complete",
-   "cor": "#008844",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-10-16",
-   "lista": "Scripts & Playbooks",
-   "pai": null,
-   "atualizado": "2026-11-23T11:46:46.852000+00:00"
-  },
-  {
-   "id": "123jpnbe833",
-   "nome": "[Raevo] SDR Webinar",
-   "url": "https://app.clickup.com/t/123jpnbe833",
-   "estado": "em curso",
-   "status": "em andamento",
-   "cor": "#1090e0",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-11-02",
-   "lista": "Atividades & Rotinas Comerciais",
-   "pai": null,
-   "atualizado": "2026-11-04T16:16:29.617000+00:00"
-  },
-  {
-   "id": "123jpnbcxnj",
-   "nome": "[Raevo] Criar roteiro e apresentação do webinar — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxnj",
-   "estado": "em curso",
-   "status": "planejameto",
-   "cor": "#1090e0",
-   "responsaveis": [
-    "Thiago Viana",
-    "Alysson Oliveira"
-   ],
-   "prazo": null,
-   "lista": "Produção de Conteúdo",
-   "pai": null,
-   "atualizado": "2026-10-19T22:32:27.554000+01:00"
-  },
-  {
-   "id": "123jpnbcxn3",
-   "nome": "[Raevo] Selecionar e organizar estudos de caso — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxn3",
-   "estado": "feito",
-   "status": "concluído",
-   "cor": "#008844",
-   "responsaveis": [
-    "Thiago Viana",
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-10-16",
-   "lista": "Produção de Conteúdo",
-   "pai": null,
-   "atualizado": "2026-11-23T09:34:45.769000+00:00"
-  },
-  {
-   "id": "123jpnbd91n",
-   "nome": "RAEVO | [Raevo] [Leads] [20.10.26] Webinar  ",
-   "url": "https://app.clickup.com/t/123jpnbd91n",
-   "estado": "em curso",
-   "status": "em veiculação",
-   "cor": "#38b000",
-   "responsaveis": [
-    "Henrique Mocellin Barbosa"
-   ],
-   "prazo": "2026-12-01",
-   "lista": "Gestão de Campanhas",
-   "pai": null,
-   "atualizado": "2026-11-24T16:23:09.118000+00:00"
-  },
-  {
-   "id": "123jpnbf105",
-   "nome": "[Raevo] Anuncios Webinar",
-   "url": "https://app.clickup.com/t/123jpnbf105",
-   "estado": "em curso",
-   "status": "designer & edição",
-   "cor": "#d33d44",
-   "responsaveis": [
-    "Thiago Viana"
-   ],
-   "prazo": "2026-11-12",
-   "lista": "Produção de Conteúdo",
-   "pai": null,
-   "atualizado": "2026-11-20T01:58:30.868000+00:00"
-  },
-  {
-   "id": "123jpnbcxnh",
-   "nome": "[Raevo] Produzir anúncios e conteúdos orgânicos — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxnh",
-   "estado": "em curso",
-   "status": "planejameto",
-   "cor": "#1090e0",
-   "responsaveis": [
-    "Thiago Viana",
-    "Alysson Oliveira",
-    "Pedro Raphael"
-   ],
-   "prazo": "2026-11-24",
-   "lista": "Produção de Conteúdo",
-   "pai": null,
-   "atualizado": "2026-11-23T08:36:39.817000+00:00"
-  },
-  {
-   "id": "123jpnbevq5",
-   "nome": "[Raevo] Anúncio webinar — problema específico e gargalo (2 versões) | Reels",
-   "url": "https://app.clickup.com/t/123jpnbevq5",
-   "estado": "feito",
-   "status": "em teste",
-   "cor": "#6647f0",
-   "responsaveis": [
-    "Thiago Viana"
-   ],
-   "prazo": null,
-   "lista": "Produção de Conteúdo",
-   "pai": null,
-   "atualizado": "2026-11-11T14:12:29.054000+00:00"
-  },
-  {
-   "id": "123jpnbf2kw",
-   "nome": "[Raevo] Anúncio webinar — antes e depois (tela + fala) | Vídeo",
-   "url": "https://app.clickup.com/t/123jpnbf2kw",
-   "estado": "pendente",
-   "status": "ideias",
-   "cor": "#8d8d8d",
-   "responsaveis": [
-    "Thiago Viana"
-   ],
-   "prazo": "2026-12-03",
-   "lista": "Produção de Conteúdo",
-   "pai": null,
-   "atualizado": "2026-11-23T09:04:24.683000+00:00"
-  },
-  {
-   "id": "123jpnbf5n4",
-   "nome": "[Raevo] Editar vídeo do webinar sobre crescer sem perder o controlo do atendimento",
-   "url": "https://app.clickup.com/t/123jpnbf5n4",
-   "estado": "em curso",
-   "status": "designer & edição",
-   "cor": "#d33d44",
-   "responsaveis": [
-    "Thiago Viana"
-   ],
-   "prazo": "2026-11-16",
-   "lista": "Produção de Conteúdo",
-   "pai": null,
-   "atualizado": "2026-11-18T17:22:47.412000+00:00"
-  },
-  {
-   "id": "123jpnbcxne",
-   "nome": "[Raevo] Criar dashboard de acompanhamento dos resultados — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxne",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#8a817c",
-   "responsaveis": [
-    "Thiago Viana"
-   ],
-   "prazo": "2026-12-04",
-   "lista": "Trackeamento & Dashboards",
-   "pai": null,
-   "atualizado": "2026-11-23T09:04:27.094000+00:00"
-  },
-  {
-   "id": "123jpnbcxnp",
-   "nome": "[Raevo] Consolidar os resultados semanais da campanha — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxnp",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
-   "responsaveis": [
-    "Alysson Oliveira"
-   ],
-   "prazo": "2026-11-24",
-   "lista": "Relatórios",
-   "pai": null,
-   "atualizado": "2026-11-24T08:58:25.891000+00:00"
-  },
-  {
-   "id": "123jpnbcxnq",
-   "nome": "[Raevo] Registrar aprendizados e definir as próximas ações — Atendimento Organizado",
-   "url": "https://app.clickup.com/t/123jpnbcxnq",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
-   "responsaveis": [
-    "Thiago Viana",
-    "Henrique Mocellin Barbosa",
-    "Alysson Oliveira"
-   ],
-   "prazo": "2027-01-19",
-   "lista": "Relatórios",
-   "pai": null,
-   "atualizado": "2026-10-19T22:33:06.426000+01:00"
-  },
-  {
-   "id": "123jpnbffbj",
-   "nome": "[Raevo] Subir e otimizar os anúncios R1 e R2 do webinar (teste de ganchos) + medir o funil",
-   "url": "https://app.clickup.com/t/123jpnbffbj",
-   "estado": "pendente",
-   "status": "backlog",
-   "cor": "#87909e",
-   "responsaveis": [
-    "Henrique Mocellin Barbosa"
-   ],
-   "prazo": "2026-11-27",
-   "lista": "Planejamento & Cronograma",
-   "pai": null,
-   "atualizado": "2026-11-23T16:26:49.287000+00:00"
-  }
- ],
+ "funil": null,
+ "tarefas": [],
  "aquecimento": {
   "pausado": false,
   "mensagens": [
@@ -758,17 +280,13 @@
    "2026-11-26 16:02 ENVIADA GP1: id 128169"
   ]
  },
- "timer": {
-  "id": "123jpnbfq2a",
-  "nome": "[Raevo] Ligações gravadas/transcritas no CRM via Twilio",
-  "desde": "2026-11-26T17:04+00:00"
- },
+ "timer": null,
  "convites": {
   "lista": 241,
-  "enviados": 100,
-  "sim": 8,
-  "nao": 3,
-  "outras_respostas": 4,
+  "enviados": 103,
+  "sim": 9,
+  "nao": 4,
+  "outras_respostas": 5,
   "sem_resposta": 0,
   "a_aguardar": 85,
   "grupos": {
@@ -792,9 +310,9 @@
    },
    "ebook": {
     "total": 66,
-    "enviados": 43,
-    "sim": 5,
-    "responderam": 7
+    "enviados": 46,
+    "sim": 6,
+    "responderam": 10
    },
    "ebook-profissional": {
     "total": 130,
@@ -820,17 +338,17 @@
      "taxa_ponta_a_ponta": 0.0
     },
     "v2-abertura": {
-     "enviados": 100,
+     "enviados": 103,
      "convite_no_dia": 13,
      "aguardando": 85,
-     "resp_abertura": 35,
-     "convite_apos_resposta": 35,
-     "sim": 8,
-     "outra": 4,
-     "nao": 3,
-     "taxa_resposta": 0.35,
-     "taxa_sim_convidados": 0.167,
-     "taxa_ponta_a_ponta": 0.08
+     "resp_abertura": 39,
+     "convite_apos_resposta": 39,
+     "sim": 9,
+     "outra": 5,
+     "nao": 4,
+     "taxa_resposta": 0.379,
+     "taxa_sim_convidados": 0.173,
+     "taxa_ponta_a_ponta": 0.087
     }
    }
   }
