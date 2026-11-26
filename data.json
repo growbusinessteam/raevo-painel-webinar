@@ -1,7 +1,7 @@
 {
- "gerado_em": "2026-11-26T13:00+00:00",
+ "gerado_em": "2026-11-26T14:01+00:00",
  "aula": {
-  "proxima": "2026-11-26T13:00:00+00:00",
+  "proxima": "2026-12-03T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
  },
  "links": [
@@ -618,14 +618,14 @@
    {
     "id": "G10",
     "quando": "2026-11-26T13:05:00+00:00",
-    "estado": "agendada",
+    "estado": "enviada",
     "texto": "JÁ ESTOU A PARTILHAR O ECRÃ!\n\nA aula é direta ao assunto, sem rodeios!\n\nJá estou a mostrar o caminho do primeiro contacto até à marcação e onde os contactos costumam ficar parados.\n\nCarreguem no link e entrem na aula:\nhttps://meet.google.com/ehy-eymf-bpj",
     "imagens": 0
    },
    {
     "id": "G11",
     "quando": "2026-11-26T13:15:00+00:00",
-    "estado": "agendada",
+    "estado": "enviada",
     "texto": "🤷‍♂️ Ainda vão a tempo!\n\nA MELHOR PARTE DA AULA VAI COMEÇAR AGORA!\n\nEstou a mostrar na prática como organizar as etapas do atendimento!\n\n👇 Carreguem no link abaixo e entrem na aula:\nhttps://meet.google.com/ehy-eymf-bpj\n\nAinda vão a tempo!",
     "imagens": 0
    },
@@ -726,40 +726,54 @@
     "estado": "agendada",
     "texto": "🔴 AO VIVO AGORA!\n\nSe querem perceber como há clínicas a:\n\n• responder com mais rapidez\n• saber quem precisa de retorno\n• levar mais contactos até à marcação\n\n👉 Entrem agora: https://meet.google.com/ehy-eymf-bpj\n\nA aula é direta ao assunto, sem rodeios!",
     "imagens": 0
+   },
+   {
+    "id": "G10",
+    "quando": "2026-12-03T13:05:00+00:00",
+    "estado": "agendada",
+    "texto": "JÁ ESTOU A PARTILHAR O ECRÃ!\n\nA aula é direta ao assunto, sem rodeios!\n\nJá estou a mostrar o caminho do primeiro contacto até à marcação e onde os contactos costumam ficar parados.\n\nCarreguem no link e entrem na aula:\nhttps://meet.google.com/ehy-eymf-bpj",
+    "imagens": 0
+   },
+   {
+    "id": "G11",
+    "quando": "2026-12-03T13:15:00+00:00",
+    "estado": "agendada",
+    "texto": "🤷‍♂️ Ainda vão a tempo!\n\nA MELHOR PARTE DA AULA VAI COMEÇAR AGORA!\n\nEstou a mostrar na prática como organizar as etapas do atendimento!\n\n👇 Carreguem no link abaixo e entrem na aula:\nhttps://meet.google.com/ehy-eymf-bpj\n\nAinda vão a tempo!",
+    "imagens": 0
    }
   ],
   "ultimos_registos": [
-   "2026-11-26 12:12 ERRO G7: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "2026-11-26 12:17 ERRO G7: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
    "2026-11-26 12:22 SALTADA G7 (22 min depois da hora)",
    "2026-11-26 12:42 ERRO G8: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
    "2026-11-26 12:47 ENVIADA G8: id 127922",
-   "2026-11-26 12:57 ENVIADA G9: id 127948"
+   "2026-11-26 12:57 ENVIADA G9: id 127948",
+   "2026-11-26 13:07 ENVIADA G10: id 127960",
+   "2026-11-26 13:17 ENVIADA G11: id 127995"
   ]
  },
  "timer": {
-  "id": "123jpnbfch0",
-  "nome": "[Raevo] Vídeo-depoimento da Guilhermina — anexar ao case",
-  "desde": "2026-11-26T13:00+00:00"
+  "id": "123jpnbf8jp",
+  "nome": "[Raevo] Comercial: prospecção, ligações, e-mails e follow-ups",
+  "desde": "2026-11-26T13:59+00:00"
  },
  "convites": {
   "lista": 241,
-  "enviados": 82,
+  "enviados": 88,
   "sim": 8,
   "nao": 3,
   "outras_respostas": 4,
   "sem_resposta": 0,
-  "a_aguardar": 67,
+  "a_aguardar": 73,
   "grupos": {
    "reativacao": {
     "total": 4,
-    "enviados": 0,
+    "enviados": 4,
     "sim": 0,
     "responderam": 0
    },
    "ebook-decisor": {
     "total": 23,
-    "enviados": 11,
+    "enviados": 13,
     "sim": 1,
     "responderam": 2
    },
@@ -792,17 +806,17 @@
    },
    "versoes": {
     "v2-abertura": {
-     "enviados": 82,
+     "enviados": 88,
      "convite_no_dia": 13,
-     "aguardando": 67,
+     "aguardando": 73,
      "resp_abertura": 31,
      "convite_apos_resposta": 31,
      "sim": 8,
      "outra": 4,
      "nao": 3,
-     "taxa_resposta": 0.378,
+     "taxa_resposta": 0.352,
      "taxa_sim_convidados": 0.182,
-     "taxa_ponta_a_ponta": 0.098
+     "taxa_ponta_a_ponta": 0.091
     }
    }
   }
