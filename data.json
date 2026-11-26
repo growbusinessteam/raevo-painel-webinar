@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-26T09:58+00:00",
+ "gerado_em": "2026-11-26T10:59+00:00",
  "aula": {
   "proxima": "2026-11-26T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -223,7 +223,7 @@
    "prazo": "2026-11-23",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-26T09:46:20.803000+00:00"
+   "atualizado": "2026-11-26T10:57:35.123000+00:00"
   },
   {
    "id": "123jpnbf95v",
@@ -553,13 +553,6 @@
   "pausado": false,
   "mensagens": [
    {
-    "id": "G1",
-    "quando": "2026-11-23T10:00:00+00:00",
-    "estado": "enviada",
-    "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\n\nPessoal, na quinta-feira, às 13h (10h no Brasil), vou mostrar como uma clínica passou de não medir nada a saber exatamente quantos contactos se tornam consulta e qual é a próxima decisão.\n\nAntes, quando alguém pedia o valor e dizia que ia pensar, isso não ficava registado em lado nenhum. Para retomar, era preciso procurar a conversa no WhatsApp. E ninguém sabia dizer quantos contactos chegavam à marcação.\n\nDepois de cada contacto ganhar uma etapa, um responsável e um próximo passo, a secretária passou a:\n\n• responder primeiro a quem tinha mandado mensagem\n• retomar, etapa a etapa, quem recebeu o valor e ainda não marcou\n• saber, sem depender da memória, quem estava à espera de retorno\n\nE a clínica passou a ver os números: 77% dos contactos encerrados tornaram-se consulta. Com isso, sabe que o atendimento converte bem e que o próximo passo é trazer mais contactos.\n\nNa quinta-feira, às 13h (10h no Brasil), vou abrir uma aula ao vivo a mostrar esta estrutura.\n\nO link será enviado aqui no grupo.",
-    "imagens": 1
-   },
-   {
     "id": "GT1",
     "quando": "2026-11-24T12:00:00+00:00",
     "estado": "enviada",
@@ -597,7 +590,7 @@
    {
     "id": "G6",
     "quando": "2026-11-26T10:30:00+00:00",
-    "estado": "agendada",
+    "estado": "enviada",
     "texto": "Pior do que não ter procura é a clínica receber o contacto, responder… e esse contacto perder-se pelo caminho.\n\nE o pior de tudo: muitas vezes a pessoa ainda queria marcar.\n\nPediu o valor, disse que ia pensar, e ninguém voltou a falar com ela. Não por falta de vontade da equipa, mas porque ninguém sabia em que etapa estava nem qual era o próximo passo.\n\nNão se trata só de receber mais mensagens. Trata-se de cada contacto que já chega ter um caminho até à marcação.\n\nE é exatamente isso que vou mostrar hoje, às 13h (10h no Brasil)!",
     "imagens": 0
    },
@@ -705,30 +698,37 @@
     "estado": "agendada",
     "texto": "Antes:\nA clínica não sabia quantos contactos se tornavam consulta. Quando alguém pedia o valor e dizia que ia pensar, a secretária tinha de se lembrar ou procurar a conversa no WhatsApp.\n\nDepois:\nCada contacto numa etapa, com um responsável e um próximo passo. E a clínica passou a ver os números 👆\n\nDe 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\nSó este mês, 129 contactos ganhos e 37 perdidos.\n\nA melhor parte é que agora ela sabe o que fazer a seguir.\n\nResultado?\n\n- Sabe em que etapa os contactos param.\n- Sabe o que é prioritário no dia.\n- Sabe qual é a próxima decisão: com o atendimento a converter bem, o passo seguinte é investir para trazer mais contactos.\n\n⏰ Hoje, às 13h (10h no Brasil), vou mostrar a lógica por trás disto e como aplicar na clínica de vocês.\n\nAté às 13h!",
     "imagens": 2
+   },
+   {
+    "id": "G6",
+    "quando": "2026-12-03T10:30:00+00:00",
+    "estado": "agendada",
+    "texto": "Pior do que não ter procura é a clínica receber o contacto, responder… e esse contacto perder-se pelo caminho.\n\nE o pior de tudo: muitas vezes a pessoa ainda queria marcar.\n\nPediu o valor, disse que ia pensar, e ninguém voltou a falar com ela. Não por falta de vontade da equipa, mas porque ninguém sabia em que etapa estava nem qual era o próximo passo.\n\nNão se trata só de receber mais mensagens. Trata-se de cada contacto que já chega ter um caminho até à marcação.\n\nE é exatamente isso que vou mostrar hoje, às 13h (10h no Brasil)!",
+    "imagens": 0
    }
   ],
   "ultimos_registos": [
-   "2026-11-25 21:11 ERRO G4: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
    "2026-11-25 21:16 ERRO G4: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
    "2026-11-25 21:21 SALTADA G4 (21 min depois da hora)",
    "2026-11-26 09:32 ERRO G5: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
    "2026-11-26 09:37 ERRO G5: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "2026-11-26 09:42 ENVIADA G5: id 127686"
+   "2026-11-26 09:42 ENVIADA G5: id 127686",
+   "2026-11-26 10:32 ENVIADA G6: id 127714"
   ]
  },
  "timer": {
   "id": "123jpnbf95t",
   "nome": "[] 03 · Alinhar aula, aquecimento e acesso",
-  "desde": "2026-11-26T09:46+00:00"
+  "desde": "2026-11-26T10:13+00:00"
  },
  "convites": {
   "lista": 241,
-  "enviados": 76,
+  "enviados": 75,
   "sim": 8,
   "nao": 3,
-  "outras_respostas": 3,
+  "outras_respostas": 4,
   "sem_resposta": 0,
-  "a_aguardar": 62,
+  "a_aguardar": 60,
   "grupos": {
    "reativacao": {
     "total": 4,
@@ -738,9 +738,9 @@
    },
    "ebook-decisor": {
     "total": 23,
-    "enviados": 12,
+    "enviados": 11,
     "sim": 1,
-    "responderam": 1
+    "responderam": 2
    },
    "meta": {
     "total": 18,
@@ -771,17 +771,17 @@
    },
    "versoes": {
     "v2-abertura": {
-     "enviados": 76,
-     "convite_no_dia": 2,
-     "aguardando": 62,
+     "enviados": 75,
+     "convite_no_dia": 8,
+     "aguardando": 60,
      "resp_abertura": 28,
      "convite_apos_resposta": 28,
      "sim": 8,
-     "outra": 3,
+     "outra": 4,
      "nao": 3,
-     "taxa_resposta": 0.368,
-     "taxa_sim_convidados": 0.267,
-     "taxa_ponta_a_ponta": 0.105
+     "taxa_resposta": 0.373,
+     "taxa_sim_convidados": 0.222,
+     "taxa_ponta_a_ponta": 0.107
     }
    }
   }
