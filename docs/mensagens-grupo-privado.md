@@ -523,7 +523,7 @@ Antes, quem pedia o valor e ficava de pensar não ficava registado em lado nenhu
 Organizámos o caminho em etapas e a clínica passou a medir 👆 de 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta. Com esse número, ficou claro que o atendimento converte bem e que o próximo passo é investir para trazer mais contactos.
 
 Se quiser, marcamos uma conversa de 30 minutos para ver como isso funciona hoje na sua clínica e perceber se faz sentido aplicar. Pode escolher o horário aqui:
-https://calendar.app.google/YFMYeedXmhQ6qmNFA
+https://calendar.app.google/a6xTNo9DYkuxgeWb9
 ```
 
 ### PD · Envio do vídeo
