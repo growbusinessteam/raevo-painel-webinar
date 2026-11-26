@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-26T16:02+00:00",
+ "gerado_em": "2026-11-26T17:04+00:00",
  "aula": {
   "proxima": "2026-12-03T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -759,18 +759,18 @@
   ]
  },
  "timer": {
-  "id": "123jpnbdbn8",
-  "nome": "Alysson — 21/10/2026 — Conciliação financeira semanal",
-  "desde": "2026-11-26T15:45+00:00"
+  "id": "123jpnbfq2a",
+  "nome": "[Raevo] Ligações gravadas/transcritas no CRM via Twilio",
+  "desde": "2026-11-26T17:04+00:00"
  },
  "convites": {
   "lista": 241,
-  "enviados": 91,
+  "enviados": 100,
   "sim": 8,
   "nao": 3,
   "outras_respostas": 4,
   "sem_resposta": 0,
-  "a_aguardar": 76,
+  "a_aguardar": 85,
   "grupos": {
    "reativacao": {
     "total": 4,
@@ -792,7 +792,7 @@
    },
    "ebook": {
     "total": 66,
-    "enviados": 34,
+    "enviados": 43,
     "sim": 5,
     "responderam": 7
    },
@@ -820,17 +820,17 @@
      "taxa_ponta_a_ponta": 0.0
     },
     "v2-abertura": {
-     "enviados": 91,
+     "enviados": 100,
      "convite_no_dia": 13,
-     "aguardando": 76,
-     "resp_abertura": 32,
-     "convite_apos_resposta": 32,
+     "aguardando": 85,
+     "resp_abertura": 35,
+     "convite_apos_resposta": 35,
      "sim": 8,
      "outra": 4,
      "nao": 3,
-     "taxa_resposta": 0.352,
-     "taxa_sim_convidados": 0.178,
-     "taxa_ponta_a_ponta": 0.088
+     "taxa_resposta": 0.35,
+     "taxa_sim_convidados": 0.167,
+     "taxa_ponta_a_ponta": 0.08
     }
    }
   }
