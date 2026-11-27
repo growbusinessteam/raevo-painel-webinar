@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-27T22:07+00:00",
+ "gerado_em": "2026-11-27T23:07+00:00",
  "aula": {
   "proxima": "2026-12-03T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -69,7 +69,7 @@
  "funil": [
   {
    "etapa": "Respondeu Formulário",
-   "total": 15
+   "total": 16
   },
   {
    "etapa": "Entrou no Grupo",
@@ -758,15 +758,19 @@
    "2026-11-27 12:04 ENVIADA GS1: id 129071"
   ]
  },
- "timer": null,
+ "timer": {
+  "id": "86c7y41bu",
+  "nome": "Dra. Guilhermina",
+  "desde": "2026-11-27T22:39+00:00"
+ },
  "convites": {
   "lista": 241,
   "enviados": 117,
-  "sim": 12,
+  "sim": 13,
   "nao": 5,
   "outras_respostas": 5,
   "sem_resposta": 16,
-  "a_aguardar": 79,
+  "a_aguardar": 78,
   "grupos": {
    "reativacao": {
     "total": 4,
@@ -789,8 +793,8 @@
    "ebook": {
     "total": 66,
     "enviados": 60,
-    "sim": 8,
-    "responderam": 13
+    "sim": 9,
+    "responderam": 14
    },
    "ebook-profissional": {
     "total": 130,
@@ -821,13 +825,13 @@
      "sem_resposta": 16,
      "resp_abertura": 45,
      "convite_apos_resposta": 45,
-     "sim": 12,
+     "sim": 13,
      "outra": 5,
-     "aguardando": 79,
+     "aguardando": 78,
      "nao": 5,
      "taxa_resposta": 0.385,
-     "taxa_sim_convidados": 0.207,
-     "taxa_ponta_a_ponta": 0.103
+     "taxa_sim_convidados": 0.224,
+     "taxa_ponta_a_ponta": 0.111
     }
    }
   }
