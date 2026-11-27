@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-27T16:07+00:00",
+ "gerado_em": "2026-11-27T18:07+00:00",
  "aula": {
   "proxima": "2026-12-03T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -283,12 +283,12 @@
  "timer": null,
  "convites": {
   "lista": 241,
-  "enviados": 115,
+  "enviados": 117,
   "sim": 12,
-  "nao": 4,
+  "nao": 5,
   "outras_respostas": 5,
   "sem_resposta": 16,
-  "a_aguardar": 78,
+  "a_aguardar": 79,
   "grupos": {
    "reativacao": {
     "total": 4,
@@ -310,9 +310,9 @@
    },
    "ebook": {
     "total": 66,
-    "enviados": 58,
+    "enviados": 60,
     "sim": 8,
-    "responderam": 12
+    "responderam": 13
    },
    "ebook-profissional": {
     "total": 130,
@@ -338,18 +338,18 @@
      "taxa_ponta_a_ponta": 0.0
     },
     "v2-abertura": {
-     "enviados": 115,
+     "enviados": 117,
      "convite_no_dia": 13,
      "sem_resposta": 16,
-     "resp_abertura": 43,
-     "convite_apos_resposta": 43,
+     "resp_abertura": 44,
+     "convite_apos_resposta": 44,
      "sim": 12,
      "outra": 5,
-     "aguardando": 78,
-     "nao": 4,
-     "taxa_resposta": 0.374,
-     "taxa_sim_convidados": 0.214,
-     "taxa_ponta_a_ponta": 0.104
+     "aguardando": 79,
+     "nao": 5,
+     "taxa_resposta": 0.376,
+     "taxa_sim_convidados": 0.211,
+     "taxa_ponta_a_ponta": 0.103
     }
    }
   }
