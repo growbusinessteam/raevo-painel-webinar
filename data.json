@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-28T11:16+00:00",
+ "gerado_em": "2026-11-28T12:17+00:00",
  "aula": {
   "proxima": "2026-12-03T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -223,7 +223,7 @@
    "prazo": "2026-11-23",
    "lista": "Planejamento & Cronograma",
    "pai": "[Raevo] Benchmark Hunter Growth e melhorias do webinar — Atendimento Organizado",
-   "atualizado": "2026-11-26T11:03:46.380000+00:00"
+   "atualizado": "2026-11-28T12:07:15.342000+00:00"
   },
   {
    "id": "123jpnbf95v",
@@ -758,7 +758,11 @@
    "2026-11-28 11:00 ENVIADA GSa1: id 130033"
   ]
  },
- "timer": null,
+ "timer": {
+  "id": "123jpnbf95t",
+  "nome": "[] 03 · Alinhar aula, aquecimento e acesso",
+  "desde": "2026-11-28T12:19+00:00"
+ },
  "convites": {
   "lista": 241,
   "enviados": 117,
