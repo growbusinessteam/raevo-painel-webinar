@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-28T10:14+00:00",
+ "gerado_em": "2026-11-28T11:16+00:00",
  "aula": {
   "proxima": "2026-12-03T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -632,7 +632,7 @@
    {
     "id": "GSa1",
     "quando": "2026-11-28T11:00:00+00:00",
-    "estado": "agendada",
+    "estado": "enviada",
     "texto": "*Teste de 5 minutos para fazer hoje* ⏱️\n\nAbram o WhatsApp da clínica e contem:\n\n→ quantas pessoas pediram o valor esta semana\n→ quantas dessas marcaram\n→ quantas ficaram sem resposta depois do \"vou pensar\"\n\nSe o terceiro número não for zero, há pacientes à espera de alguém que volte a falar com eles.\n\nRespondam aqui com o número que encontraram 👇",
     "imagens": 0
    },
@@ -740,22 +740,25 @@
     "estado": "agendada",
     "texto": "*Para quem não conseguiu estar ontem* 👇\n\nNa aula mostrei as 3 passagens onde a clínica perde pacientes sem dar por isso:\n\n1. Primeira resposta: a mensagem chega e ninguém sabe se ainda está à espera\n2. Continuidade: a conversa fica sem dono e sem próximo passo\n3. Retomada: a pessoa diz \"vou pensar\" e ninguém volta a falar com ela\n\nSe quiserem ver em qual delas a vossa clínica está a perder mais, marquem aqui uma análise individual, sem custo:\nhttps://calendar.app.google/a6xTNo9DYkuxgeWb9",
     "imagens": 0
+   },
+   {
+    "id": "GSa1",
+    "quando": "2026-12-05T11:00:00+00:00",
+    "estado": "agendada",
+    "texto": "*Teste de 5 minutos para fazer hoje* ⏱️\n\nAbram o WhatsApp da clínica e contem:\n\n→ quantas pessoas pediram o valor esta semana\n→ quantas dessas marcaram\n→ quantas ficaram sem resposta depois do \"vou pensar\"\n\nSe o terceiro número não for zero, há pacientes à espera de alguém que volte a falar com eles.\n\nRespondam aqui com o número que encontraram 👇",
+    "imagens": 0
    }
   ],
   "ultimos_registos": [
-   "2026-11-26 12:47 ENVIADA G8: id 127922",
    "2026-11-26 12:57 ENVIADA G9: id 127948",
    "2026-11-26 13:07 ENVIADA G10: id 127960",
    "2026-11-26 13:17 ENVIADA G11: id 127995",
    "2026-11-26 16:02 ENVIADA GP1: id 128169",
-   "2026-11-27 12:04 ENVIADA GS1: id 129071"
+   "2026-11-27 12:04 ENVIADA GS1: id 129071",
+   "2026-11-28 11:00 ENVIADA GSa1: id 130033"
   ]
  },
- "timer": {
-  "id": "123jpnbdbn8",
-  "nome": "Alysson — 21/10/2026 — Conciliação financeira semanal",
-  "desde": "2026-11-28T10:11+00:00"
- },
+ "timer": null,
  "convites": {
   "lista": 241,
   "enviados": 117,
