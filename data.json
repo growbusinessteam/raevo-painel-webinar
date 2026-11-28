@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-28T05:11+00:00",
+ "gerado_em": "2026-11-28T09:14+00:00",
  "aula": {
   "proxima": "2026-12-03T13:00:00+00:00",
   "nota": "Todas as quintas, 13h Lisboa / 10h Brasil"
@@ -552,13 +552,6 @@
  "aquecimento": {
   "pausado": false,
   "mensagens": [
-   {
-    "id": "G2",
-    "quando": "2026-11-25T09:00:00+00:00",
-    "estado": "enviada",
-    "texto": "👆 De 64 contactos que chegaram ao fim do processo, 49 tornaram-se consulta.\n\nPessoal, amanhã, às 13h (10h no Brasil), vou mostrar como uma clínica passou de não medir nada a saber exatamente quantos contactos se tornam consulta e qual é a próxima decisão.\n\nAntes, quando alguém pedia o valor e dizia que ia pensar, isso não ficava registado em lado nenhum. Para retomar, era preciso procurar a conversa no WhatsApp. E ninguém sabia dizer quantos contactos chegavam à marcação.\n\nDepois de cada contacto ganhar uma etapa, um responsável e um próximo passo, a secretária passou a:\n\n• responder primeiro a quem tinha mandado mensagem\n• retomar, etapa a etapa, quem recebeu o valor e ainda não marcou\n• saber, sem depender da memória, quem estava à espera de retorno\n\nE a clínica passou a ver os números: 77% dos contactos encerrados tornaram-se consulta. Com isso, sabe que o atendimento converte bem e que o próximo passo é trazer mais contactos.\n\nAmanhã, às 13h (10h no Brasil), vou abrir uma aula ao vivo a mostrar esta estrutura.\n\nO link será enviado aqui no grupo.",
-    "imagens": 1
-   },
    {
     "id": "G3",
     "quando": "2026-11-25T16:00:00+00:00",
